@@ -1,9 +1,12 @@
-This is a [Next.js](https://nextjs.org/) PORTFOLIO Version 0.0.1 bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Personal Portfolio Next.js | TailwindCSS
 
-#State of Project 🧅 / 10
-UPDATES: Soon
+# State of Project 🧅 / 10
+
+# Next UPDATE DATE: Soon
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) PORTFOLIO Version 0.0.1 bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 

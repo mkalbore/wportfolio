@@ -12,7 +12,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='en'>
-			<body>{children}</body>
+			<body className='bg-[#444444] mx-28 text-3xl font-extralight drop-shadow-lg'>
+				{children}
+			</body>
 		</html>
 	);
 }

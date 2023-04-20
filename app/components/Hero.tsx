@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 export default function Hero({}: Props) {
-  return (
-    <div>Hero</div>
-  )
+	return (
+		<div className='w-screen h-screen justify-center text-center'>Hero</div>
+	);
 }

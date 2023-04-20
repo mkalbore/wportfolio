@@ -6,11 +6,11 @@ type Props = {};
 
 export default function Navbar({}: Props) {
 	return (
-		<div className='bg-gray-900 font-extralight w-screen relative py-14'>
+		<div className='bg-[#141414] font-extralight w-screen relative p-14 align-middle '>
 			<div className='flex justify-center text-xl text-white space-x-10 '>
 				<Image
 					src={logoPic}
-					className='w-12 '
+					className='w-12 justify-start relative'
 					alt={"Logo of the company Quint"}
 				/>
 				<ul className='flex space-x-10 align text-center '>
@@ -39,22 +39,22 @@ export default function Navbar({}: Props) {
 					</Link>
 				</ul>
 
-				<ul className='flex justify-self-end space-x-10 align text-center '>
+				<ul className='flex justify-end space-x-10 text-center relative'>
 					<Link
 						className='transition ease-out duration-600 hover:font-normal'
-						href={"#about"}>
+						href={""}>
 						EN
 					</Link>
 					<li>|</li>
 					<Link
 						className='transition ease-out duration-600 hover:font-normal'
-						href={"#projects"}>
+						href={""}>
 						PL
 					</Link>
 					<li>|</li>
 					<Link
 						className='transition ease-out duration-600 hover:font-normal'
-						href={"#services"}>
+						href={""}>
 						CZ
 					</Link>
 				</ul>

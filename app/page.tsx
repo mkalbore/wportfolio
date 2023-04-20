@@ -16,37 +16,37 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
 	return (
-		<div className='flex min-h-screen flex-col items-center justify-between p-24'>
+		<div className='flex min-h-screen flex-col items-center justify-between space-y-10'>
 			<Head>
 				<title>Quint - Software Developer</title>
 				<meta property='quint' content='Quint' key='title' />
 			</Head>
 
-			<nav>
+			<nav className=''>
 				<Navbar></Navbar>
 			</nav>
 
-			<section>
+			<section className='' id='hero'>
 				<Hero />
 			</section>
 
-			<section>
+			<section className='' id='about'>
 				<About />
 			</section>
 
-			<section>
+			<section className='' id='projects'>
 				<Projects />
 			</section>
 
-			<section>
+			<section className='' id='services'>
 				<Services />
 			</section>
 
-			<section>
+			<section className='' id='contact'>
 				<Contact />
 			</section>
 
-			<footer>
+			<footer className='' id='footer'>
 				<Footer></Footer>
 			</footer>
 		</div>

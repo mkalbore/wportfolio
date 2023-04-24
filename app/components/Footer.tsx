@@ -8,7 +8,7 @@ export default function Footer({}: Props) {
 			<h3 className='text-[rgba(255,255,255,0.5)] text-lg relative justify-start'>
 				Quint Software ® all rights reserved
 			</h3>
-			<div className='flex flex-row w-auto h-8 space-x-10 fill-[rgba(255,255,255,0.5)] relative justify-end '>
+			<div className='hidden md:flex flex-row w-auto h-8 space-x-10 fill-[rgba(255,255,255,0.5)] relative justify-end '>
 				<svg
 					className='hover:fill-[rgba(255,255,255,1)]'
 					role='img'

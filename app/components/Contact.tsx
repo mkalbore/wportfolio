@@ -4,8 +4,8 @@ type Props = {};
 
 export default function Contact({}: Props) {
 	return (
-		<div className='w-screen h-screen justify-center text-center flex flex-col space-y-10'>
-			<h2 className='text-4xl my-10'>
+		<div className='w-screen h-screen justify-center text-center flex flex-col space-y-10 mb-20'>
+			<h2 className='text-2xl md:text-4xl my-10 mx-4 md:mx-0'>
 				Are you interested in working with me or just want to ask something
 			</h2>
 			<div>

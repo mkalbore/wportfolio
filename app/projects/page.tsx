@@ -1,19 +1,20 @@
 
-/////////////// H O M E // P A G E /////////////////
 
+/////////////// P R O J E C T S // P A G E /////////////////
+
+// Next JS Components
 import Image from "next/image";
-
 import Head from "next/head";
 import Link from "next/link";
 
+// Font Settings
 import { Inter } from "next/font/google";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Projects from "./components/Projects";
-import Services from "./components/Services";
-import Contact from "./components/Contact";
-import About from "./components/About";
-import Hero from "./components/Hero";
+
+// My Components
+import Navbar from ".././components/Navbar";
+import Footer from ".././components/Footer";
+import Contact from ".././components/Contact";
+import Project from "../components/Project";
 
 const inter = Inter({ subsets: ["latin"] });
 // Wyciete
@@ -30,20 +31,10 @@ export default function Home() {
 				<Navbar />
 			</nav>
 
-			<section className='snap-center' id='hero'>
-				<Hero />
-			</section>
+			<h1 className='text-6xl text-center text-[#fffcbf]'>Pojects Page</h1>
 
-			<section className='snap-start' id='about'>
-				<About />
-			</section>
-
-			<section className='snap-center' id='projects'>
-				<Projects />
-			</section>
-
-			<section className='snap-center' id='services'>
-				<Services />
+			<section>
+				<Project />
 			</section>
 
 			<section className='snap-center' id='contact'>

@@ -10,7 +10,7 @@ export default function Footer({}: Props) {
 			</h3>
 			<div className='hidden md:flex flex-row w-auto h-8 space-x-10 fill-[rgba(255,255,255,0.5)] relative justify-end '>
 				<svg
-					className='hover:fill-[rgba(255,255,255,1)]'
+					className='hover:fill-[rgba(255,255,255,1)] cursor-pointer'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -19,7 +19,7 @@ export default function Footer({}: Props) {
 				</svg>
 
 				<svg
-					className='hover:fill-[rgba(255,255,255,1)]'
+					className='hover:fill-[rgba(255,255,255,1)] cursor-pointer'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -28,7 +28,7 @@ export default function Footer({}: Props) {
 				</svg>
 
 				<svg
-					className='hover:fill-[rgba(255,255,255,1)]'
+					className='hover:fill-[rgba(255,255,255,1)] cursor-pointer'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -37,7 +37,7 @@ export default function Footer({}: Props) {
 				</svg>
 
 				<svg
-					className='hover:fill-[rgba(255,255,255,1)]'
+					className='hover:fill-[rgba(255,255,255,1)] cursor-pointer'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -46,7 +46,7 @@ export default function Footer({}: Props) {
 				</svg>
 
 				<svg
-					className='hover:fill-[rgba(255,255,255,1)]'
+					className='hover:fill-[rgba(255,255,255,1)] cursor-pointer'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>

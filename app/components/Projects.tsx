@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import besethome from "../../public/BesetHome.png";
 import boiskomentalne from "../../public/BoiskoMentalne.png";
@@ -7,7 +8,6 @@ import ftw from "../../public/ftw_1.png";
 import oknopast from "../../public/oknopast_1.png";
 import trix from "../../public/trix.png";
 import parafia from "../../public/parafia2V2.png";
-import Link from "next/link";
 
 type Props = {};
 

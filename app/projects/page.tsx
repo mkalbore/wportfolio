@@ -1,5 +1,3 @@
-
-
 /////////////// P R O J E C T S // P A G E /////////////////
 
 // Next JS Components
@@ -21,7 +19,7 @@ const inter = Inter({ subsets: ["latin"] });
 // flex min-h-screen flex-col items-center space-y-10
 export default function Home() {
 	return (
-		<div className='overflow-y-scroll snap-y snap-mandatory space-y-4'>
+		<div className='space-y-4'>
 			<Head>
 				<title>Quint - Software Developer</title>
 				<meta property='quint' content='Quint' key='title' />
@@ -33,7 +31,7 @@ export default function Home() {
 
 			<h1 className='text-6xl text-center text-[#fffcbf]'>Pojects Page</h1>
 
-			<section>
+			<section className='snap-center' id='project'>
 				<Project />
 			</section>
 

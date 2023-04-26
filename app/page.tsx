@@ -1,4 +1,3 @@
-
 /////////////// H O M E // P A G E /////////////////
 
 import Image from "next/image";
@@ -7,6 +6,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 import { Inter } from "next/font/google";
+
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";

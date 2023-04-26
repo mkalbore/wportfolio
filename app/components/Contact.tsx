@@ -28,7 +28,7 @@ export default function Contact({}: Props) {
 				<div className='flex flex-row w-auto h-10 lg:h-14 space-x-10 my-10  lg:my-12 fill-[rgba(255,255,255,0.5)] relative justify-center'>
 					<Link href='https://github.com/mkalbore'>
 						<svg
-							className='w-[10px] h-[10px] lg:h-[60px] lg:w-[60px] fill-[rgba(255,255,255,0.5)] hover:fill-[rgba(255,255,255,1)] active:scale-105 transition-all ease-out duration-300 cursor-pointer'
+							className='w-[40px] h-[40px] lg:h-[60px] lg:w-[60px] fill-[rgba(255,255,255,0.5)] hover:fill-[rgba(255,255,255,1)] active:scale-105 transition-all ease-out duration-300 cursor-pointer'
 							role='img'
 							viewBox='0 0 24 24'
 							xmlns='http://www.w3.org/2000/svg'>
@@ -40,7 +40,7 @@ export default function Contact({}: Props) {
 
 					<Link href={"https://twitter.com/MarekKwinta_"}>
 						<svg
-							className='w-[10px] h-[10px] lg:h-[60px] lg:w-[60px] fill-[rgba(255,255,255,0.5)] hover:fill-[rgba(255,255,255,1)] active:scale-105 transition-all ease-out duration-300 cursor-pointer'
+							className='w-[40px] h-[40px] lg:h-[60px] lg:w-[60px] fill-[rgba(255,255,255,0.5)] hover:fill-[rgba(255,255,255,1)] active:scale-105 transition-all ease-out duration-300 cursor-pointer'
 							role='img'
 							viewBox='0 0 24 24'
 							xmlns='http://www.w3.org/2000/svg'>
@@ -51,7 +51,7 @@ export default function Contact({}: Props) {
 
 					<Link href={"https://www.linkedin.com/in/marek-kwinta-989b97231/"}>
 						<svg
-							className='w-[10px] h-[10px] lg:h-[60px] lg:w-[60px] fill-[rgba(255,255,255,0.5)] hover:fill-[rgba(255,255,255,1)] active:scale-105 transition-all ease-out duration-300 cursor-pointer'
+							className='w-[40px] h-[40px] lg:h-[60px] lg:w-[60px] fill-[rgba(255,255,255,0.5)] hover:fill-[rgba(255,255,255,1)] active:scale-105 transition-all ease-out duration-300 cursor-pointer'
 							role='img'
 							viewBox='0 0 24 24'
 							xmlns='http://www.w3.org/2000/svg'>
@@ -62,7 +62,7 @@ export default function Contact({}: Props) {
 
 					<Link href={""}>
 						<svg
-							className='w-[10px] h-[10px] lg:h-[60px] lg:w-[60px] fill-[rgba(255,255,255,0.5)] hover:fill-[rgba(255,255,255,1)] active:scale-105 transition-all ease-out duration-300 cursor-pointer'
+							className='w-[40px] h-[40px] lg:h-[60px] lg:w-[60px] fill-[rgba(255,255,255,0.5)] hover:fill-[rgba(255,255,255,1)] active:scale-105 transition-all ease-out duration-300 cursor-pointer'
 							role='img'
 							viewBox='0 0 24 24'
 							xmlns='http://www.w3.org/2000/svg'>
@@ -73,7 +73,7 @@ export default function Contact({}: Props) {
 
 					<Link href={"https://dribbble.com/Albore"}>
 						<svg
-							className='w-[10px] h-[10px] lg:h-[60px] lg:w-[60px] fill-[rgba(255,255,255,0.5)] hover:fill-[rgba(255,255,255,1)] active:scale-105 transition-all ease-out duration-300 cursor-pointer'
+							className='w-[40px] h-[40px] lg:h-[60px] lg:w-[60px] fill-[rgba(255,255,255,0.5)] hover:fill-[rgba(255,255,255,1)] active:scale-105 transition-all ease-out duration-300 cursor-pointer'
 							role='img'
 							viewBox='0 0 24 24'
 							xmlns='http://www.w3.org/2000/svg'>

@@ -17,7 +17,7 @@ export default function About({}: Props) {
 
 					<div className='text-justify items-center justify-center md:max-w-screen-md mt-4 px-10'>
 						<h1 className='text-xl md:text-2xl xl:text-4xl'>
-							Hi im <span className='font-normal'>Marek,</span>
+							Hi im <span className='font-normal'>Marek&sbquo;</span>
 						</h1>
 						<h3 className='text-base md:text-xl xl:text-2xl'>
 							a 24-year-old web developer with a passion for creating beautiful
@@ -26,8 +26,8 @@ export default function About({}: Props) {
 						<h3 className='text-base md:text-xl xl:text-2xl'>
 							I first started my programming journey in
 							<span className='font-normal'> WordPress </span>
-							around five years ago, and since then, I&apos;ve been constantly
-							learning and expanding my skill set.
+							around five years ago&sbquo; and since then&sbquo; I&apos;ve been
+							constantly learning and expanding my skill set.
 						</h3>
 					</div>
 

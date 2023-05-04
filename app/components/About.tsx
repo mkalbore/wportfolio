@@ -160,24 +160,24 @@ export default function About({}: Props) {
 			</div>
 			<div className='items-start justify-center space-y-4 my-4 lg:my-10'>
 				<h3 className='text-xl md:text-2xl'>
-					Currently, I'm the leader and founder of
+					Currently, I&apos;m the leader and founder of
 					<span className='font-normal'> Quint, </span> where I work to develop
 					innovative solutions for everyone.
 				</h3>
 				<h3 className='text-xl md:text-2xl'>
-					Over the past year, I'm particularly interested in using cutting-edge
-					technologies like
+					Over the past year, I&apos;m particularly interested in using
+					cutting-edge technologies like
 					<span className='font-normal'> React, Next.JS, </span> and
 					<span className='font-normal'> TailwindCSS </span> to build responsive
 					and intuitive user interfaces.
 				</h3>
 				<h3 className='text-xl md:text-2xl'>
-					I'm always eager to take on new challenges and am committed to
+					I&apos;m always eager to take on new challenges and am committed to
 					delivering <span className='font-normal'> High-Quality </span> work
 					that exceeds my clients expectations.
 				</h3>
 				<h3 className='text-xl md:text-2xl'>
-					When I'm not coding, you can find me
+					When I&apos;m not coding, you can find me
 					<span className='text-green-600'>
 						{" "}
 						catching moments with my camera,{" "}

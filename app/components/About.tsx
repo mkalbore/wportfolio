@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import parrot from "../../public/parrot.png";
-import seoicon from "../../public/seoicon.svg";
 
 type Props = {};
 
@@ -27,7 +26,7 @@ export default function About({}: Props) {
 						<h3 className='text-base md:text-xl xl:text-2xl'>
 							I first started my programming journey in
 							<span className='font-normal'> WordPress </span>
-							around five years ago, and since then, I've been constantly
+							around five years ago, and since then, I&apos;ve been constantly
 							learning and expanding my skill set.
 						</h3>
 					</div>

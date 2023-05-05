@@ -517,7 +517,7 @@ function Card({}: Props) {
 	return (
 		<article className='flex flex-row space-x-6 lg:space-x-12 '>
 			{allItems.map(allItems => (
-				<div className='min-w-fit mx-auto overscroll-contain' id={allItems.id}>
+				<div className='min-w-fit mx-auto overscroll-contain' key={allItems.id}>
 					<div className='text-left lg:text-left lg:text-4xl mb-4 mx-auto'>
 						<h1 className='font-normal'>{allItems.title}</h1>
 						<h2 className=''>{allItems.type}</h2>

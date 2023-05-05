@@ -15,6 +15,7 @@ import Contact from ".././components/Contact";
 import Project from "../components/Project";
 import ScrollBar from "../components/ScrollBar";
 
+
 const inter = Inter({ subsets: ["latin"] });
 // Wyciete
 // flex min-h-screen flex-col items-center space-y-10

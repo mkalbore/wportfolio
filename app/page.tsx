@@ -16,6 +16,8 @@ import About from "./components/About";
 import Hero from "./components/Hero";
 
 const inter = Inter({ subsets: ["latin"] });
+//
+
 // Wyciete
 // flex min-h-screen flex-col items-center space-y-10
 export default function Home() {

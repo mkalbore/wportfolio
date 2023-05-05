@@ -17,7 +17,7 @@ export default function Projects({}: Props) {
 			<h1 className='my-4'>Some of my projects</h1>
 
 			<div className='place-items-center grid grid-cols-1 space-y-4 md:grid-cols-2 lg:grid-cols-3'>
-				<Link href='/projects/'>
+				<Link href='/projects'>
 					<Image
 						src={oknopast}
 						alt={"oknopast.pl"}
@@ -25,7 +25,7 @@ export default function Projects({}: Props) {
 					/>
 				</Link>
 
-				<Link href={"/projects/"}>
+				<Link href={"/projects"}>
 					<Image
 						src={ftw}
 						alt={""}
@@ -33,7 +33,7 @@ export default function Projects({}: Props) {
 					/>
 				</Link>
 
-				<Link href={"/projects/"}>
+				<Link href={"/projects"}>
 					<Image
 						src={trix}
 						alt={""}
@@ -41,7 +41,7 @@ export default function Projects({}: Props) {
 					/>
 				</Link>
 
-				<Link href={"/projects/"}>
+				<Link href={"/projects"}>
 					<Image
 						src={boiskomentalne}
 						alt={""}
@@ -49,7 +49,7 @@ export default function Projects({}: Props) {
 					/>
 				</Link>
 
-				<Link href={"/projects/"}>
+				<Link href={"/projects"}>
 					<Image
 						src={besethome}
 						alt={""}
@@ -57,7 +57,7 @@ export default function Projects({}: Props) {
 					/>
 				</Link>
 
-				<Link href={"/projects/"}>
+				<Link href={"/projects"}>
 					<Image
 						src={parafia}
 						alt={""}

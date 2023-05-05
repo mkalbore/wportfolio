@@ -18,7 +18,11 @@ function Typing() {
 	];
 
 	function ScreenSizeCheck() {
-		if (window.screen.width >= 1024 && window.screen.height >= 768) {
+		if (
+			typeof window !== "undefined" &&
+			window.screen.width >= 1024 &&
+			window.screen.height >= 768
+		) {
 			// Resolution is 1024x768 or above
 			return (
 				<TypingAnimator

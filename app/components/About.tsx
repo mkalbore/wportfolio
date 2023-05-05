@@ -12,7 +12,7 @@ export default function About({}: Props) {
 					<Image
 						src={parrot}
 						alt={"Avatar"}
-						className='mx-auto px-10 lg:px-0 justify-center items-center lg:max-w-sm self-center rounded-xl shadow-lg border border-[#ffffff, 10] hover:hue-rotate-90 active:hue-rotate-180 transition-all ease-out duration-1000'
+						className='mx-auto px-10 lg:px-0 object-cover justify-center items-center lg:max-w-sm self-center rounded-xl shadow-lg border border-[#ffffff, 10] hover:hue-rotate-90 active:hue-rotate-180 transition-all ease-out duration-1000'
 					/>
 
 					<div className='text-justify items-center justify-center md:max-w-screen-md mt-4 px-10'>

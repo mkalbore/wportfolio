@@ -17,16 +17,34 @@ function Typing() {
 		"Let me code your site with glee, and watch your online presence go wee!",
 	];
 
-	return (
-		<TypingAnimator
-			textArray={textArray}
-			cursorColor='#ffffff'
-			textColor='#ffffff'
-			fontSize='48px'
-			typingSpeed={60}
-			delaySpeed={2000}
-		/>
-	);
+	function ScreenSizeCheck() {
+		if (window.screen.width >= 1024 && window.screen.height >= 768) {
+			// Resolution is 1024x768 or above
+			return (
+				<TypingAnimator
+					textArray={textArray}
+					cursorColor='#ffffff'
+					textColor='#ffffff'
+					fontSize='48px'
+					typingSpeed={60}
+					delaySpeed={2000}
+				/>
+			);
+		} else {
+			return (
+				<TypingAnimator
+					textArray={textArray}
+					cursorColor='#ffffff'
+					textColor='#ffffff'
+					fontSize='18px'
+					typingSpeed={60}
+					delaySpeed={2000}
+				/>
+			);
+		}
+	}
+
+	return ScreenSizeCheck();
 }
 
 export default Typing;

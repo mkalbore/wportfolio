@@ -25,7 +25,7 @@ export default function Hero({}: Props) {
 			</p>
 			<div className='py-10'>
 				<Typing />
-			clear</div>
+			</div>
 		</div>
 	);
 }

@@ -13,6 +13,7 @@ import Navbar from ".././components/Navbar";
 import Footer from ".././components/Footer";
 import Contact from ".././components/Contact";
 import Project from "../components/Project";
+import ScrollBar from "../components/ScrollBar";
 
 const inter = Inter({ subsets: ["latin"] });
 // Wyciete
@@ -29,10 +30,13 @@ export default function Home() {
 				<Navbar />
 			</nav>
 
-			<h1 className='text-6xl text-center text-[#fffcbf]'>Pojects Page</h1>
+			<h1 className='text-2xl lg:text-6xl text-center text-[#ffffff]'>
+				Pojects Page
+			</h1>
 
 			<section className='snap-center' id='project'>
 				<Project />
+				<ScrollBar />
 			</section>
 
 			<section className='snap-center' id='contact'>

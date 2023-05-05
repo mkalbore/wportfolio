@@ -17,51 +17,51 @@ export default function Projects({}: Props) {
 			<h1 className='my-4'>Some of my projects</h1>
 
 			<div className='place-items-center grid grid-cols-1 space-y-4 md:grid-cols-2 lg:grid-cols-3'>
-				<Link href={"/projects"}>
+				<Link href='/projects/#oknopast'>
 					<Image
 						src={oknopast}
 						alt={"oknopast.pl"}
-						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px] lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px] lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-105 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					/>
 				</Link>
 
-				<Link href={"/projects"}>
+				<Link href={"/projects/#ftw"}>
 					<Image
 						src={ftw}
 						alt={""}
-						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-105 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					/>
 				</Link>
 
-				<Link href={"/projects"}>
+				<Link href={"/projects/#trix"}>
 					<Image
 						src={trix}
 						alt={""}
-						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-105 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					/>
 				</Link>
 
-				<Link href={"/projects"}>
+				<Link href={"/projects/#boiskomentalne"}>
 					<Image
 						src={boiskomentalne}
 						alt={""}
-						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-105 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					/>
 				</Link>
 
-				<Link href={"/projects"}>
+				<Link href={"/projects/#besethome"}>
 					<Image
 						src={besethome}
 						alt={""}
-						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-105 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					/>
 				</Link>
 
-				<Link href={"/projects"}>
+				<Link href={"/projects/#parafia"}>
 					<Image
 						src={parafia}
 						alt={""}
-						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-105 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					/>
 				</Link>
 			</div>

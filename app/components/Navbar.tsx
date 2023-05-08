@@ -8,19 +8,19 @@ type Props = {};
 
 export default function Navbar({}: Props) {
 	return (
-		<div className='bg-[#141414] flex align-top min-h-fit w-full font-extralight justify-between relative py-4 md:py-12 top-0 '>
-			<div className='hidden md:flex md:justify-between text-xl w-full mx-8 text-white space-x-10'>
+		<div className='bg-[#141414] flex items-center w-full justify-between px-4 py-4 md:py-8 md:px-8 top-0'>
+			<div className='hidden md:flex md:justify-between text-xl w-screen mx-4 text-white space-x-10'>
 				<Link href={"/"}>
 					<>
 						<Image
 							src={logoPic}
-							className='w-12 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300'
+							className='w-12 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125 duration-150'
 							alt={"Logo of the company Quint"}
 						/>
 					</>
 				</Link>
 
-				<ul className='flex space-x-10 align text-center '>
+				<ul className='flex space-x-10 text-center '>
 					<Link
 						className='transition ease-out duration-600 hover:font-normal'
 						href={"#about"}>
@@ -66,7 +66,7 @@ export default function Navbar({}: Props) {
 					</Link>
 				</ul>
 			</div>
-			<div className='flex md:hidden w-full mx-4'>
+			<div className='flex md:hidden w-screen mx-4'>
 				{" "}
 				<Burgermenu />{" "}
 			</div>

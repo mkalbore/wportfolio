@@ -4,11 +4,11 @@ type Props = {};
 
 export default function Footer({}: Props) {
 	return (
-		<div className='p-14 w-screen bg-[#141414] object-center'>
-			<h3 className='text-[rgba(255,255,255,0.5)] text-lg relative justify-start'>
+		<div className='flex justify-between p-8 w-screen bg-[#141414] items-center'>
+			<h3 className='text-[rgba(255,255,255,0.5)] text-lg justify-start'>
 				Quint Software ® all rights reserved
 			</h3>
-			<div className='hidden md:flex flex-row w-auto h-8 space-x-10 fill-[rgba(255,255,255,0.5)] relative justify-end '>
+			<div className='hidden md:flex flex-row w-auto h-8 space-x-10 fill-[rgba(255,255,255,0.5)] justify-end '>
 				<svg
 					className='hover:fill-[rgba(255,255,255,1)] cursor-pointer'
 					role='img'

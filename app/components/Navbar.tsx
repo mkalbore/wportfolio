@@ -22,7 +22,7 @@ export default function Navbar({}: Props) {
 
 				<ul className='flex space-x-10 text-center '>
 					<Link
-						className='transition ease-out duration-600 hover:font-normal'
+						className='transition ease-out duration-600 hover:font-normal scroll-smooth'
 						href={"#about"}>
 						About
 					</Link>

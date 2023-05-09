@@ -2,10 +2,17 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+import besethome from "../../public/BesetHome.png";
+import boiskomentalne from "../../public/BoiskoMentalne.png";
+import ftw from "../../public/ftw_1.png";
+import oknopast from "../../public/oknopast_1.png";
+import trix from "../../public/trix.png";
+import parafia from "../../public/parafia2V2.png";
+
 const allItems = [
 	{
 		id: "besethome",
-		src: "/../public/BesetHome.png",
+		src: besethome,
 		link: "http://www.google.com",
 		title: "Beset Exclusive Club",
 		type: "Website",
@@ -78,7 +85,7 @@ const allItems = [
 
 	{
 		id: "ftw",
-		src: "/../public/ftw_1.png",
+		src: ftw,
 		link: "http://ftwpasternak.de/",
 		title: "FTW - Pasternak",
 		type: "Website",
@@ -182,7 +189,7 @@ const allItems = [
 
 	{
 		id: "trix",
-		src: "/../public/trix.png",
+		src: trix,
 		link: "http://trix-autogaz.pl/",
 		title: "Trix Autogaz",
 		type: "Website, Logo",
@@ -286,7 +293,7 @@ const allItems = [
 
 	{
 		id: "oknopast",
-		src: "/../public/oknopast_1.png",
+		src: oknopast,
 		link: "https://oknopast.pl/",
 		title: "Oknopast",
 		type: "Website",
@@ -390,7 +397,7 @@ const allItems = [
 
 	{
 		id: "boiskomentalne",
-		src: "/../public/BoiskoMentalne.png",
+		src: boiskomentalne,
 		link: "http://www.google.com",
 		title: "BoiskoMentalne",
 		type: "Logo",
@@ -431,7 +438,7 @@ const allItems = [
 
 	{
 		id: "parafia",
-		src: "/../public/parafia2V2.png",
+		src: parafia,
 		link: "http://www.google.com",
 		title: "Parafia Lubrza",
 		type: "Website",
@@ -523,10 +530,15 @@ function Card({}: Props) {
 						<h2 className=''>{allItems.type}</h2>
 					</div>
 
-					<div className='lg:flex text-center  mx-auto  justify-center lg:justify-start'>
+					<div className='lg:flex text-center space-y-2 mx-auto items-center justify-center lg:justify-start snap-center scroll-px-12'>
 						<div className='rounded-xl shadow-lg border border-[#ffffff, 10] shrink-0 w-[350px] h-fit md:w-[400px] md:h-fit lg:w-[600px] lg:h-fit hover:shadow-[#000000] hover:scale-105 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'>
 							<Link href={allItems.link}>
-								<Image src={allItems.src} alt={""} width={600} height={400} />
+								<Image
+									src={allItems.src}
+									alt={allItems.title}
+									width={600}
+									height={400}
+								/>
 							</Link>
 						</div>
 						<div className='ml-9 text-left space-y-4 text-lg lg:text-2xl lg:w-1/3'>

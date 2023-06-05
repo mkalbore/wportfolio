@@ -9,7 +9,7 @@ import oknopast from "../../public/oknopast_1.png";
 import trix from "../../public/trix.png";
 import parafia from "../../public/parafia2V2.png";
 
-const allItems = [
+export const allItems = [
 	{
 		id: "besethome",
 		src: besethome,

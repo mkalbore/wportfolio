@@ -1,9 +1,9 @@
 "use client";
 
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { join } from "path";
 
 import { allItems } from "./Project";
 type Props = {};
@@ -15,19 +15,25 @@ export default function ScrollBar({}: Props) {
 	const handleGroupClick = (index: number) => {
 		setActiveIndex(index);
 		const selectedItemId = allItems[index].id;
-		const newURL = `projects/#+${selectedItemId}`;
+		const encodedItemId = encodeURIComponent(selectedItemId);
+		const newURL = join("/projects", `#${encodedItemId}`);
 		console.log("carouselHref= " + newURL);
-		router.push(newURL, undefined, { shallow: true });
+		router.push(newURL);
+
+		const element = document.getElementById(selectedItemId);
+		if (element) {
+			element.scrollIntoView({ behavior: "smooth" });
+		}
 	};
 
 	return (
-		<div className='flex flex-col p-4 space-x-4 w-full mx-auto justify-center items-center'>
+		<div className='flex flex-col p-4 space-x-4 w-full mx-auto justify-center items-center select-none'>
 			<div className='flex space-x-4'>
 				{" "}
 				{allItems.map((item, index) => (
 					<div
 						key={item.id}
-						className={`group px-4 self-end ${
+						className={`group px-4 cursor-pointer self-end ${
 							activeIndex === index ? "opacity-100" : "opacity-30"
 						} hover:opacity-100 transition-all duration-300`}
 						onClick={() => handleGroupClick(index)}>

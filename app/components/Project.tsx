@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+
 import besethome from "../../public/BesetHome.png";
 import boiskomentalne from "../../public/BoiskoMentalne.png";
 import ftw from "../../public/ftw_1.png";
@@ -439,7 +440,7 @@ export const allItems = [
 	{
 		id: "parafia",
 		src: parafia,
-		link: "http://www.google.com",
+		link: "https://www.parafialub.vercel.app",
 		title: "Parafia Lubrza",
 		type: "Website",
 		info: ", which is serves as an online hub for the parish's community.",

@@ -5,6 +5,7 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 
+
 // Font Settings
 import { Inter } from "next/font/google";
 
@@ -14,7 +15,6 @@ import Footer from ".././components/Footer";
 import Contact from ".././components/Contact";
 import Project from "../components/Project";
 import ScrollBar from "../components/ScrollBar";
-
 
 const inter = Inter({ subsets: ["latin"] });
 // Wyciete

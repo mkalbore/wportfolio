@@ -10,20 +10,11 @@ type Props = {};
 
 export default function ScrollBar({}: Props) {
 	const [activeIndex, setActiveIndex] = useState<number>(0);
-	const router = useRouter();
 
 	const handleGroupClick = (index: number) => {
 		setActiveIndex(index);
 		const selectedItemId = allItems[index].id;
 		const encodedItemId = encodeURIComponent(selectedItemId);
-		const newURL = join("/projects", `#${encodedItemId}`);
-		console.log("carouselHref= " + newURL);
-		router.push(newURL);
-
-		const element = document.getElementById(selectedItemId);
-		if (element) {
-			element.scrollIntoView({ behavior: "smooth" });
-		}
 	};
 
 	return (

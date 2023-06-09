@@ -14,6 +14,7 @@ import Services from "./components/Services";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Hero from "./components/Hero";
+import Work from "./components/Work";
 
 const inter = Inter({ subsets: ["latin"] });
 //
@@ -41,7 +42,7 @@ export default function Home() {
 			</section>
 
 			<section className='snap-center' id='projects'>
-				<Projects />
+				<Work />
 			</section>
 
 			<section className='snap-center' id='services'>

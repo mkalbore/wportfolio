@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-
 import besethome from "../../public/BesetHome.png";
 import boiskomentalne from "../../public/BoiskoMentalne.png";
 import ftw from "../../public/ftw_1.png";

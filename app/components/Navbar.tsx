@@ -44,6 +44,12 @@ export default function Navbar({}: Props) {
 						href={"#contact"}>
 						Contact
 					</Link>
+					<li>|</li>
+					<Link
+						className='transition ease-out duration-600 hover:font-normal'
+						href={"/secret"}>
+						Secret
+					</Link>
 				</ul>
 
 				<ul className='flex space-x-10 text-center '>

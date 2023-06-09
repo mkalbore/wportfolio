@@ -41,6 +41,11 @@ export default function Burgermenu({}: Props) {
 					href={"#contact"}>
 					Contact
 				</Link>
+				<Link
+					className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'
+					href={"/secret"}>
+					Secret
+				</Link>
 			</div>
 		</div>
 	);

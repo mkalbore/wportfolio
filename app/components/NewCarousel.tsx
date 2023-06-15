@@ -58,6 +58,7 @@ export default function NewCarousel() {
 									alt={slides[currentIndex].title}
 									width={600}
 									height={400}
+									className='rounded-xl'
 								/>
 							</Link>
 						</div>
@@ -74,7 +75,9 @@ export default function NewCarousel() {
 									<h3 className='font-normal pb-1 lg:pb-4'>
 										Used Technologies:
 									</h3>
-									<div className=''>{slides[currentIndex].technologies}</div>
+									<div className='dark:fill-primary-light fill-primary-dark'>
+										{slides[currentIndex].technologies}
+									</div>
 								</div>
 								<p className='pb-1 lg:pt-4'>
 									{slides[currentIndex].description}
@@ -89,21 +92,21 @@ export default function NewCarousel() {
 			{/* ////////// */}
 
 			{/* Left Arrow */}
-			<div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+			{/* <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
 				<div
 					className='bg-green-500 w-[10px] rounded-full h-4 group-active:h-6 transition-all duration-300'
 					onClick={prevSlide}>
 					&larr; sad
 				</div>
-			</div>
+			</div> */}
 			{/* Right Arrow */}
-			<div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+			{/* <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
 				<div
 					className='bg-green-500 w-[10px] rounded-full h-4 group-active:h-6 transition-all duration-300'
 					onClick={nextSlide}>
 					&rarr;
 				</div>
-			</div>
+			</div> */}
 
 			{/* Scroll Bar ON Bottom */}
 			<div className='flex top-4 justify-center py-2 select-none'>
@@ -118,7 +121,7 @@ export default function NewCarousel() {
 							activeIndex === slideIndex ? "opacity-100" : "opacity-30"
 						} hover:opacity-100 transition-all duration-300`}>
 						<h3
-							className='bg-white w-[4px] rounded-full h-4 group-active:h-6 group-hover:h-6 transition-all duration-300'
+							className='bg-font-light-mode dark:bg-font-dark-mode w-[4px] rounded-full h-4 group-active:h-6 group-hover:h-6 transition-all duration-300'
 							style={{
 								height: activeIndex === slideIndex ? "24px" : "16px",
 							}}></h3>

@@ -20,7 +20,7 @@ export const allItems = [
 		description:
 			"The website features a clean and easy-to-navigate design, and includes information about the parish's history, events, and religious services.",
 		technologies: (
-			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 fill-[rgba(255,255,255,0.5)] items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
+			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start '>
 				<svg
 					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(97,218,251,1)] hover:shadow-[#61dafb] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
@@ -93,7 +93,7 @@ export const allItems = [
 		description:
 			"I developed their website, which features a responsive design that looks great on any device. The website includes a product catalog, photo galleries, and a contact form to help customers easily get in touch with the company.",
 		technologies: (
-			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 fill-[rgba(255,255,255,0.5)] items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
+			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
 				<svg
 					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(119,123,180,1)] hover:shadow-[#777bb4] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
@@ -197,7 +197,7 @@ export const allItems = [
 		description:
 			"I created their website and logo, which features a modern and clean design that reflects the company's commitment to quality and reliability. I continue to run and administer the website for them, ensuring that it remains up-to-date and fully functional.",
 		technologies: (
-			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 fill-[rgba(255,255,255,0.5)] items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
+			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
 				<svg
 					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(119,123,180,1)] hover:shadow-[#777bb4] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
@@ -301,7 +301,7 @@ export const allItems = [
 		description:
 			"I developed their website, which features a user-friendly interface, stunning visuals, and informative content that showcases the company's products and services.",
 		technologies: (
-			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 fill-[rgba(255,255,255,0.5)] items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
+			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
 				<svg
 					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(119,123,180,1)] hover:shadow-[#777bb4] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
@@ -405,7 +405,7 @@ export const allItems = [
 		description:
 			"Descriptiopn boisko mentalne this project is projected as new idea connecting two things, socerr, footbal and mental.",
 		technologies: (
-			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 fill-[rgba(255,255,255,0.5)] items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-3 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
+			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-3 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
 				<svg
 					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(242,242,242,1)] hover:shadow-[#f2f2f2] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
@@ -446,7 +446,7 @@ export const allItems = [
 		description:
 			"The website features a clean and easy-to-navigate design, and includes information about the parish's history, events, and religious services.",
 		technologies: (
-			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 fill-[rgba(255,255,255,0.5)] items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
+			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
 				<svg
 					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(97,218,251,1)] hover:shadow-[#61dafb] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'

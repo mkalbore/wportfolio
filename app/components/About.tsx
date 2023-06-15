@@ -31,7 +31,7 @@ export default function About({}: Props) {
 						</h3>
 					</div>
 
-					<div className=' grid grid-cols-3 shrink-0 m-4 fill-[rgba(255,255,255,0.5)] items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-1 lg:grid-rows-7 lg:self-center '>
+					<div className=' grid grid-cols-3 shrink-0 m-4 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-1 lg:grid-rows-7 lg:self-center '>
 						<svg
 							className='w-14 md:w-10 2xl:w-16 hover:fill-[rgba(97,218,251,1)] hover:shadow-[#61dafb] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 							role='img'
@@ -92,7 +92,7 @@ export default function About({}: Props) {
 						</svg>
 					</div>
 
-					<div className=' grid grid-cols-4 shrink-0 m-4 fill-[rgba(255,255,255,0.5)] items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-1 lg:grid-rows-7 lg:self-center '>
+					<div className=' grid grid-cols-4 shrink-0 m-4 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-1 lg:grid-rows-7 lg:self-center '>
 						<svg
 							className='w-14 md:w-10 2xl:w-16 hover:fill-[rgba(119,123,180,1)] hover:shadow-[#777bb4] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 							role='img'

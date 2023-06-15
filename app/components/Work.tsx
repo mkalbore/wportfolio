@@ -11,10 +11,10 @@ import parafia from "../../public/parafia2V2.png";
 
 export default function Work() {
 	return (
-		<div className='text-center mx-auto mb-60'>
-			<h1 className='my-4 2xl:my-6 2xl:text-4xl'>Some of our Work</h1>
+		<div className='text-center mx-auto mb-60 grayscale hover:grayscale-0 transition-all ease-in-out duration-300 max-w-lg lg:max-w-4xl justify-center content-center flex flex-col '>
+			<h1 className='my-4 2xl:my-6 2xl:text-4xl'>Check some of our Work</h1>
 
-			<div className='flex place-items-center justify-center hover:shadow-[#ffffff] hover:scale-105 hover:animate-pulse hover:drop-shadow-2xl transition-all ease-out duration-300 gap-4 translate-x-10'>
+			<div className='flex place-items-center justify-center hover:shadow-[#ffffff] hover:scale-105 hover:animate-pulse hover:drop-shadow-2xl transition-all ease-out duration-300 gap-4 mx-auto content-center translate-x-24 rounded-xl'>
 				<Link href='/projects'>
 					<Image
 						src={oknopast}

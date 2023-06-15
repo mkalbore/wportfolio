@@ -31,9 +31,7 @@ export default function Home() {
 				<Navbar />
 			</nav>
 
-			<h1 className='text-2xl lg:text-6xl text-center text-[#ffffff]'>
-				Pojects Page
-			</h1>
+			<h1 className='text-2xl lg:text-6xl text-center'>Pojects Page</h1>
 
 			<section className='snap-center' id='project'>
 				{/* <Project />	*/}

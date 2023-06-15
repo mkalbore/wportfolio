@@ -23,7 +23,7 @@ const inter = Inter({ subsets: ["latin"] });
 // flex min-h-screen flex-col items-center space-y-10
 export default function Home() {
 	return (
-		<div className='overflow-y-scroll snap-y snap-mandatory space-y-4'>
+		<div className='overflow-y-scroll snap-y snap-mandatory space-y-4 max-w-min'>
 			<Head>
 				<title>Quint - Software Developer</title>
 				<meta property='quint' content='Quint' key='title' />

@@ -9,7 +9,7 @@ export default function Burgermenu({}: Props) {
 			<button className='relative group'>
 				<div className='relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all ring-0 ring-gray-300 hover:ring-4 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md'>
 					<div className='flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden'>
-						<div className='bg-white h-[2px] w-7 transform transition-all duration-300 origin-left group-focus:translate-x-10'></div>
+						<div className='bg-orange-500 h-[2px] w-7 transform transition-all duration-300 origin-left group-focus:translate-x-10'></div>
 						<div className='bg-white h-[2px] w-7 rounded transform transition-all duration-300 group-focus:translate-x-10 delay-75'></div>
 						<div className='bg-white h-[2px] w-7 transform transition-all duration-300 origin-left group-focus:translate-x-10 delay-150'></div>
 
@@ -20,7 +20,7 @@ export default function Burgermenu({}: Props) {
 					</div>
 				</div>
 			</button>
-			<div className='bg-[#141414] border rounded-md transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32 text-xl space-y-4 my-4 grid grid-cols-1 align-middle'>
+			<div className='bg-primary-light dark:bg-primary-dark border rounded-md transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32 text-xl space-y-4 my-4 grid grid-cols-1 align-middle'>
 				<Link
 					className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'
 					href={"#about"}>
@@ -28,7 +28,7 @@ export default function Burgermenu({}: Props) {
 				</Link>
 				<Link
 					className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'
-					href={"#projects"}>
+					href={"/projects"}>
 					Projects
 				</Link>
 				<Link

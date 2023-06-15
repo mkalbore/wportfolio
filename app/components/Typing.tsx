@@ -27,8 +27,8 @@ function Typing() {
 			return (
 				<TypingAnimator
 					textArray={textArray}
-					cursorColor='#ffffff'
-					textColor='#ffffff'
+					cursorColor='{primary-light}'
+					textColor='primary-light'
 					fontSize='48px'
 					typingSpeed={60}
 					delaySpeed={2000}
@@ -38,8 +38,8 @@ function Typing() {
 			return (
 				<TypingAnimator
 					textArray={textArray}
-					cursorColor='#ffffff'
-					textColor='#ffffff'
+					cursorColor='primary-light'
+					textColor='primary-light'
 					fontSize='18px'
 					typingSpeed={60}
 					delaySpeed={2000}

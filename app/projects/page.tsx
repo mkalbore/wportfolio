@@ -49,3 +49,5 @@ export default function Home() {
 		</div>
 	);
 }
+
+/////////////// P R O J E C T S // P A G E /////////////////

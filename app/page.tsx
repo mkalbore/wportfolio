@@ -1,4 +1,4 @@
-/////////////// H O M E // P A G E /////////////////
+////////////////////////////////////////// H O M E // P A G E //////////////////////////////
 
 import Image from "next/image";
 
@@ -23,7 +23,7 @@ const inter = Inter({ subsets: ["latin"] });
 // flex min-h-screen flex-col items-center space-y-10
 export default function Home() {
 	return (
-		<div className='overflow-y-scroll snap-y snap-mandatory space-y-4 max-w-min'>
+		<div className='space-y-4'>
 			<Head>
 				<title>Quint - Software Developer</title>
 				<meta property='quint' content='Quint' key='title' />
@@ -59,3 +59,5 @@ export default function Home() {
 		</div>
 	);
 }
+
+//////////////////////////////// H O M E // P A G E ///////////////////////////////////

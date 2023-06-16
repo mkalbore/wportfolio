@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 type Props = {};
 
@@ -20,7 +21,7 @@ export default function Burgermenu({}: Props) {
 					</div>
 				</div>
 			</button>
-			<div className='bg-primary-light dark:bg-primary-dark border rounded-md transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32 text-xl space-y-4 my-4 grid grid-cols-1 align-middle'>
+			<div className='bg-primary-light dark:bg-primary-dark border rounded-md transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32 text-xl space-y-4 my-4 grid grid-cols-1 align-middle justify-center justify-items-center'>
 				<Link
 					className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'
 					href={"#about"}>
@@ -46,6 +47,9 @@ export default function Burgermenu({}: Props) {
 					href={"/secret"}>
 					Secret
 				</Link>
+				<p className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'>
+					<ThemeSwitcher />
+				</p>
 			</div>
 		</div>
 	);

@@ -41,24 +41,24 @@ export default function NewCarousel() {
 
 	return (
 		<div>
-			<div className='flex flex-row space-x-6 lg:space-x-12 '>
+			<div className='flex flex-row space-x-6 lg:space-x-12'>
 				<div
-					className='min-w-fit mx-auto overscroll-contain'
+					className='min-w-fit mx-auto overscroll-contain justify-center items-center text-center'
 					key={slides[currentIndex].id}>
-					<div className='text-left lg:text-left lg:text-4xl mb-4 mx-auto'>
+					<div className='lg:text-left lg:text-4xl mb-4 mx-auto'>
 						<h1 className='font-normal'>{slides[currentIndex].title}</h1>
 						<h2 className=''>{slides[currentIndex].type}</h2>
 					</div>
 
 					<div className='lg:flex text-center space-y-2 mx-auto items-center justify-center lg:justify-start snap-center scroll-px-12'>
-						<div className='rounded-xl shadow-lg border border-[#ffffff, 10] shrink-0 w-[350px] h-fit md:w-[400px] md:h-fit lg:w-[600px] lg:h-fit hover:shadow-[#000000] hover:scale-105 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'>
+						<div className='rounded-xl shadow-lg border border-[#ffffff, 10] shrink-0 w-[350px] h-fit md:w-[400px] md:h-fit lg:w-[600px lg:h-fit hover:shadow-[#000000] hover:scale-105 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'>
 							<Link href={slides[currentIndex].link}>
 								<Image
 									src={slides[currentIndex].src}
 									alt={slides[currentIndex].title}
 									width={600}
 									height={400}
-									className='rounded-xl'
+									className='rounded-xl lg:w-[600px] lg:h-fit'
 								/>
 							</Link>
 						</div>

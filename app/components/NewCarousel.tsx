@@ -59,6 +59,7 @@ export default function NewCarousel() {
 									width={600}
 									height={400}
 									className='rounded-xl lg:w-[600px] lg:h-fit'
+									sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
 								/>
 							</Link>
 						</div>

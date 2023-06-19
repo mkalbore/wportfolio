@@ -11,8 +11,8 @@ import parafia from "../../public/parafia2V2.png";
 
 export default function Work() {
 	return (
-		<div className='text-center mx-auto mb-60 grayscale hover:grayscale-0 transition-all ease-in-out duration-300 max-w-lg lg:max-w-4xl justify-center content-center flex flex-col '>
-			<h1 className='my-4 2xl:my-6 2xl:text-4xl'>Check some of our Work</h1>
+		<div className='text-center mx-auto mb-60 grayscale hover:grayscale-0 transition-all ease-in-out duration-300 max-w-lg lg:max-w-4xl justify-center content-center flex flex-col'>
+			<h1 className='my-4 2xl:my-6 2xl:text-4xl'>Check some of my Work</h1>
 
 			<div className='flex place-items-center justify-center hover:shadow-[#ffffff] hover:scale-105 hover:animate-pulse hover:drop-shadow-2xl transition-all ease-out duration-300 gap-4 mx-auto content-center translate-x-24 rounded-xl'>
 				<Link href='/projects'>
@@ -36,14 +36,6 @@ export default function Work() {
 						src={trix}
 						alt={""}
 						className='rounded-xl shadow-lg bg-neutral-900 border border-[#ffffff, 10] w-[150px] h-[93.75px] lg:w-[200px] lg:h-[125px] z-30 -translate-x-24'
-					/>
-				</Link>
-
-				<Link href={"/projects"}>
-					<Image
-						src={boiskomentalne}
-						alt={""}
-						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[150px] h-[93.75px] lg:w-[200px] lg:h-[125px] z-20 -translate-x-36'
 					/>
 				</Link>
 

@@ -12,8 +12,6 @@ import { Inter } from "next/font/google";
 import Navbar from ".././components/Navbar";
 import Footer from ".././components/Footer";
 import Contact from ".././components/Contact";
-import Project from "../components/Project";
-import ScrollBar from "../components/ScrollBar";
 import NewCarousel from "../components/NewCarousel";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -34,8 +32,6 @@ export default function Home() {
 			<h1 className='text-2xl lg:text-6xl text-center'>Pojects Page</h1>
 
 			<section className='snap-center' id='project'>
-				{/* <Project />	*/}
-				{/* <ScrollBar /> */}
 				<NewCarousel />
 			</section>
 

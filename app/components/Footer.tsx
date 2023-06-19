@@ -4,7 +4,7 @@ type Props = {};
 
 export default function Footer({}: Props) {
 	return (
-		<div className='flex justify-between p-8 w-screen items-center bg-primary-light dark:bg-primary-dark text-font-light-mode dark:text-font-dark-mode'>
+		<div className='flex justify-between p-8 items-center bg-primary-light dark:bg-primary-dark text-font-light-mode dark:text-font-dark-mode'>
 			<h3 className=' text-lg justify-start'>
 				Quint Software ® all rights reserved
 			</h3>

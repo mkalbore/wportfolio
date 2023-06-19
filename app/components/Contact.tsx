@@ -8,9 +8,10 @@ type Props = {};
 
 export default function Contact({}: Props) {
 	return (
-		<div className='w-screen h-screen justify-center text-center flex flex-col space-y-10 mb-20'>
-			<h2 className='text-2xl md:text-4xl my-10 mx-4 md:mx-0'>
-				Are you interested in working with me or just want to ask something
+		<div className='max-w-screen-md h-screen justify-center text-center flex flex-col space-y-10 mb-20 mx-auto'>
+			<h2 className='text-2xl md:text-3xl xl:text-4xl my-10 px-2'>
+				Are <span className='font-normal'>You</span> interested in working with
+				me or just want to ask something ?
 			</h2>
 			<div>
 				<h2 className=''>Email me:</h2>
@@ -25,7 +26,7 @@ export default function Contact({}: Props) {
 			<div>
 				<h2 className='font-normal'>Find me on web:</h2>
 				{/* Social Icons */}
-				<div className='flex flex-row w-auto h-10 lg:h-14 space-x-10 my-10  lg:my-12 dark:fill-secondary-dark relative justify-center'>
+				<div className='flex flex-row w-auto h-10 lg:h-14 space-x-4 md:space-x-10 my-10  lg:my-12 dark:fill-secondary-dark relative justify-center'>
 					<Link href='https://github.com/mkalbore'>
 						<svg
 							className='w-[40px] h-[40px] lg:h-[60px] lg:w-[60px] dark:fill-[rgba(255,255,255,0.5)] dark:hover:fill-[rgba(255,255,255,1)] hover:fill-secondary-dark active:scale-105 transition-all ease-out duration-300 cursor-pointer'

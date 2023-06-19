@@ -11,8 +11,8 @@ type Props = {};
 
 export default function Navbar({}: Props) {
 	return (
-		<div className='dark:bg-primary-dark bg-primary-light flex items-center max-w-screen justify-between px-4 py-4 md:py-8 md:px-8 top-0 '>
-			<div className='hidden md:flex md:justify-between text-xl w-screen mx-4 text-font-light-mode dark:text-font-dark-mode space-x-10 items-center'>
+		<div className='dark:bg-primary-dark bg-primary-light flex items-center justify-between px-4 py-4 md:py-8 md:px-8 top-0 '>
+			<div className='hidden lg:flex lg:justify-between text-xl w-screen mx-4 text-font-light-mode dark:text-font-dark-mode space-x-10 items-center'>
 				<Link href={"/"}>
 					<>
 						<Image
@@ -82,7 +82,7 @@ export default function Navbar({}: Props) {
 					<ThemeSwitcher />
 				</ul>
 			</div>
-			<div className='flex md:hidden w-screen mx-4'>
+			<div className='flex lg:hidden w-screen mx-4'>
 				{" "}
 				<Burgermenu />{" "}
 			</div>

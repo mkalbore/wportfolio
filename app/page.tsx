@@ -3,13 +3,11 @@
 import Image from "next/image";
 
 import Head from "next/head";
-import Link from "next/link";
 
 import { Inter } from "next/font/google";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Projects from "./components/Projects";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import About from "./components/About";
@@ -23,7 +21,7 @@ const inter = Inter({ subsets: ["latin"] });
 // flex min-h-screen flex-col items-center space-y-10
 export default function Home() {
 	return (
-		<div className='space-y-4'>
+		<div className='space-y-4 overflow-x-hidden'>
 			<Head>
 				<title>Quint - Software Developer</title>
 				<meta property='quint' content='Quint' key='title' />
@@ -54,7 +52,7 @@ export default function Home() {
 			</section>
 
 			<footer className='snap-center' id='footer'>
-				<Footer></Footer>
+				<Footer />
 			</footer>
 		</div>
 	);

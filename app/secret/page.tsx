@@ -12,9 +12,6 @@ import { Inter } from "next/font/google";
 import Navbar from ".././components/Navbar";
 import Footer from ".././components/Footer";
 import Contact from ".././components/Contact";
-import Project from "../components/Project";
-import ScrollBar from "../components/ScrollBar";
-import NewCarousel from "../components/NewCarousel";
 
 const inter = Inter({ subsets: ["latin"] });
 // Wyciete

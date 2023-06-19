@@ -47,9 +47,9 @@ export default function Burgermenu({}: Props) {
 					href={"/secret"}>
 					Secret
 				</Link>
-				<p className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'>
+				<div className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'>
 					<ThemeSwitcher />
-				</p>
+				</div>
 			</div>
 		</div>
 	);

@@ -6,16 +6,16 @@ type Props = {};
 
 export default function About({}: Props) {
 	return (
-		<div className='max-w-sm md:w-screen md:h-full 2xl:max-w-7xl justify-center text-center mx-auto mb-60'>
-			<div className=' items-center justify-center'>
-				<div className='flex flex-col space-x-4 xl:flex-row mx-auto justify-center shrink-0 '>
+		<div className='md:h-full justify-center text-center mx-auto mb-60 px-2 md:px-32 lg:px-60'>
+			<div className='items-center justify-center'>
+				<div className='flex flex-col space-x-4 xl:flex-row mx-auto justify-center'>
 					<Image
 						src={parrot}
 						alt={"Avatar"}
 						className='mx-auto ml-2 mr-2 object-cover  justify-center items-center max-w-xs md:max-w-xs lg:max-w-sm self-center rounded-xl shadow-lg border-1 border-primary-dark dark:border-primary-light hover:hue-rotate-90 active:hue-rotate-180 transition-all ease-out duration-1000'
 					/>
 
-					<div className='text-justify items-center justify-center md:max-w-screen-md mt-4 px-10'>
+					<div className='text-justify items-center justify-center mt-4 px-10 shrink'>
 						<h1 className='text-xl md:text-2xl xl:text-4xl'>
 							Hi im <span className='font-normal'>Marek&sbquo;</span>
 						</h1>
@@ -31,7 +31,7 @@ export default function About({}: Props) {
 						</h3>
 					</div>
 
-					<div className=' grid grid-cols-3 shrink-0 m-4 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-1 lg:grid-rows-7 lg:self-center '>
+					<div className=' grid grid-cols-3 shrink-0 m-4 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 xl:grid-cols-1 lg:grid-cols-4 lg:grid-rows-7 lg:self-center '>
 						<svg
 							className='w-14 md:w-10 2xl:w-16 hover:fill-[rgba(97,218,251,1)] hover:shadow-[#61dafb] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 							role='img'
@@ -92,7 +92,7 @@ export default function About({}: Props) {
 						</svg>
 					</div>
 
-					<div className=' grid grid-cols-4 shrink-0 m-4 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-1 lg:grid-rows-7 lg:self-center '>
+					<div className=' grid grid-cols-4 shrink-0 m-4 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 xl:grid-cols-1 lg:grid-cols-4 lg:grid-rows-7 lg:self-center '>
 						<svg
 							className='w-14 md:w-10 2xl:w-16 hover:fill-[rgba(119,123,180,1)] hover:shadow-[#777bb4] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 							role='img'

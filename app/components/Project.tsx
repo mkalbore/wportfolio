@@ -7,7 +7,7 @@ import boiskomentalne from "../../public/BoiskoMentalne.png";
 import ftw from "../../public/ftw_1.png";
 import oknopast from "../../public/oknopast_1.png";
 import trix from "../../public/trix.png";
-import parafia from "../../public/parafia2V2.png";
+import parafia from "../../public/parafialubrzawebsite.png";
 
 export const allItems = [
 	{
@@ -18,11 +18,11 @@ export const allItems = [
 		type: "Website",
 		info: ", which is modern and stylish night club.",
 		description:
-			"The website features a clean and easy-to-navigate design, and includes information about the parish's history, events, and religious services.",
+			"Clean, modern and easy-to-navigate design, website provides all the information you need to immerse access in the vibrant atmosphere of club.",
 		technologies: (
 			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start '>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(97,218,251,1)] hover:shadow-[#61dafb] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(97,218,251,1)] hover:shadow-[#61dafb] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -30,7 +30,7 @@ export const allItems = [
 					<path d='M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(0,0,0,1)] hover:shadow-[#000000] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(0,0,0,1)] hover:shadow-[#000000] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -38,7 +38,7 @@ export const allItems = [
 					<path d='M11.5725 0c-.1763 0-.3098.0013-.3584.0067-.0516.0053-.2159.021-.3636.0328-3.4088.3073-6.6017 2.1463-8.624 4.9728C1.1004 6.584.3802 8.3666.1082 10.255c-.0962.659-.108.8537-.108 1.7474s.012 1.0884.108 1.7476c.652 4.506 3.8591 8.2919 8.2087 9.6945.7789.2511 1.6.4223 2.5337.5255.3636.04 1.9354.04 2.299 0 1.6117-.1783 2.9772-.577 4.3237-1.2643.2065-.1056.2464-.1337.2183-.1573-.0188-.0139-.8987-1.1938-1.9543-2.62l-1.919-2.592-2.4047-3.5583c-1.3231-1.9564-2.4117-3.556-2.4211-3.556-.0094-.0026-.0187 1.5787-.0235 3.509-.0067 3.3802-.0093 3.5162-.0516 3.596-.061.115-.108.1618-.2064.2134-.075.0374-.1408.0445-.495.0445h-.406l-.1078-.068a.4383.4383 0 01-.1572-.1712l-.0493-.1056.0053-4.703.0067-4.7054.0726-.0915c.0376-.0493.1174-.1125.1736-.143.0962-.047.1338-.0517.5396-.0517.4787 0 .5584.0187.6827.1547.0353.0377 1.3373 1.9987 2.895 4.3608a10760.433 10760.433 0 004.7344 7.1706l1.9002 2.8782.096-.0633c.8518-.5536 1.7525-1.3418 2.4657-2.1627 1.5179-1.7429 2.4963-3.868 2.8247-6.134.0961-.6591.1078-.854.1078-1.7475 0-.8937-.012-1.0884-.1078-1.7476-.6522-4.506-3.8592-8.2919-8.2087-9.6945-.7672-.2487-1.5836-.42-2.4985-.5232-.169-.0176-1.0835-.0366-1.6123-.037zm4.0685 7.217c.3473 0 .4082.0053.4857.047.1127.0562.204.1642.237.2767.0186.061.0234 1.3653.0186 4.3044l-.0067 4.2175-.7436-1.14-.7461-1.14v-3.066c0-1.982.0093-3.0963.0234-3.1502.0375-.1313.1196-.2346.2323-.2955.0961-.0494.1313-.054.4997-.054z' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgb(247,223,30,1)] hover:shadow-[#f7df1e] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgb(247,223,30,1)] hover:shadow-[#f7df1e] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -47,7 +47,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(49,120,198,1)] hover:shadow-[#3178c6] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(49,120,198,1)] hover:shadow-[#3178c6] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -56,7 +56,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(227,79,38,1)] hover:shadow-[#e34f26] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(227,79,38,1)] hover:shadow-[#e34f26] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -64,7 +64,7 @@ export const allItems = [
 					<path d='M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(21,114,182,1)] hover:shadow-[#1572b6] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(21,114,182,1)] hover:shadow-[#1572b6] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -72,7 +72,7 @@ export const allItems = [
 					<path d='M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(6,182,212,1)] hover:shadow-[#06b6d4] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(6,182,212,1)] hover:shadow-[#06b6d4] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -95,7 +95,7 @@ export const allItems = [
 		technologies: (
 			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(119,123,180,1)] hover:shadow-[#777bb4] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(119,123,180,1)] hover:shadow-[#777bb4] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -104,7 +104,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgb(247,223,30,1)] hover:shadow-[#f7df1e] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgb(247,223,30,1)] hover:shadow-[#f7df1e] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -113,7 +113,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(227,79,38,1)] hover:shadow-[#e34f26] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(227,79,38,1)] hover:shadow-[#e34f26] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -121,7 +121,7 @@ export const allItems = [
 					<path d='M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(21,114,182,1)] hover:shadow-[#1572b6] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(21,114,182,1)] hover:shadow-[#1572b6] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -130,7 +130,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(108,120,175,1)] hover:shadow-[#6c78af] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(108,120,175,1)] hover:shadow-[#6c78af] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -138,7 +138,7 @@ export const allItems = [
 					<path d='M5.463 3.476C6.69 5.225 7.497 7.399 7.68 9.798a12.9 12.9 0 0 1-.672 5.254 4.29 4.29 0 0 1 2.969-1.523c.05-.004.099-.006.148-.008.08-.491.47-3.45-.977-6.68-1.068-2.386-3-3.16-3.685-3.365Zm1.777.037s2.406 1.066 3.326 5.547c.607 2.955.049 4.836-.402 5.773a7.347 7.347 0 0 1 4.506-1.994c.86-.065 1.695.02 2.482.233-.1-.741-.593-3.414-2.732-5.92-3.263-3.823-7.18-3.64-7.18-3.64Zm14.817 9.701-17.92 3.049a2.284 2.284 0 0 1 1.535 2.254 2.31 2.31 0 0 1-.106.61c.055-.027 2.689-1.275 6.342-2.034 3.238-.673 5.723-.36 6.285-.273a6.46 6.46 0 0 1 3.864-3.606zm-6.213 4.078c-2.318 0-4.641.495-6.614 1.166-2.868.976-2.951 1.348-5.55 1.043C1.844 19.286 0 18.386 0 18.386s2.406 1.97 4.914 2.127c1.986.125 3.505-.822 5.315-1.414 2.661-.871 4.511-.97 6.253-.975C19.361 18.116 24 19.353 24 19.353s-2.11-1.044-5.033-1.72a13.885 13.885 0 0 0-3.123-.34Z' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(33,117,155,1)] hover:shadow-[#21759b] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(33,117,155,1)] hover:shadow-[#21759b] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -146,7 +146,7 @@ export const allItems = [
 					<path d='M21.469 6.825c.84 1.537 1.318 3.3 1.318 5.175 0 3.979-2.156 7.456-5.363 9.325l3.295-9.527c.615-1.54.82-2.771.82-3.864 0-.405-.026-.78-.07-1.11m-7.981.105c.647-.03 1.232-.105 1.232-.105.582-.075.514-.93-.067-.899 0 0-1.755.135-2.88.135-1.064 0-2.85-.15-2.85-.15-.585-.03-.661.855-.075.885 0 0 .54.061 1.125.09l1.68 4.605-2.37 7.08L5.354 6.9c.649-.03 1.234-.1 1.234-.1.585-.075.516-.93-.065-.896 0 0-1.746.138-2.874.138-.2 0-.438-.008-.69-.015C4.911 3.15 8.235 1.215 12 1.215c2.809 0 5.365 1.072 7.286 2.833-.046-.003-.091-.009-.141-.009-1.06 0-1.812.923-1.812 1.914 0 .89.513 1.643 1.06 2.531.411.72.89 1.643.89 2.977 0 .915-.354 1.994-.821 3.479l-1.075 3.585-3.9-11.61.001.014zM12 22.784c-1.059 0-2.081-.153-3.048-.437l3.237-9.406 3.315 9.087c.024.053.05.101.078.149-1.12.393-2.325.609-3.582.609M1.211 12c0-1.564.336-3.05.935-4.39L7.29 21.709C3.694 19.96 1.212 16.271 1.211 12M12 0C5.385 0 0 5.385 0 12s5.385 12 12 12 12-5.385 12-12S18.615 0 12 0' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(242,242,242,1)] hover:shadow-[#f2f2f2] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(242,242,242,1)] hover:shadow-[#f2f2f2] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					version='1.0'
 					xmlns='http://www.w3.org/2000/svg'
@@ -199,7 +199,7 @@ export const allItems = [
 		technologies: (
 			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(119,123,180,1)] hover:shadow-[#777bb4] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(119,123,180,1)] hover:shadow-[#777bb4] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -208,7 +208,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgb(247,223,30,1)] hover:shadow-[#f7df1e] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgb(247,223,30,1)] hover:shadow-[#f7df1e] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -217,7 +217,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(227,79,38,1)] hover:shadow-[#e34f26] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(227,79,38,1)] hover:shadow-[#e34f26] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -225,7 +225,7 @@ export const allItems = [
 					<path d='M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(21,114,182,1)] hover:shadow-[#1572b6] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(21,114,182,1)] hover:shadow-[#1572b6] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -234,7 +234,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(108,120,175,1)] hover:shadow-[#6c78af] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(108,120,175,1)] hover:shadow-[#6c78af] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -242,7 +242,7 @@ export const allItems = [
 					<path d='M5.463 3.476C6.69 5.225 7.497 7.399 7.68 9.798a12.9 12.9 0 0 1-.672 5.254 4.29 4.29 0 0 1 2.969-1.523c.05-.004.099-.006.148-.008.08-.491.47-3.45-.977-6.68-1.068-2.386-3-3.16-3.685-3.365Zm1.777.037s2.406 1.066 3.326 5.547c.607 2.955.049 4.836-.402 5.773a7.347 7.347 0 0 1 4.506-1.994c.86-.065 1.695.02 2.482.233-.1-.741-.593-3.414-2.732-5.92-3.263-3.823-7.18-3.64-7.18-3.64Zm14.817 9.701-17.92 3.049a2.284 2.284 0 0 1 1.535 2.254 2.31 2.31 0 0 1-.106.61c.055-.027 2.689-1.275 6.342-2.034 3.238-.673 5.723-.36 6.285-.273a6.46 6.46 0 0 1 3.864-3.606zm-6.213 4.078c-2.318 0-4.641.495-6.614 1.166-2.868.976-2.951 1.348-5.55 1.043C1.844 19.286 0 18.386 0 18.386s2.406 1.97 4.914 2.127c1.986.125 3.505-.822 5.315-1.414 2.661-.871 4.511-.97 6.253-.975C19.361 18.116 24 19.353 24 19.353s-2.11-1.044-5.033-1.72a13.885 13.885 0 0 0-3.123-.34Z' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(33,117,155,1)] hover:shadow-[#21759b] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(33,117,155,1)] hover:shadow-[#21759b] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -250,7 +250,7 @@ export const allItems = [
 					<path d='M21.469 6.825c.84 1.537 1.318 3.3 1.318 5.175 0 3.979-2.156 7.456-5.363 9.325l3.295-9.527c.615-1.54.82-2.771.82-3.864 0-.405-.026-.78-.07-1.11m-7.981.105c.647-.03 1.232-.105 1.232-.105.582-.075.514-.93-.067-.899 0 0-1.755.135-2.88.135-1.064 0-2.85-.15-2.85-.15-.585-.03-.661.855-.075.885 0 0 .54.061 1.125.09l1.68 4.605-2.37 7.08L5.354 6.9c.649-.03 1.234-.1 1.234-.1.585-.075.516-.93-.065-.896 0 0-1.746.138-2.874.138-.2 0-.438-.008-.69-.015C4.911 3.15 8.235 1.215 12 1.215c2.809 0 5.365 1.072 7.286 2.833-.046-.003-.091-.009-.141-.009-1.06 0-1.812.923-1.812 1.914 0 .89.513 1.643 1.06 2.531.411.72.89 1.643.89 2.977 0 .915-.354 1.994-.821 3.479l-1.075 3.585-3.9-11.61.001.014zM12 22.784c-1.059 0-2.081-.153-3.048-.437l3.237-9.406 3.315 9.087c.024.053.05.101.078.149-1.12.393-2.325.609-3.582.609M1.211 12c0-1.564.336-3.05.935-4.39L7.29 21.709C3.694 19.96 1.212 16.271 1.211 12M12 0C5.385 0 0 5.385 0 12s5.385 12 12 12 12-5.385 12-12S18.615 0 12 0' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(242,242,242,1)] hover:shadow-[#f2f2f2] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(242,242,242,1)] hover:shadow-[#f2f2f2] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					version='1.0'
 					xmlns='http://www.w3.org/2000/svg'
@@ -303,7 +303,7 @@ export const allItems = [
 		technologies: (
 			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(119,123,180,1)] hover:shadow-[#777bb4] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(119,123,180,1)] hover:shadow-[#777bb4] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -312,7 +312,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgb(247,223,30,1)] hover:shadow-[#f7df1e] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgb(247,223,30,1)] hover:shadow-[#f7df1e] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -321,7 +321,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(227,79,38,1)] hover:shadow-[#e34f26] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(227,79,38,1)] hover:shadow-[#e34f26] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -329,7 +329,7 @@ export const allItems = [
 					<path d='M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(21,114,182,1)] hover:shadow-[#1572b6] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(21,114,182,1)] hover:shadow-[#1572b6] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -338,7 +338,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(108,120,175,1)] hover:shadow-[#6c78af] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(108,120,175,1)] hover:shadow-[#6c78af] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -346,7 +346,7 @@ export const allItems = [
 					<path d='M5.463 3.476C6.69 5.225 7.497 7.399 7.68 9.798a12.9 12.9 0 0 1-.672 5.254 4.29 4.29 0 0 1 2.969-1.523c.05-.004.099-.006.148-.008.08-.491.47-3.45-.977-6.68-1.068-2.386-3-3.16-3.685-3.365Zm1.777.037s2.406 1.066 3.326 5.547c.607 2.955.049 4.836-.402 5.773a7.347 7.347 0 0 1 4.506-1.994c.86-.065 1.695.02 2.482.233-.1-.741-.593-3.414-2.732-5.92-3.263-3.823-7.18-3.64-7.18-3.64Zm14.817 9.701-17.92 3.049a2.284 2.284 0 0 1 1.535 2.254 2.31 2.31 0 0 1-.106.61c.055-.027 2.689-1.275 6.342-2.034 3.238-.673 5.723-.36 6.285-.273a6.46 6.46 0 0 1 3.864-3.606zm-6.213 4.078c-2.318 0-4.641.495-6.614 1.166-2.868.976-2.951 1.348-5.55 1.043C1.844 19.286 0 18.386 0 18.386s2.406 1.97 4.914 2.127c1.986.125 3.505-.822 5.315-1.414 2.661-.871 4.511-.97 6.253-.975C19.361 18.116 24 19.353 24 19.353s-2.11-1.044-5.033-1.72a13.885 13.885 0 0 0-3.123-.34Z' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(33,117,155,1)] hover:shadow-[#21759b] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(33,117,155,1)] hover:shadow-[#21759b] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -354,7 +354,7 @@ export const allItems = [
 					<path d='M21.469 6.825c.84 1.537 1.318 3.3 1.318 5.175 0 3.979-2.156 7.456-5.363 9.325l3.295-9.527c.615-1.54.82-2.771.82-3.864 0-.405-.026-.78-.07-1.11m-7.981.105c.647-.03 1.232-.105 1.232-.105.582-.075.514-.93-.067-.899 0 0-1.755.135-2.88.135-1.064 0-2.85-.15-2.85-.15-.585-.03-.661.855-.075.885 0 0 .54.061 1.125.09l1.68 4.605-2.37 7.08L5.354 6.9c.649-.03 1.234-.1 1.234-.1.585-.075.516-.93-.065-.896 0 0-1.746.138-2.874.138-.2 0-.438-.008-.69-.015C4.911 3.15 8.235 1.215 12 1.215c2.809 0 5.365 1.072 7.286 2.833-.046-.003-.091-.009-.141-.009-1.06 0-1.812.923-1.812 1.914 0 .89.513 1.643 1.06 2.531.411.72.89 1.643.89 2.977 0 .915-.354 1.994-.821 3.479l-1.075 3.585-3.9-11.61.001.014zM12 22.784c-1.059 0-2.081-.153-3.048-.437l3.237-9.406 3.315 9.087c.024.053.05.101.078.149-1.12.393-2.325.609-3.582.609M1.211 12c0-1.564.336-3.05.935-4.39L7.29 21.709C3.694 19.96 1.212 16.271 1.211 12M12 0C5.385 0 0 5.385 0 12s5.385 12 12 12 12-5.385 12-12S18.615 0 12 0' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(242,242,242,1)] hover:shadow-[#f2f2f2] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(242,242,242,1)] hover:shadow-[#f2f2f2] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					version='1.0'
 					xmlns='http://www.w3.org/2000/svg'
@@ -399,15 +399,15 @@ export const allItems = [
 		id: "boiskomentalne",
 		src: boiskomentalne,
 		link: "http://www.google.com",
-		title: "BoiskoMentalne",
+		title: "Boisko Mentalne",
 		type: "Logo",
-		info: " Lorem ipsum, Lorem lorem loreom, and lorem",
+		info: " is a visionary project that combines two elements: soccer/football and mental development.",
 		description:
-			"Descriptiopn boisko mentalne this project is projected as new idea connecting two things, socerr, footbal and mental.",
+			"A modern, minimalist logo while maintaining the general idea of the entire project.",
 		technologies: (
 			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-3 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(242,242,242,1)] hover:shadow-[#f2f2f2] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(242,242,242,1)] hover:shadow-[#f2f2f2] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -416,7 +416,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[#7E4DD2] hover:shadow-[#7E4DD2] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[#7E4DD2] hover:shadow-[#7E4DD2] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -425,7 +425,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(27,114,190,1)] hover:shadow-[#1B72BE] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(27,114,190,1)] hover:shadow-[#1B72BE] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -448,7 +448,7 @@ export const allItems = [
 		technologies: (
 			<div className='grid grid-cols-3 shrink-0 mx-4 my-4 lg:my-4 lg:mx-0 dark:fill-primary-light fill-primary-dark items-end place-items-center space-y-4 lg:space-x-2 lg:grid-cols-5 lg:grid-rows-7 lg:self-center lg:justify-items-start'>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(97,218,251,1)] hover:shadow-[#61dafb] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(97,218,251,1)] hover:shadow-[#61dafb] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -456,7 +456,7 @@ export const allItems = [
 					<path d='M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(0,0,0,1)] hover:shadow-[#000000] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(0,0,0,1)] hover:shadow-[#000000] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -464,7 +464,7 @@ export const allItems = [
 					<path d='M11.5725 0c-.1763 0-.3098.0013-.3584.0067-.0516.0053-.2159.021-.3636.0328-3.4088.3073-6.6017 2.1463-8.624 4.9728C1.1004 6.584.3802 8.3666.1082 10.255c-.0962.659-.108.8537-.108 1.7474s.012 1.0884.108 1.7476c.652 4.506 3.8591 8.2919 8.2087 9.6945.7789.2511 1.6.4223 2.5337.5255.3636.04 1.9354.04 2.299 0 1.6117-.1783 2.9772-.577 4.3237-1.2643.2065-.1056.2464-.1337.2183-.1573-.0188-.0139-.8987-1.1938-1.9543-2.62l-1.919-2.592-2.4047-3.5583c-1.3231-1.9564-2.4117-3.556-2.4211-3.556-.0094-.0026-.0187 1.5787-.0235 3.509-.0067 3.3802-.0093 3.5162-.0516 3.596-.061.115-.108.1618-.2064.2134-.075.0374-.1408.0445-.495.0445h-.406l-.1078-.068a.4383.4383 0 01-.1572-.1712l-.0493-.1056.0053-4.703.0067-4.7054.0726-.0915c.0376-.0493.1174-.1125.1736-.143.0962-.047.1338-.0517.5396-.0517.4787 0 .5584.0187.6827.1547.0353.0377 1.3373 1.9987 2.895 4.3608a10760.433 10760.433 0 004.7344 7.1706l1.9002 2.8782.096-.0633c.8518-.5536 1.7525-1.3418 2.4657-2.1627 1.5179-1.7429 2.4963-3.868 2.8247-6.134.0961-.6591.1078-.854.1078-1.7475 0-.8937-.012-1.0884-.1078-1.7476-.6522-4.506-3.8592-8.2919-8.2087-9.6945-.7672-.2487-1.5836-.42-2.4985-.5232-.169-.0176-1.0835-.0366-1.6123-.037zm4.0685 7.217c.3473 0 .4082.0053.4857.047.1127.0562.204.1642.237.2767.0186.061.0234 1.3653.0186 4.3044l-.0067 4.2175-.7436-1.14-.7461-1.14v-3.066c0-1.982.0093-3.0963.0234-3.1502.0375-.1313.1196-.2346.2323-.2955.0961-.0494.1313-.054.4997-.054z' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgb(247,223,30,1)] hover:shadow-[#f7df1e] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgb(247,223,30,1)] hover:shadow-[#f7df1e] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -473,7 +473,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(49,120,198,1)] hover:shadow-[#3178c6] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(49,120,198,1)] hover:shadow-[#3178c6] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -482,7 +482,7 @@ export const allItems = [
 				</svg>
 
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(227,79,38,1)] hover:shadow-[#e34f26] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(227,79,38,1)] hover:shadow-[#e34f26] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -490,7 +490,7 @@ export const allItems = [
 					<path d='M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(21,114,182,1)] hover:shadow-[#1572b6] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(21,114,182,1)] hover:shadow-[#1572b6] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>
@@ -498,7 +498,7 @@ export const allItems = [
 					<path d='M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z' />
 				</svg>
 				<svg
-					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(6,182,212,1)] hover:shadow-[#06b6d4] hover:scale-110 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
+					className='w-14 md:w-10 lg:w-16 hover:fill-[rgba(6,182,212,1)] hover:shadow-[#06b6d4] hover:scale-110 hover:rotate-360 hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					role='img'
 					viewBox='0 0 24 24'
 					xmlns='http://www.w3.org/2000/svg'>

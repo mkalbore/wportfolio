@@ -23,3 +23,30 @@
 	border-radius: 14px;
 	border: rgba(68, 68, 68, 0.25);
 }
+
+.bg-video {
+	object-fit: cover;
+	position: relative;
+	z-index: -1;
+}
+
+.hover\:bg-video:hover {
+	object-fit: cover;
+	position: relative;
+	z-index: -1;
+}
+
+.video-bg {
+	position: relative;
+	background: transparent;
+}
+
+.video-bg video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 896px;
+	height: 104px;
+	object-fit: cover;
+	z-index: -1;
+}

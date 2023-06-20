@@ -1,10 +1,6 @@
 ////////////////////////////////////////// H O M E // P A G E //////////////////////////////
 
-import Image from "next/image";
-
 import Head from "next/head";
-
-import { Inter } from "next/font/google";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -13,9 +9,7 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Hero from "./components/Hero";
 import Work from "./components/Work";
-
-const inter = Inter({ subsets: ["latin"] });
-//
+import TestComponent from "./components/TestComponent";
 
 // Wyciete
 // flex min-h-screen flex-col items-center space-y-10
@@ -45,6 +39,7 @@ export default function Home() {
 
 			<section className='snap-center' id='services'>
 				<Services />
+				<TestComponent />
 			</section>
 
 			<section className='snap-center' id='contact'>

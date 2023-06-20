@@ -21,7 +21,7 @@ export default function Contact({}: Props) {
 			</div>
 			<div>
 				<h2 className=''>Call me:</h2>
-				<h2 className='font-normal select-all'>123 45 67 89</h2>
+				<h2 className='font-normal select-all'>696 36 13 13</h2>
 			</div>
 			<div>
 				<h2 className='font-normal'>Find me on web:</h2>

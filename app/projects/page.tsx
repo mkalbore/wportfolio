@@ -1,12 +1,9 @@
 /////////////// P R O J E C T S // P A G E /////////////////
 
 // Next JS Components
-import Image from "next/image";
 import Head from "next/head";
-import Link from "next/link";
 
 // Font Settings
-import { Inter } from "next/font/google";
 
 // My Components
 import Navbar from ".././components/Navbar";
@@ -14,7 +11,6 @@ import Footer from ".././components/Footer";
 import Contact from ".././components/Contact";
 import NewCarousel from "../components/NewCarousel";
 
-const inter = Inter({ subsets: ["latin"] });
 // Wyciete
 // flex min-h-screen flex-col items-center space-y-10
 export default function Home() {
@@ -40,7 +36,7 @@ export default function Home() {
 			</section>
 
 			<footer className='snap-center' id='footer'>
-				<Footer></Footer>
+				<Footer />
 			</footer>
 		</div>
 	);

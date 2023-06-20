@@ -40,51 +40,48 @@ export default function NewCarousel() {
 	};
 
 	return (
-		<div>
-			<div className='flex flex-row space-x-6 lg:space-x-12'>
-				<div
-					className='min-w-fit mx-auto overscroll-contain justify-center items-center text-center'
-					key={slides[currentIndex].id}>
-					<div className='lg:text-left lg:text-4xl mb-4 mx-auto'>
+		<div className='px-4'>
+			<div
+				className='flex flex-col md:flex-row overscroll-contain justify-center space-y-10 md:space-y-0 md:space-x-10'
+				key={slides[currentIndex].id}>
+				{/* Title & Image */}
+				<div className='flex flex-col items-start snap-center scroll-px-12'>
+					<div className='lg:text-left lg:text-4xl mb-4'>
 						<h1 className='font-normal'>{slides[currentIndex].title}</h1>
 						<h2 className=''>{slides[currentIndex].type}</h2>
 					</div>
+					<div className=''>
+						<Link
+							href={slides[currentIndex].link}
+							rel='noopener noreferrer'
+							target='_blank'>
+							<Image
+								src={slides[currentIndex].src}
+								alt={slides[currentIndex].title}
+								width={600}
+								height={400}
+								className='rounded-xl shadow-lg border border-[#ffffff, 10] shrink-0 w-[350px] h-[219px] md:w-[400px] md:h-[243px] lg:w-[660px] lg:h-[412px] hover:shadow-[#000000] hover:scale-105 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl transition-all ease-out duration-300'
+								// className='rounded-xl lg:w-[660px] lg:h-fit'
+								sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+							/>
+						</Link>
+					</div>
+				</div>
+				{/* Text & Technologies */}
+				<div className='grid space-y-4 text-lg lg:text-2xl items-center '>
+					<p className='max-w-lg'>
+						<span className='font-normal'>{slides[currentIndex].title}</span>
+						{slides[currentIndex].info}
+					</p>
 
-					<div className='lg:flex text-center space-y-2 mx-auto items-center justify-center lg:justify-start snap-center scroll-px-12'>
-						<div className='rounded-xl shadow-lg border border-[#ffffff, 10] shrink-0 w-[350px] h-fit md:w-[400px] md:h-fit lg:w-[600px lg:h-fit hover:shadow-[#000000] hover:scale-105 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'>
-							<Link href={slides[currentIndex].link}>
-								<Image
-									src={slides[currentIndex].src}
-									alt={slides[currentIndex].title}
-									width={600}
-									height={400}
-									className='rounded-xl lg:w-[600px] lg:h-fit'
-									sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
-								/>
-							</Link>
-						</div>
-						<div className='ml-9 text-left space-y-4 text-lg lg:text-2xl lg:w-1/3'>
-							<p>
-								<span className='font-normal'>
-									{slides[currentIndex].title}
-								</span>
-								{slides[currentIndex].info}
-							</p>
-
-							<div>
-								<div>
-									<h3 className='font-normal pb-1 lg:pb-4'>
-										Used Technologies:
-									</h3>
-									<div className='dark:fill-primary-light fill-primary-dark'>
-										{slides[currentIndex].technologies}
-									</div>
-								</div>
-								<p className='pb-1 lg:pt-4'>
-									{slides[currentIndex].description}
-								</p>
+					<div className='max-w-lg'>
+						<div>
+							<h3 className='font-normal pb-1 lg:pb-4'>Used Technologies:</h3>
+							<div className='dark:fill-primary-light fill-primary-dark'>
+								{slides[currentIndex].technologies}
 							</div>
 						</div>
+						<p className='pb-1 lg:pt-4'>{slides[currentIndex].description}</p>
 					</div>
 				</div>
 			</div>
@@ -110,7 +107,7 @@ export default function NewCarousel() {
 			</div> */}
 
 			{/* Scroll Bar ON Bottom */}
-			<div className='flex top-4 justify-center py-2 select-none'>
+			<div className='flex top-4 justify-center py-2 pt-20 select-none'>
 				{slides.map((index, slideIndex) => (
 					<div
 						key={slideIndex}

@@ -4,7 +4,6 @@ import logoLight from "../../public/logo.png";
 import logoDark from "../../public/logodark.png";
 
 import Burgermenu from "./Burgermenu";
-import Custommenu from "./Burgermenu";
 import ThemeSwitcher from "./ThemeSwitcher";
 
 type Props = {};

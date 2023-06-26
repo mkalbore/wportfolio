@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import logoLight from "../../public/logo.png";
-import logoDark from "../../public/logodark.png";
+import logoLight from "../../public/quint_logo_light.svg";
+import logoDark from "../../public/quint_logo_dark.svg";
 
 import Burgermenu from "./Burgermenu";
 import ThemeSwitcher from "./ThemeSwitcher";

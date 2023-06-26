@@ -39,7 +39,7 @@ export default function Home() {
 
 			<section className='snap-center' id='services'>
 				<Services />
-				<TestComponent />
+				{/* <TestComponent /> */}
 			</section>
 
 			<section className='snap-center' id='contact'>

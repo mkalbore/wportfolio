@@ -1,6 +1,6 @@
 ## Personal Portfolio Created using:
 
-# [React](https://legacy.reactjs.org/) | [Next.js](https://nextjs.org/) | [TailwindCSS](https://tailwindcss.com/)
+# [React](https://react.dev/) | [Next.js](https://nextjs.org/) | [TailwindCSS](https://tailwindcss.com/)
 
 # State of Project 8 / 10 (+ /-)
 

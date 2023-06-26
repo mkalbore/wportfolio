@@ -10,7 +10,7 @@
 
 # Some info
 
-<h1 align="center">Hi 👋, I'm Mark (Albore</h1>
+<h1 align="center">Hi 👋, I'm Mark </h1>
 <h3 align="center">A passionate frontend developer from Poland</h3>
 
 - 💬 Ask me about **Next, Tailwind, Wordpress**

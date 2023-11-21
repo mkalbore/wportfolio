@@ -90,7 +90,7 @@ export default function Services({}: Props) {
 								<h2 className='text-lg font-normal'>TRIX</h2>
 								<p className='text-left'>
 									I created their website and logo, which features a modern and
-									clean design that reflects the company's commitment to quality
+									clean design that reflects the company&apos;s commitment to quality
 									and reliability. I continue to run and administer the website
 									for them, ensuring that it remains up-to-date and fully
 									functional.

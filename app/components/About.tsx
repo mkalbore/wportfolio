@@ -24,10 +24,9 @@ export default function About({}: Props) {
 							and functional websites and applications.
 						</h3>
 						<h3 className='text-base md:text-xl xl:text-2xl'>
-							I first started my programming journey in
-							<span className='font-normal'> WordPress </span>
-							around five years ago&sbquo; and since then&sbquo; I&apos;ve been
-							constantly learning and expanding my skill set.
+							I first started my programming journey in around five years
+							ago&sbquo; and since then&sbquo; I&apos;ve been constantly
+							learning and expanding my skill set.
 						</h3>
 					</div>
 
@@ -158,23 +157,41 @@ export default function About({}: Props) {
 					</div>
 				</div>
 			</div>
-			<div className='items-start justify-center space-y-4 my-4 lg:my-10'>
-				<h3 className='text-xl md:text-2xl'>
-					Currently, I&apos;m the leader and founder of
-					<span className='font-normal'> Quint, </span> where I work to develop
-					innovative solutions for everyone.
+			<div className='grid grid-cols-1 xl:grid-cols-4 text-start items-start justify-center space-x-4 space-y-4 my-4 lg:my-10'>
+				<h3 className='text-xl md:text-2xl mt-4 ml-4'>
+					Currently, I&apos;m the leader and founder of{" "}
+					<span className='font-normal underline underline-offset-4 select-all hover:underline-offset-[6px] hover:decoration-teal-500'>
+						Quint
+					</span>
+					, where I work to develop innovative solutions for everyone.
 				</h3>
 				<h3 className='text-xl md:text-2xl'>
 					Over the past year, I&apos;m particularly interested in using
 					cutting-edge technologies like
-					<span className='font-normal'> React, Next.JS, </span> and
-					<span className='font-normal'> TailwindCSS </span> to build responsive
-					and intuitive user interfaces.
+					<span className='font-normal underline underline-offset-4 select-all hover:underline-offset-[6px] hover:decoration-teal-500'>
+						{" "}
+						React
+					</span>
+					,{" "}
+					<span className='font-normal underline underline-offset-4 select-all hover:underline-offset-[6px] hover:decoration-teal-500'>
+						{" "}
+						Next.JS
+					</span>
+					, and
+					<span className='font-normal underline underline-offset-4 select-all hover:underline-offset-[6px] hover:decoration-teal-500'>
+						{" "}
+						TailwindCSS
+					</span>{" "}
+					to build responsive and intuitive user interfaces.
 				</h3>
 				<h3 className='text-xl md:text-2xl'>
 					I&apos;m always eager to take on new challenges and am committed to
-					delivering <span className='font-normal'> High-Quality </span> work
-					that exceeds my clients expectations.
+					delivering{" "}
+					<span className='font-normal underline underline-offset-4 select-all hover:underline-offset-[6px] hover:decoration-teal-500'>
+						{" "}
+						High-Quality{" "}
+					</span>{" "}
+					work that exceeds my clients expectations.
 				</h3>
 				<h3 className='text-xl md:text-2xl'>
 					When I&apos;m not coding, you can find me

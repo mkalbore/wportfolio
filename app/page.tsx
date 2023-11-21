@@ -34,7 +34,8 @@ export default function Home() {
 			</section>
 
 			<section className='snap-center' id='projects'>
-				<Work />
+				{/* Check some of my Work section */}
+				{/* <Work /> */}
 			</section>
 
 			<section className='snap-center' id='services'>

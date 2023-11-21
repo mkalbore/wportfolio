@@ -1,6 +1,17 @@
 import React from "react";
 import Link from "next/link";
 import ThemeSwitcher from "./ThemeSwitcher";
+import {
+	AlertDialog,
+	AlertDialogAction,
+	AlertDialogCancel,
+	AlertDialogContent,
+	AlertDialogDescription,
+	AlertDialogFooter,
+	AlertDialogHeader,
+	AlertDialogTitle,
+	AlertDialogTrigger,
+} from "../components/ui/alert-dialog";
 
 type Props = {};
 
@@ -44,9 +55,69 @@ export default function Burgermenu({}: Props) {
 				</Link>
 				<Link
 					className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'
-					href={"/secret"}>
-					Secret
+					href={"/cheatsheets"}>
+					Cheat Sheets
 				</Link>
+				<div className='transition ease-out duration-600 hover:font-normal'>
+					{/* Aler Dialog | ui.shadcn.com  */}
+					<AlertDialog>
+						<AlertDialogTrigger> EN |&nbsp;</AlertDialogTrigger>
+						<AlertDialogContent>
+							<AlertDialogHeader>
+								<AlertDialogTitle>
+									The page is in English by default.
+								</AlertDialogTitle>
+								<AlertDialogDescription>
+									If there are any spelling mistakes, I apologize. If you have
+									any questions/observations, please write to me.
+								</AlertDialogDescription>
+							</AlertDialogHeader>
+							<AlertDialogFooter>
+								{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
+								<AlertDialogAction>Continue</AlertDialogAction>
+							</AlertDialogFooter>
+						</AlertDialogContent>
+					</AlertDialog>
+
+					<AlertDialog>
+						<AlertDialogTrigger> PL |&nbsp;</AlertDialogTrigger>
+						<AlertDialogContent>
+							<AlertDialogHeader>
+								<AlertDialogTitle>
+									Przepraszamy, ale strona nie posiada obecnie tłumaczenia na
+									język polski.
+								</AlertDialogTitle>
+								<AlertDialogDescription>
+									Strona zostanie wkrótce przetłumaczona na język Polski. Na
+									razie proszę użyj innego tłumaczenia, np. Tłumacza Google.
+								</AlertDialogDescription>
+							</AlertDialogHeader>
+							<AlertDialogFooter>
+								{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
+								<AlertDialogAction>Kontynuuj</AlertDialogAction>
+							</AlertDialogFooter>
+						</AlertDialogContent>
+					</AlertDialog>
+					<AlertDialog>
+						<AlertDialogTrigger> CZ </AlertDialogTrigger>
+						<AlertDialogContent>
+							<AlertDialogHeader>
+								<AlertDialogTitle>
+									Je nám líto, ale stránka momentálně nemá překlad do češtiny.
+								</AlertDialogTitle>
+								<AlertDialogDescription>
+									Web bude brzy přeložen do češtiny. Prozatím prosím používejte
+									jiný překlad, např. Google Translator.
+								</AlertDialogDescription>
+							</AlertDialogHeader>
+							<AlertDialogFooter>
+								{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
+								<AlertDialogAction>Pokračovat</AlertDialogAction>
+							</AlertDialogFooter>
+						</AlertDialogContent>
+					</AlertDialog>
+				</div>
+
 				<div className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'>
 					<ThemeSwitcher />
 				</div>

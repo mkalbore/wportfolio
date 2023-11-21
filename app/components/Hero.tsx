@@ -9,7 +9,7 @@ export default function Hero({}: Props) {
 	return (
 		<div className=' w-screen h-screen justify-center text-center pt-2 md:pt-4 xl:pt-8 2xl:pt-20 px-4 space-y-2 2xl:space-y-8 '>
 			<div className='md:text-6xl 2xl:text-8xl font-thin pt-4 text-font-light-mode dark:text-font-dark-mode space-y-2 2xl:space-y-8'>
-				<div className=''>
+				<div className='select-none'>
 					<span className='hover:text-font-light-mode hover:dark:text-font-dark-mode hover:px-1 hover:text-2xl md:hover:text-5xl 2xl:hover:text-7xl md:active:text-transparent transition-all ease-out duration-500'>
 						M
 					</span>
@@ -62,10 +62,10 @@ export default function Hero({}: Props) {
 						bg-clip-text bg-font-light-mode/75 dark:text-font-dark-mode/75
 							rounded-full border border-transparent hover:border-secondary-dark dark:hover:border-secondary-light
 					shadow-lg shadow-black/10 hover:text-font-light-mode hover:dark:text-font-dark-mode delay-100 transition-all ease-in-out duration-600'
-					href={"#contact"}>
+					href={"#about"}>
 					COME
 				</Link>
-				<div className='flex items-center justify-center'>
+				<div className='flex items-center justify-center select-none'>
 					<div className='group '>
 						<h1 className='group-hover:pl-48 group-hover:lg:pl-72 group-hover:xl:pl-[600px] transition-all ease-out duration-[2000ms]'>
 							<span className='hover:text-font-light-mode hover:dark:text-font-dark-mode hover:px-1 transition-all ease-out duration-500'>

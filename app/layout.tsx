@@ -1,6 +1,7 @@
 import "./globals.css";
 import Providers from "./providers";
 import ThemeSwitcher from "./components/ThemeSwitcher";
+import { Toaster } from "./components/ui/toaster";
 
 export const metadata = {
 	title: "Quint - Software Developer",
@@ -28,6 +29,7 @@ export default function RootLayout({
 			</head>
 			<body className='bg-gradient-to-b from-primary-light to-secondary-light dark:bg-gradient-to-b dark:from-secondary-dark dark:to-primary-dark text-font-light-mode dark:text-font-dark-mode text-3xl font-extralight drop-shadow-lg scroll-smooth overflow-x-hidden '>
 				<Providers>{children}</Providers>
+				<Toaster />
 			</body>
 		</html>
 	);

@@ -34,7 +34,7 @@ export default function About({}: Props) {
 							Hi im <span className='font-normal'>Marek&sbquo;</span>
 						</h1>
 						<h3 className='text-base md:text-xl xl:text-2xl'>
-							a 24-year-old web developer with a passion for creating beautiful
+							a 25 year old web developer with a passion for creating beautiful
 							and functional websites and applications.
 						</h3>
 						<br />

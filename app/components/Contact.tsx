@@ -11,7 +11,7 @@ export default function Contact({}: Props) {
 		<div className='max-w-screen-md h-screen justify-center text-center flex flex-col space-y-10 mb-20 mx-auto'>
 			<h2 className='text-2xl md:text-3xl xl:text-4xl my-10 px-2'>
 				Are <span className='font-normal'>You</span> interested in working with
-				me or just want to ask something ?
+				us or just want to ask something ?
 			</h2>
 			<div>
 				<h2 className=''>Email me:</h2>

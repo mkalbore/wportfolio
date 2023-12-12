@@ -32,6 +32,7 @@ function Typing() {
 					fontSize='48px'
 					typingSpeed={60}
 					delaySpeed={2000}
+					loop={false}
 				/>
 			);
 		} else {
@@ -43,6 +44,7 @@ function Typing() {
 					fontSize='18px'
 					typingSpeed={60}
 					delaySpeed={2000}
+					loop={false}
 				/>
 			);
 		}

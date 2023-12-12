@@ -18,18 +18,18 @@ export default function AboutV2() {
 				className='w-96 transition ease-in-out delay-100 hover:-translate-y-1 hover:drop-shadow-2xl duration-150 dark:hidden flex'
 				alt={"Logo of the company Quint"}
 			/>
-			<div className='flex flex-col gap-20 justify-center items-center rounded-3xl p-14 my-20 max-w-5xl mx-auto'>
-				<h1 className='max-w-xs justify-center items-center flex flex-col align-middle text-center'>
+			<div className='flex flex-col gap-20 justify-center items-center rounded-3xl xl:p-14 my-20 max-w-5xl mx-auto'>
+				<h1 className='max-w-xs justify-center items-center flex flex-col align-middle text-center text-xl md:text-2xl xl:text-3xl'>
 					Welcome to <span className='font-normal text-4xl my-10'>Quint</span>{" "}
 					Where Innovation Meets Design Excellence
 				</h1>
-				<p>
+				<p className='text-base md:text-xl xl:text-2xl'>
 					Established nearly a year ago,{" "}
 					<span className='font-normal'>Quint</span> is a dynamic and
 					forward-thinking company dedicated to providing cutting-edge solutions
 					in the digital realm.{" "}
 				</p>
-				<p>
+				<p className='text-base md:text-xl xl:text-2xl'>
 					Specializing in software development and creative design, we take
 					pride in crafting exceptional{" "}
 					<span className='font-normal underline underline-offset-4 select-all hover:underline-offset-[6px] hover:decoration-teal-500'>
@@ -49,12 +49,12 @@ export default function AboutV2() {
 					</span>{" "}
 					and more.
 				</p>
-				<p>
+				<p className='text-base md:text-xl xl:text-2xl'>
 					At <span className='font-normal'>Quint</span>, we understand the
 					pivotal role that a strong online presence and captivating visuals
 					play in today&apos;s competitive business landscape.{" "}
 				</p>
-				<p>
+				<p className='text-base md:text-xl xl:text-2xl'>
 					Our team of seasoned professionals combines technical expertise with
 					artistic flair to deliver bespoke solutions tailored to meet your
 					unique needs.

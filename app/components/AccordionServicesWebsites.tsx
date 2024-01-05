@@ -19,6 +19,7 @@ import image3 from "../../public/oknopast_1.png";
 import image4 from "../../public/parafialubrzawebsite.png";
 import image5 from "../../public/website4.png";
 import image6 from "../../public/website5.png";
+import image7 from "../../public/gpp_lubrza.png";
 /////////////////////
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -54,6 +55,12 @@ export class ItemClass {
 					"Manufacturer of front doors, windows, and winter gardens. I developed their website, which features a user-friendly interface, stunning visuals, and informative content that showcases the company's products and services.",
 				photoSrc: image3,
 				link: "https://oknopast.pl/",
+			},
+			{
+				title: "GPP - Lubrza",
+				description: `Website of the municipal public kindergarten in Lubrza. The website was created in an original style, combining delicate pastel colors with "soft" fonts, all animated in a subtle way.`,
+				photoSrc: image7,
+				link: "https://www.gpplubrza.eu/",
 			},
 			{
 				title: "Parafia Lubrza",

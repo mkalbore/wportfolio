@@ -50,3 +50,15 @@
 	object-fit: cover;
 	z-index: -1;
 }
+
+/* MagicCube.module.css */
+
+.moveUp {
+	transition: transform 2s ease-in-out;
+	transform: translateY(30%);
+}
+
+.moveDown {
+	transition: transform 2s ease-in-out;
+	transform: translateY(50%);
+}

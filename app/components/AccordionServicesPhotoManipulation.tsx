@@ -13,6 +13,18 @@ import {
 } from "./ui/accordion";
 
 /////////////////////
+import man from "../../public/manipulation/man.png";
+import man_manipulation_1 from "../../public/manipulation/man_mani_1.jpeg";
+import man_manipulation_2 from "../../public/manipulation/man_mani_2.jpeg";
+import man_manipulation_3 from "../../public/manipulation/man_mani_3.jpeg";
+import man_manipulation_4 from "../../public/manipulation/man_mani_4.png";
+import man_manipulation_5 from "../../public/manipulation/man_mani_5.jpeg";
+
+import woman from "../../public/manipulation/woman.png";
+import woman_manipulation_1 from "../../public/manipulation/woman_mani_1.jpeg";
+import woman_manipulation_2 from "../../public/manipulation/woman_mani_2.jpeg";
+import woman_manipulation_3 from "../../public/manipulation/woman_mani_3.jpeg";
+
 import image1 from "../../public/matthew-fassnacht-gLtxrJ8UQIY-unsplash.jpg";
 
 /////////////////////
@@ -31,24 +43,63 @@ export class ItemClass {
 	constructor() {
 		this.items = [
 			{
-				title: "Photo Manipulation 1",
-				description:
-					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.",
-				photoSrc: image1,
+				title: "Unchanged Photo of Woman",
+				description: "Typical Photo of a Man",
+				photoSrc: man,
 				link: "",
 			},
 			{
-				title: "Photo Manipulation 2",
-				description:
-					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.",
-				photoSrc: image1,
+				title: "Unchanged Photo of Woman",
+				description: "Typical Photo of a Woman",
+				photoSrc: woman,
 				link: "",
 			},
 			{
-				title: "Photo Manipulation 3",
-				description:
-					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.",
-				photoSrc: image1,
+				title: "Photomanipulation example",
+				description: "Photomanipulation example of a Man",
+				photoSrc: man_manipulation_1,
+				link: "",
+			},
+			{
+				title: "Photomanipulation example",
+				description: "Photomanipulation example of a Man",
+				photoSrc: man_manipulation_2,
+				link: "",
+			},
+			{
+				title: "Photomanipulation example",
+				description: "Photomanipulation example of a Man",
+				photoSrc: man_manipulation_3,
+				link: "",
+			},
+			{
+				title: "Photomanipulation example",
+				description: "Photomanipulation example of a Man",
+				photoSrc: man_manipulation_4,
+				link: "",
+			},
+			{
+				title: "Photomanipulation example",
+				description: "Photomanipulation example of a Man",
+				photoSrc: man_manipulation_5,
+				link: "",
+			},
+			{
+				title: "Photomanipulation example",
+				description: "Photomanipulation example of a Woman",
+				photoSrc: woman_manipulation_1,
+				link: "",
+			},
+			{
+				title: "Photomanipulation example",
+				description: "Photomanipulation example of a Woman",
+				photoSrc: woman_manipulation_2,
+				link: "",
+			},
+			{
+				title: "Photomanipulation example",
+				description: "Photomanipulation example of a Woman",
+				photoSrc: woman_manipulation_3,
 				link: "",
 			},
 

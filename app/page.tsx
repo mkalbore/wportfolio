@@ -27,6 +27,9 @@ import AccordionServicesSoftwareDevelopment from "./components/AccordionServices
 import AccordionServicesPhotoManipulation from "./components/AccordionServicesPhotoManipulation";
 import AccordionServicesLogo from "./components/AccordionServicesLogo";
 import MagicCube from "./components/MagicCube";
+import TestComnponent from "./components/ui/testcomnponent";
+import Certifications from "./components/Certifications";
+import AnimatedScrollingBar from "./components/AnimatedScrollingBar";
 
 // Wyciete
 // flex min-h-screen flex-col items-center space-y-10
@@ -37,13 +40,14 @@ export default function Home() {
 				<title>Quint - Software Developer</title>
 				<meta property='quint' content='Quint' key='title' />
 			</Head>
-
 			<nav className='sticky top-0 z-50' id='navbar'>
 				<Navbar />
 			</nav>
 
 			<section className='snap-center' id='hero'>
 				<Hero />
+				{/* <TestComnponent /> */}
+				<AnimatedScrollingBar />
 			</section>
 
 			<section className='snap-center' id='about'>
@@ -121,6 +125,10 @@ export default function Home() {
 
 				{/* Becouse of const elements = Array.from({ length: images.length }, (_, index) => index); you dont need to spefcify element to show them in " elements={[]} " */}
 				{/* <TestComponent /> */}
+			</section>
+
+			<section className='snap-center' id='certification'>
+				<Certifications title='' text='Certificates ' slider={false} />
 			</section>
 
 			<section className='snap-center' id='contact'>

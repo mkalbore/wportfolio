@@ -22,7 +22,7 @@ type Props = {};
 
 export default function Navbar({}: Props) {
 	return (
-		<section className='relative dark:bg-primary-dark bg-primary-light flex items-center justify-between px-4 py-4 md:py-8 md:px-8 top-0 '>
+		<section className='dark:bg-primary-dark bg-primary-light flex items-center justify-between px-4 py-4 md:py-8 md:px-8 top-0'>
 			<div className='hidden lg:flex lg:justify-between text-xl w-screen mx-4 text-font-light-mode dark:text-font-dark-mode space-x-10 items-center'>
 				<Link href={"/"}>
 					<>
@@ -51,6 +51,12 @@ export default function Navbar({}: Props) {
 						className='transition ease-out duration-600 hover:opacity-70 hover:scale-95'
 						href={"/#services"}>
 						Services
+					</Link>
+					<li>|</li>
+					<Link
+						className='transition ease-out duration-600 hover:opacity-70 hover:scale-95'
+						href={"/#certification"}>
+						Certifications
 					</Link>
 					<li>|</li>
 					<Link
@@ -97,72 +103,78 @@ export default function Navbar({}: Props) {
 						CZ
 					</Link>
 					<li>|</li> */}
-					<div className='transition ease-out duration-600 hover:font-normal hover:scale-105 flex items-center justify-center'>
-						{/* Aler Dialog | ui.shadcn.com  */}
-						<AlertDialog>
-							<AlertDialogTrigger>EN</AlertDialogTrigger>
-							<AlertDialogContent>
-								<AlertDialogHeader>
-									<AlertDialogTitle>
-										The page is in English by default.
-									</AlertDialogTitle>
-									<AlertDialogDescription>
-										If there are any spelling mistakes, I apologize. If you have
-										any questions/observations, please write to me.
-									</AlertDialogDescription>
-								</AlertDialogHeader>
-								<AlertDialogFooter>
-									{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
-									<AlertDialogAction>Continue</AlertDialogAction>
-								</AlertDialogFooter>
-							</AlertDialogContent>
-						</AlertDialog>
-					</div>
+
+					{/* Aler Dialog | ui.shadcn.com  */}
+					<AlertDialog>
+						<AlertDialogTrigger className='transition ease-out duration-600 hover:font-normal'>
+							EN
+						</AlertDialogTrigger>
+						<AlertDialogContent>
+							<AlertDialogHeader>
+								<AlertDialogTitle>
+									The page is in English by default.
+								</AlertDialogTitle>
+								<AlertDialogDescription>
+									If there are any spelling mistakes, I apologize. If you have
+									any questions/observations, please write to me.
+								</AlertDialogDescription>
+							</AlertDialogHeader>
+							<AlertDialogFooter>
+								<AlertDialogCancel>Cancel</AlertDialogCancel>
+								<AlertDialogAction>Continue</AlertDialogAction>
+							</AlertDialogFooter>
+						</AlertDialogContent>
+					</AlertDialog>
+
 					<li>|</li>
-					<div className='transition ease-out duration-600 hover:font-normal'>
-						{/* Aler Dialog | ui.shadcn.com  */}
-						<AlertDialog>
-							<AlertDialogTrigger>PL</AlertDialogTrigger>
-							<AlertDialogContent>
-								<AlertDialogHeader>
-									<AlertDialogTitle>
-										Przepraszamy, ale strona nie posiada obecnie tłumaczenia na
-										język polski.
-									</AlertDialogTitle>
-									<AlertDialogDescription>
-										Strona zostanie wkrótce przetłumaczona na język Polski. Na
-										razie proszę użyj innego tłumaczenia, np. Tłumacza Google.
-									</AlertDialogDescription>
-								</AlertDialogHeader>
-								<AlertDialogFooter>
-									{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
-									<AlertDialogAction>Kontynuuj</AlertDialogAction>
-								</AlertDialogFooter>
-							</AlertDialogContent>
-						</AlertDialog>
-					</div>
+
+					{/* Aler Dialog | ui.shadcn.com  */}
+					<AlertDialog>
+						<AlertDialogTrigger className='transition ease-out duration-600 hover:font-normal'>
+							PL
+						</AlertDialogTrigger>
+						<AlertDialogContent>
+							<AlertDialogHeader>
+								<AlertDialogTitle>
+									Przepraszamy, ale strona nie posiada obecnie tłumaczenia na
+									język polski.
+								</AlertDialogTitle>
+								<AlertDialogDescription>
+									Strona zostanie wkrótce przetłumaczona na język Polski. Na
+									razie proszę użyj innego tłumaczenia, np. Tłumacza Google.
+								</AlertDialogDescription>
+							</AlertDialogHeader>
+							<AlertDialogFooter>
+								{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
+								<AlertDialogAction>Kontynuuj</AlertDialogAction>
+							</AlertDialogFooter>
+						</AlertDialogContent>
+					</AlertDialog>
+
 					<li>|</li>
-					<div className='transition ease-out duration-600 hover:font-normal'>
-						{/* Aler Dialog | ui.shadcn.com  */}
-						<AlertDialog>
-							<AlertDialogTrigger>CZ</AlertDialogTrigger>
-							<AlertDialogContent>
-								<AlertDialogHeader>
-									<AlertDialogTitle>
-										Je nám líto, ale stránka momentálně nemá překlad do češtiny.
-									</AlertDialogTitle>
-									<AlertDialogDescription>
-										Web bude brzy přeložen do češtiny. Prozatím prosím
-										používejte jiný překlad, např. Google Translator.
-									</AlertDialogDescription>
-								</AlertDialogHeader>
-								<AlertDialogFooter>
-									{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
-									<AlertDialogAction>Pokračovat</AlertDialogAction>
-								</AlertDialogFooter>
-							</AlertDialogContent>
-						</AlertDialog>
-					</div>
+
+					{/* Aler Dialog | ui.shadcn.com  */}
+					<AlertDialog>
+						<AlertDialogTrigger className='transition ease-out duration-600 hover:font-normal'>
+							CZ
+						</AlertDialogTrigger>
+						<AlertDialogContent>
+							<AlertDialogHeader>
+								<AlertDialogTitle>
+									Je nám líto, ale stránka momentálně nemá překlad do češtiny.
+								</AlertDialogTitle>
+								<AlertDialogDescription>
+									Web bude brzy přeložen do češtiny. Prozatím prosím používejte
+									jiný překlad, např. Google Translator.
+								</AlertDialogDescription>
+							</AlertDialogHeader>
+							<AlertDialogFooter>
+								{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
+								<AlertDialogAction>Pokračovat</AlertDialogAction>
+							</AlertDialogFooter>
+						</AlertDialogContent>
+					</AlertDialog>
+
 					<li>|</li>
 					<ThemeSwitcher />
 				</ul>

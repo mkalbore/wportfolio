@@ -7,7 +7,7 @@ type Props = {};
 
 export default function Hero({}: Props) {
 	return (
-		<div className=' w-screen h-screen justify-center text-center pt-2 md:pt-4 xl:pt-8 2xl:pt-20 px-4 space-y-2 2xl:space-y-8 '>
+		<div className=' w-screen mb-10 md:mb-20 lg:mb-28 xl:mb-44 justify-center text-center pt-2 md:pt-4 xl:pt-8 2xl:pt-20 px-4 space-y-2 2xl:space-y-8 '>
 			<div className='md:text-6xl 2xl:text-8xl font-thin pt-4 text-font-light-mode dark:text-font-dark-mode space-y-2 2xl:space-y-8'>
 				<div className='select-none'>
 					<span className='hover:text-font-light-mode hover:dark:text-font-dark-mode hover:px-1 hover:text-2xl md:hover:text-5xl 2xl:hover:text-7xl md:active:text-transparent transition-all ease-out duration-500'>

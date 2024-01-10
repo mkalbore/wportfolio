@@ -74,8 +74,7 @@ export default function Burgermenu({}: Props) {
 					href={"/cheatsheets"}>
 					Dev Cheat Sheets
 				</Link>
-				<div className='transition ease-out duration-600 hover:font-normal'>
-					{/* Aler Dialog | ui.shadcn.com  */}
+				{/* 	<div className='transition ease-out duration-600 hover:font-normal'>
 					<AlertDialog>
 						<AlertDialogTrigger> EN |&nbsp;</AlertDialogTrigger>
 						<AlertDialogContent>
@@ -89,7 +88,7 @@ export default function Burgermenu({}: Props) {
 								</AlertDialogDescription>
 							</AlertDialogHeader>
 							<AlertDialogFooter>
-								{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
+								 <AlertDialogCancel>Cancel</AlertDialogCancel>
 								<AlertDialogAction>Continue</AlertDialogAction>
 							</AlertDialogFooter>
 						</AlertDialogContent>
@@ -109,7 +108,7 @@ export default function Burgermenu({}: Props) {
 								</AlertDialogDescription>
 							</AlertDialogHeader>
 							<AlertDialogFooter>
-								{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
+								<AlertDialogCancel>Cancel</AlertDialogCancel> 
 								<AlertDialogAction>Kontynuuj</AlertDialogAction>
 							</AlertDialogFooter>
 						</AlertDialogContent>
@@ -127,14 +126,14 @@ export default function Burgermenu({}: Props) {
 								</AlertDialogDescription>
 							</AlertDialogHeader>
 							<AlertDialogFooter>
-								{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
+								<AlertDialogCancel>Cancel</AlertDialogCancel>
 								<AlertDialogAction>Pokračovat</AlertDialogAction>
 							</AlertDialogFooter>
 						</AlertDialogContent>
 					</AlertDialog>
 				</div>
-
-				<div className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'>
+			*/}
+				<div className='flex rounded-sm px-3 mb-1 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'>
 					<ThemeSwitcher />
 				</div>
 			</div>

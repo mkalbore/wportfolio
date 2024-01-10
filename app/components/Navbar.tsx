@@ -105,7 +105,7 @@ export default function Navbar({}: Props) {
 					<li>|</li> */}
 
 					{/* Aler Dialog | ui.shadcn.com  */}
-					<AlertDialog>
+					{/* <AlertDialog>
 						<AlertDialogTrigger className='transition ease-out duration-600 hover:font-normal'>
 							EN
 						</AlertDialogTrigger>
@@ -124,12 +124,12 @@ export default function Navbar({}: Props) {
 								<AlertDialogAction>Continue</AlertDialogAction>
 							</AlertDialogFooter>
 						</AlertDialogContent>
-					</AlertDialog>
+					</AlertDialog> */}
 
-					<li>|</li>
+					{/* <li>|</li> */}
 
 					{/* Aler Dialog | ui.shadcn.com  */}
-					<AlertDialog>
+					{/* <AlertDialog>
 						<AlertDialogTrigger className='transition ease-out duration-600 hover:font-normal'>
 							PL
 						</AlertDialogTrigger>
@@ -144,17 +144,17 @@ export default function Navbar({}: Props) {
 									razie proszę użyj innego tłumaczenia, np. Tłumacza Google.
 								</AlertDialogDescription>
 							</AlertDialogHeader>
-							<AlertDialogFooter>
-								{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
-								<AlertDialogAction>Kontynuuj</AlertDialogAction>
+							<AlertDialogFooter> */}
+					{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
+					{/* <AlertDialogAction>Kontynuuj</AlertDialogAction>
 							</AlertDialogFooter>
 						</AlertDialogContent>
-					</AlertDialog>
+					</AlertDialog> */}
 
-					<li>|</li>
+					{/* <li>|</li> */}
 
 					{/* Aler Dialog | ui.shadcn.com  */}
-					<AlertDialog>
+					{/* <AlertDialog>
 						<AlertDialogTrigger className='transition ease-out duration-600 hover:font-normal'>
 							CZ
 						</AlertDialogTrigger>
@@ -168,14 +168,14 @@ export default function Navbar({}: Props) {
 									jiný překlad, např. Google Translator.
 								</AlertDialogDescription>
 							</AlertDialogHeader>
-							<AlertDialogFooter>
-								{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
-								<AlertDialogAction>Pokračovat</AlertDialogAction>
+							<AlertDialogFooter> */}
+					{/* <AlertDialogCancel>Cancel</AlertDialogCancel> */}
+					{/* <AlertDialogAction>Pokračovat</AlertDialogAction>
 							</AlertDialogFooter>
 						</AlertDialogContent>
-					</AlertDialog>
+					</AlertDialog> */}
 
-					<li>|</li>
+					{/* <li>|</li> */}
 					<ThemeSwitcher />
 				</ul>
 			</div>

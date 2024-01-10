@@ -36,13 +36,6 @@ export class ItemClass {
 	constructor() {
 		this.items = [
 			{
-				title: "Beset Exclusive Club",
-				description:
-					"Clean, modern and easy-to-navigate design, website provides all the information you need to immerse access in the vibrant atmosphere of club.",
-				photoSrc: image1,
-				link: "",
-			},
-			{
 				title: "FTW - Pasternak",
 				description:
 					"German company that produces and markets windows, doors, shutters, pergolas, and more. The website includes a responsive design, product catalog, photo galleries, and a contact form to help customers easily get in touch with the company.",
@@ -67,6 +60,13 @@ export class ItemClass {
 				description:
 					"Website, which is serves as an online hub for the parish's community. The website features a clean and easy-to-navigate design, and includes information about the parish's history, events, and religious services.",
 				photoSrc: image4,
+				link: "",
+			},
+			{
+				title: "Beset Exclusive Club",
+				description:
+					"Concept website. Clean, modern and easy-to-navigate design, website provides all the information you need to immerse access in the vibrant atmosphere of club.",
+				photoSrc: image1,
 				link: "",
 			},
 			{

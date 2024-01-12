@@ -1,6 +1,8 @@
 "use client";
 // Import the necessary dependencies
-import React, { useState } from "react";
+import React, { useState, } from "react";
+
+
 import Image from "next/image";
 
 import Link from "next/link";
@@ -87,8 +89,10 @@ export default function AccordionServicesSoftwareDevelopment({
 
 	//RETURN
 	return (
-		<div className='justify-center text-center text-lg md:text-4xl px-4'>
-			<div className='grid grid-cols-1 space-y-1 md:space-y-2 max-w-lg lg:max-w-4xl mx-auto'>
+		<div
+			className='justify-center text-center text-lg md:text-4xl px-4'
+			>
+			<div className='grid grid-cols-1 space-y-1 md:space-y-2 max-w-lg lg:max-w-5xl mx-auto'>
 				<Accordion type='multiple' className='space-y-1 md:space-y-2 pt-2'>
 					<AccordionItem
 						value='item-6'
@@ -100,7 +104,7 @@ export default function AccordionServicesSoftwareDevelopment({
 									key={index}
 									className={`grid  gap-4 p-1 hover:drop-shadow-2xl  hover:bg-third-dark/50 hover:dark:bg-secondary-dark/50 transition-all ease-out duration-300 rounded-lg${
 										isZoomed && zoomedIndex === index
-											? "grid-cols-1 lg:grid-cols-1"
+											? "grid-cols-1 lg:grid-cols-1 p-4"
 											: "grid-cols-1 lg:grid-cols-3"
 									}`}>
 									<Image

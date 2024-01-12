@@ -1,9 +1,10 @@
 "use client";
 // Import the necessary dependencies
 import React, { useState } from "react";
-import Image from "next/image";
 
+import Image from "next/image";
 import Link from "next/link";
+
 import { ToastWithTitle } from "./ToastWithTitle";
 import {
 	Accordion,
@@ -117,10 +118,20 @@ export default function AccordionServicesWebsites({
 		}
 	};
 
+	const [isCategoryClicked, setCategoryClicked] = useState(false);
+	const handleCategoryClick = () => {
+		if (!isCategoryClicked || !isZoomed) {
+			setCategoryClicked(!isCategoryClicked);
+			console.log("category: " + isCategoryClicked);
+		} else {
+			console.log("category: " + isCategoryClicked);
+		}
+	};
+
 	//RETURN
 	return (
 		<div className='justify-center text-center text-lg md:text-4xl px-4'>
-			<div className='grid grid-cols-1 space-y-1 md:space-y-2 max-w-lg lg:max-w-4xl mx-auto'>
+			<div className='grid grid-cols-1 space-y-1 md:space-y-2 max-w-lg lg:max-w-5xl mx-auto'>
 				<Accordion type='multiple' className='space-y-1 md:space-y-2 pt-2'>
 					<AccordionItem
 						value='item-6'
@@ -132,7 +143,7 @@ export default function AccordionServicesWebsites({
 									key={index}
 									className={`grid  gap-4 p-1 hover:drop-shadow-2xl  hover:bg-third-dark/50 hover:dark:bg-secondary-dark/50 transition-all ease-out duration-300 rounded-lg${
 										isZoomed && zoomedIndex === index
-											? "grid-cols-1 lg:grid-cols-1"
+											? "grid-cols-1 lg:grid-cols-1 p-4"
 											: "grid-cols-1 lg:grid-cols-3"
 									}`}>
 									<Image
@@ -159,12 +170,12 @@ export default function AccordionServicesWebsites({
 											<h2 className='flex flex-col gap-2 mx-auto text-lg font-normal '>
 												{item.title}
 											</h2>
-											LINK
+											- Link -
 										</Link>
 									) : (
 										<h2 className='flex flex-col gap-2 text-lg font-normal mx-auto'>
 											{item.title}
-											<ToastWithTitle />
+											{/* <ToastWithTitle /> */}
 										</h2>
 									)}
 

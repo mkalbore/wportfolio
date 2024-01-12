@@ -1,6 +1,7 @@
 "use client";
 // Import the necessary dependencies
 import React, { useState } from "react";
+
 import Image from "next/image";
 
 import Link from "next/link";
@@ -43,15 +44,9 @@ export class ItemClass {
 	constructor() {
 		this.items = [
 			{
-				title: "Unchanged Photo of Woman",
+				title: "Unchanged Photo of Man",
 				description: "Typical Photo of a Man",
 				photoSrc: man,
-				link: "",
-			},
-			{
-				title: "Unchanged Photo of Woman",
-				description: "Typical Photo of a Woman",
-				photoSrc: woman,
 				link: "",
 			},
 			{
@@ -82,6 +77,12 @@ export class ItemClass {
 				title: "Photomanipulation example",
 				description: "Photomanipulation example of a Man",
 				photoSrc: man_manipulation_5,
+				link: "",
+			},
+			{
+				title: "Unchanged Photo of Woman",
+				description: "Typical Photo of a Woman",
+				photoSrc: woman,
 				link: "",
 			},
 			{
@@ -139,7 +140,7 @@ export default function AccordionServicesPhotoManipulation({
 	//RETURN
 	return (
 		<div className='justify-center text-center text-lg md:text-4xl px-4'>
-			<div className='grid grid-cols-1 space-y-1 md:space-y-2 max-w-lg lg:max-w-4xl mx-auto'>
+			<div className='grid grid-cols-1 space-y-1 md:space-y-2 max-w-lg lg:max-w-5xl mx-auto'>
 				<Accordion type='multiple' className='space-y-1 md:space-y-2 pt-2'>
 					<AccordionItem
 						value='item-6'
@@ -151,7 +152,7 @@ export default function AccordionServicesPhotoManipulation({
 									key={index}
 									className={`grid  gap-4 p-1 hover:drop-shadow-2xl  hover:bg-third-dark/50 hover:dark:bg-secondary-dark/50 transition-all ease-out duration-300 rounded-lg${
 										isZoomed && zoomedIndex === index
-											? "grid-cols-1 lg:grid-cols-1"
+											? "grid-cols-1 lg:grid-cols-1 p-4"
 											: "grid-cols-1 lg:grid-cols-3"
 									}`}>
 									<Image

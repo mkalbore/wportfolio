@@ -1,5 +1,7 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+
+import { motion, useScroll, useTransform } from "framer-motion";
 
 import Image from "next/image";
 import "../globals.css";
@@ -20,27 +22,44 @@ export default function MagicCube() {
 		};
 	}, []);
 
+	const fadeRef = useRef<HTMLDivElement>(null);
+
+	const { scrollYProgress } = useScroll({
+		target: fadeRef,
+		offset: ["0 1", "1.33 1"],
+	});
+	const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+	const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
+
 	return (
-		<div className='flex flex-col justify-center items-center  mx-auto'>
-			<div className='flex justify-center relative max-w-md border border-secondary-dark dark:border-secondary-light rounded-3xl '>
-				<Image
-					src={visuals_cube}
-					alt={""}
-					className={`absolute z-40 w-3/4 drop-shadow-2xl hover:cursor-pointer active:scale-125 delay-100 transition-colors ease-in-out duration-600  ${
-						isUp ? "moveUp" : "moveDown"
-					}`}
-				/>
-				<Image
-					src={visuals_background}
-					alt={""}
-					className='group absolute z-30 rounded-3xl'
-				/>
-				<Image
-					src={visuals_background}
-					alt={""}
-					className='relative z-20 rounded-3xl blur-xl'
-				/>
-			</div>
-		</div>
+		<>
+			<motion.div
+				className='flex flex-col justify-center items-center mx-auto max-w-xs lg:max-w-md'
+				ref={fadeRef}
+				style={{
+					scale: scaleProgress,
+					opacity: opacityProgress,
+				}}>
+				<div className='flex justify-center relative max-w-xs lg:max-w-md border border-secondary-dark dark:border-secondary-light rounded-3xl '>
+					<Image
+						src={visuals_cube}
+						alt={""}
+						className={`absolute z-40 w-3/4 drop-shadow-2xl   ${
+							isUp ? "moveUp" : "moveDown"
+						}`}
+					/>
+					<Image
+						src={visuals_background}
+						alt={""}
+						className='group absolute z-30 rounded-3xl'
+					/>
+					<Image
+						src={visuals_background}
+						alt={""}
+						className='relative z-20 rounded-3xl blur-xl'
+					/>
+				</div>
+			</motion.div>
+		</>
 	);
 }

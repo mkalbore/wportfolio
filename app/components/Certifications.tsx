@@ -1,7 +1,9 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Slider } from "../components/ui/slider";
 import Image from "next/image";
+
+import { motion, useScroll, useTransform } from "framer-motion";
 
 import certResponsiveWebDesign from "../../public/certifications/RespnsiveWebDesign.png";
 
@@ -79,8 +81,22 @@ export default function Certifications({ title, text, slider }: Props) {
 		}
 	};
 
+	const fadeRef = useRef<HTMLDivElement>(null);
+
+	const { scrollYProgress } = useScroll({
+		target: fadeRef,
+		offset: ["0 1", "1.33 1"],
+	});
+	const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+	const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
+
 	return (
-		<section>
+		<motion.section
+			ref={fadeRef}
+			style={{
+				scale: scaleProgress,
+				opacity: opacityProgress,
+			}}>
 			{" "}
 			{itemClassInstance.items.map((item, index) => (
 				<div
@@ -120,6 +136,6 @@ export default function Certifications({ title, text, slider }: Props) {
 					)}
 				</div>
 			))}
-		</section>
+		</motion.section>
 	);
 }

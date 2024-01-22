@@ -31,6 +31,7 @@ import TestComnponent from "./components/ui/testcomnponent";
 import Certifications from "./components/Certifications";
 import AnimatedScrollingBar from "./components/AnimatedScrollingBar";
 import MagicCubeFramer from "./components/MagicCubeFramer";
+import { ToastWithTitle } from "./components/ToastWithTitle";
 
 // Wyciete
 // flex min-h-screen flex-col items-center space-y-10
@@ -56,17 +57,21 @@ export default function Home() {
 				<DefaultBentoBox
 					key={""}
 					title='Innovative Software Solutions'
-					text='Our experienced developers are committed to creating powerful and intuitive software that elevates your business operations to new heights. From user-friendly interfaces to robust backend systems, we strive for excellence in every line of code.'
+					text={`Our experienced developers are committed to creating powerful and intuitive software that elevates your business operations to new heights. From user-friendly interfaces to robust backend systems, we strive for excellence in every line of code.`}
 					slider={false}
 					pingpong={false}
+					lightBulb={true}
 				/>
 
 				<DefaultBentoBox
 					key={""}
 					title='Striking Visual Identity'
-					text="Your brand is more than just a logo it's an experience. Our design team excels in crafting compelling logos, logotypes, and advertising banners that not only reflect your brand essence but also leave a lasting impression on your audience."
+					text={
+						"Your brand is more than just a logo it's an experience. Our design team excels in crafting compelling logos, logotypes, and advertising banners that not only reflect your brand essence but also leave a lasting impression on your audience."
+					}
 					slider={false}
 					pingpong={false}
+					lightBulb={false}
 				/>
 				<MagicCube />
 
@@ -79,6 +84,7 @@ export default function Home() {
 					text={`In the era of digital dominance, your website is often the first interaction a potential customer has with your brand. Quint specializes in creating responsive and visually appealing websites that engage visitors and drive conversions.`}
 					slider={true}
 					pingpong={false}
+					lightBulb={false}
 				/>
 
 				<DefaultBentoBox
@@ -87,6 +93,7 @@ export default function Home() {
 					text="We understand that every business is unique. That's why we take a personalized approach to every project, ensuring that our solutions align seamlessly with your goals, values, and target audience."
 					slider={false}
 					pingpong={true}
+					lightBulb={false}
 				/>
 			</section>
 			<section className='snap-center' id='projects'>
@@ -94,7 +101,7 @@ export default function Home() {
 				{/* <Work /> */}
 			</section>
 
-			<section className='snap-center' id='services'>
+			<section className='snap-start' id='services'>
 				<h1 className='justify-center text-center mb-8 text-lg md:text-4xl px-4'>
 					What
 					<span className='font-light'>&nbsp;have we created&nbsp;</span>
@@ -114,10 +121,7 @@ export default function Home() {
 					linksareavailable={true}
 				/>
 				<AccordionServicesUiUx category={"UI / UX"} linksareavailable={false} />
-				<AccordionServicesSoftwareDevelopment
-					category={"Software Development"}
-					linksareavailable={false}
-				/>
+
 				<AccordionServicesLogo
 					category={"Logo / Brandig"}
 					linksareavailable={false}
@@ -135,7 +139,7 @@ export default function Home() {
 				{/* <TestComponent /> */}
 			</section>
 
-			<section className='snap-center' id='certification'>
+			<section className='snap-start' id='certification'>
 				<Certifications title='' text='Certificates ' slider={false} />
 			</section>
 

@@ -39,48 +39,48 @@ export class ItemClass {
 			{
 				title: "FTW - Pasternak",
 				description:
-					"German company that produces and markets windows, doors, shutters, pergolas, and more. The website includes a responsive design, product catalog, photo galleries, and a contact form to help customers easily get in touch with the company.",
+					"German company that produces and markets windows, doors, shutters, pergolas, and more. The website includes a responsive design, product catalog, photo galleries, and a contact form to help customers easily get in touch with the company.✅",
 				photoSrc: image2,
 				link: "http://ftwpasternak.de/",
 			},
 			{
 				title: "Oknopast",
 				description:
-					"Manufacturer of front doors, windows, and winter gardens. I developed their website, which features a user-friendly interface, stunning visuals, and informative content that showcases the company's products and services.",
+					"Manufacturer of front doors, windows, and winter gardens. I developed their website, which features a user-friendly interface, stunning visuals, and informative content that showcases the company's products and services.✅",
 				photoSrc: image3,
 				link: "https://oknopast.pl/",
 			},
 			{
 				title: "GPP - Lubrza",
-				description: `Website of the municipal public kindergarten in Lubrza. The website was created in an original style, combining delicate pastel colors with "soft" fonts, all animated in a subtle way.`,
+				description: `Website of the municipal public kindergarten in Lubrza. The website was created in an original style, combining delicate pastel colors with "soft" fonts, all animated in a subtle way.✅`,
 				photoSrc: image7,
 				link: "https://www.gpplubrza.eu/",
 			},
 			{
 				title: "Parafia Lubrza",
 				description:
-					"Website, which is serves as an online hub for the parish's community. The website features a clean and easy-to-navigate design, and includes information about the parish's history, events, and religious services.",
+					"(Concept phase - Not finished 😕) Website, which is serves as an online hub for the parish's community. The website features a clean and easy-to-navigate design, and includes information about the parish's history, events, and religious services.⚠️",
 				photoSrc: image4,
 				link: "",
 			},
 			{
 				title: "Beset Exclusive Club",
 				description:
-					"Concept website. Clean, modern and easy-to-navigate design, website provides all the information you need to immerse access in the vibrant atmosphere of club.",
+					"Concept website. Clean, modern and easy-to-navigate design, website provides all the information you need to immerse access in the vibrant atmosphere of club.❌",
 				photoSrc: image1,
 				link: "",
 			},
 			{
 				title: "Concept Website",
 				description:
-					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.",
+					"Concept website. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.❌",
 				photoSrc: image5,
 				link: "",
 			},
 			{
 				title: "Concept Website",
 				description:
-					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.",
+					"Concept website. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.❌",
 				photoSrc: image6,
 				link: "",
 			},
@@ -130,7 +130,9 @@ export default function AccordionServicesWebsites({
 
 	//RETURN
 	return (
-		<div className='justify-center text-center text-lg md:text-4xl px-4'>
+		<div
+			className='justify-center text-center text-lg md:text-4xl px-4 snap-start'
+			id='websites'>
 			<div className='grid grid-cols-1 space-y-1 md:space-y-2 max-w-lg lg:max-w-5xl mx-auto'>
 				<Accordion type='multiple' className='space-y-1 md:space-y-2 pt-2'>
 					<AccordionItem
@@ -170,7 +172,7 @@ export default function AccordionServicesWebsites({
 											<h2 className='flex flex-col gap-2 mx-auto text-lg font-normal '>
 												{item.title}
 											</h2>
-											- Link -
+											👉 Link 👈
 										</Link>
 									) : (
 										<h2 className='flex flex-col gap-2 text-lg font-normal mx-auto'>

@@ -73,7 +73,7 @@ export default function Navbar({}: Props) {
 					<li>|</li>
 					<Link
 						className='transition ease-out duration-600 hover:opacity-70 hover:scale-95'
-						href={"/projects"}>
+						href={"/#websites"}>
 						Projects
 					</Link>
 					<li>|</li>

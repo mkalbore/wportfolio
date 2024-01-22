@@ -1,7 +1,6 @@
 "use client";
 // Import the necessary dependencies
-import React, { useState, } from "react";
-
+import React, { useState } from "react";
 
 import Image from "next/image";
 
@@ -91,7 +90,7 @@ export default function AccordionServicesSoftwareDevelopment({
 	return (
 		<div
 			className='justify-center text-center text-lg md:text-4xl px-4'
-			>
+			id='software_development'>
 			<div className='grid grid-cols-1 space-y-1 md:space-y-2 max-w-lg lg:max-w-5xl mx-auto'>
 				<Accordion type='multiple' className='space-y-1 md:space-y-2 pt-2'>
 					<AccordionItem

@@ -1,7 +1,6 @@
 "use client";
 // Import the necessary dependencies
-import React, { useState,  } from "react";
-
+import React, { useState } from "react";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -15,8 +14,10 @@ import {
 } from "./ui/accordion";
 
 /////////////////////
-import image1 from "../../public/design-1.webp";
-
+import inamorata from "../../public/ux-ui/Inamorata.png";
+import trompelix from "../../public/ux-ui/Trompelix.png";
+import oldstylepage from "../../public/ux-ui/Old_Style_Page.png";
+import japan from "../../public/ux-ui/Japan_1.png";
 /////////////////////
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -33,24 +34,31 @@ export class ItemClass {
 	constructor() {
 		this.items = [
 			{
-				title: "UI 1",
+				title: "Inamorata",
 				description:
-					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.",
-				photoSrc: image1,
+					"Inamorata - UX/UI Conception project - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.",
+				photoSrc: inamorata,
 				link: "",
 			},
 			{
-				title: "UI 2",
+				title: "Trompelix",
 				description:
-					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.",
-				photoSrc: image1,
+					"Trompelix - UX/UI Conception project - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.",
+				photoSrc: trompelix,
 				link: "",
 			},
 			{
-				title: "UI 3",
+				title: "Old Style",
 				description:
-					"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.",
-				photoSrc: image1,
+					"Old Style - UX/UI Conception project - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.",
+				photoSrc: oldstylepage,
+				link: "",
+			},
+			{
+				title: "Japan",
+				description:
+					"Japan - UX/UI Conception project - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.",
+				photoSrc: japan,
 				link: "",
 			},
 
@@ -87,12 +95,11 @@ export default function AccordionServicesUiUx({
 		}
 	};
 
-
 	//RETURN
 	return (
 		<div
 			className='justify-center text-center text-lg md:text-4xl px-4'
-			>
+			id='ux/ui'>
 			<div className='grid grid-cols-1 space-y-1 md:space-y-2 max-w-lg lg:max-w-5xl mx-auto'>
 				<Accordion type='multiple' className='space-y-1 md:space-y-2 pt-2'>
 					<AccordionItem

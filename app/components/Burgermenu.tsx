@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Link from "next/link";
 import ThemeSwitcher from "./ThemeSwitcher";
 import {
@@ -16,62 +18,111 @@ import {
 type Props = {};
 
 export default function Burgermenu({}: Props) {
-	return (
-		<div className='group inline-block'>
-			<button className='relative group'>
-				<div className='relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all ring-0 ring-gray-300 hover:ring-4 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md'>
-					<div className='flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden'>
-						<div className='bg-orange-500 h-[2px] w-7 transform transition-all duration-300 origin-left group-focus:translate-x-10'></div>
-						<div className='bg-white h-[2px] w-7 rounded transform transition-all duration-300 group-focus:translate-x-10 delay-75'></div>
-						<div className='bg-white h-[2px] w-7 transform transition-all duration-300 origin-left group-focus:translate-x-10 delay-150'></div>
+	const [isBurgerMenuOpen, setBurgerMenuOpen] = useState(false);
 
-						<div className='absolute items-center justify-between transform transition-all duration-500 top-2.5 -translate-x-10 group-focus:translate-x-0 flex w-0 group-focus:w-12'>
-							<div className='absolute bg-white h-[2px] w-5 transform transition-all duration-500 rotate-0 delay-300 group-focus:rotate-45'></div>
-							<div className='absolute bg-white h-[2px] w-5 transform transition-all duration-500 -rotate-0 delay-300 group-focus:-rotate-45'></div>
+	return (
+		<div className='inline-block'>
+			<button
+				onClick={() => setBurgerMenuOpen(isBurgerMenuOpen => !isBurgerMenuOpen)}
+				className='relative'>
+				<div className='relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all ring-0 ring-gray-300 hover:ring-4 focus:ring-4 active:ring-4 ring-opacity-30 duration-200 shadow-md'>
+					<div className='flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden'>
+						<div
+							className={`bg-orange-500 h-[2px] w-7 transform transition-all duration-300 origin-left ${
+								isBurgerMenuOpen ? "translate-x-10" : "translate-x-0"
+							} `}></div>
+						<div
+							className={`bg-font-light-mode dark:bg-font-dark-mode h-[2px] w-7 rounded transform transition-all duration-300 ${
+								isBurgerMenuOpen ? "translate-x-10" : "translate-x-0"
+							}  delay-75`}></div>
+						<div
+							className={`bg-font-light-mode dark:bg-font-dark-mode h-[2px] w-7 transform transition-all duration-300 origin-left ${
+								isBurgerMenuOpen ? "translate-x-10" : "translate-x-0"
+							}  delay-150`}></div>
+
+						<div
+							className={`absolute flex items-center justify-between transform transition-all duration-500 top-2.5 -translate-x-10 ${
+								isBurgerMenuOpen ? "translate-x-0 w-12" : "w-0"
+							}`}>
+							<div
+								className={`absolute bg-font-light-mode dark:bg-font-dark-mode h-[2px] w-5 transform transition-all duration-500 rotate-0 delay-300 ${
+									isBurgerMenuOpen ? "rotate-45" : "rotate-0"
+								}`}></div>
+							<div
+								className={`absolute bg-font-light-mode dark:bg-font-dark-mode h-[2px] w-5 transform transition-all duration-500 -rotate-0 delay-300 ${
+									isBurgerMenuOpen ? "-rotate-45" : "rotate-0"
+								}`}></div>
 						</div>
 					</div>
 				</div>
 			</button>
-			<div className='bg-primary-light dark:bg-primary-dark border rounded-md transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32 text-xl space-y-4 my-4 grid grid-cols-1 align-middle justify-center justify-items-center'>
+			<div
+				className={`bg-primary-light dark:bg-primary-dark border rounded-md transform  ${
+					isBurgerMenuOpen ? "scale-100" : "scale-0"
+				} absolute transition duration-150 ease-in-out origin-top min-w-32 text-xl space-y-4 my-4 grid grid-cols-1 align-middle justify-center justify-items-center`}>
 				<Link
 					className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'
-					href={"/"}>
+					href={"/"}
+					onClick={() =>
+						setBurgerMenuOpen(isBurgerMenuOpen => !isBurgerMenuOpen)
+					}>
 					Home
 				</Link>
 				<Link
 					className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'
-					href={"#about"}>
+					href={"#about"}
+					onClick={() =>
+						setBurgerMenuOpen(isBurgerMenuOpen => !isBurgerMenuOpen)
+					}>
 					About
 				</Link>
 
 				<Link
 					className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'
-					href={"#services"}>
+					href={"#services"}
+					onClick={() =>
+						setBurgerMenuOpen(isBurgerMenuOpen => !isBurgerMenuOpen)
+					}>
 					Services
 				</Link>
 				<Link
 					className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'
-					href={"#contact"}>
+					href={"#contact"}
+					onClick={() =>
+						setBurgerMenuOpen(isBurgerMenuOpen => !isBurgerMenuOpen)
+					}>
 					Contact
 				</Link>
 				<Link
 					className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'
-					href={"#certification"}>
+					href={"#certification"}
+					onClick={() =>
+						setBurgerMenuOpen(isBurgerMenuOpen => !isBurgerMenuOpen)
+					}>
 					Certifications
 				</Link>
 				<Link
 					className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'
-					href={"/team"}>
+					href={"/team"}
+					onClick={() =>
+						setBurgerMenuOpen(isBurgerMenuOpen => !isBurgerMenuOpen)
+					}>
 					Our Team
 				</Link>
 				<Link
 					className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'
-					href={"/projects"}>
+					href={"/#websites"}
+					onClick={() =>
+						setBurgerMenuOpen(isBurgerMenuOpen => !isBurgerMenuOpen)
+					}>
 					Projects
 				</Link>
 				<Link
 					className='rounded-sm px-3 py-1 hover:bg-[#444444] transition ease-out duration-600 hover:font-normal'
-					href={"/cheatsheets"}>
+					href={"/cheatsheets"}
+					onClick={() =>
+						setBurgerMenuOpen(isBurgerMenuOpen => !isBurgerMenuOpen)
+					}>
 					Dev Cheat Sheets
 				</Link>
 				{/* 	<div className='transition ease-out duration-600 hover:font-normal'>

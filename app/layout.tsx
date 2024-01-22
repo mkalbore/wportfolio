@@ -1,6 +1,5 @@
 import "./globals.css";
 import Providers from "./providers";
-import ThemeSwitcher from "./components/ThemeSwitcher";
 import { Toaster } from "./components/ui/toaster";
 
 export const metadata = {

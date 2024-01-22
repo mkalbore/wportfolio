@@ -28,7 +28,10 @@ export default function Home() {
 			<nav className='sticky top-0 z-50'>
 				<Navbar />
 			</nav>
-			<h1 className='flex gap-4 text-2xl lg:text-4xl items-center justify-center text-center text-font-light-mode dark:text-font-dark-mode select-none'>
+			<h1 className='flex py-4 text-2xl lg:text-4xl items-center justify-center text-center text-font-light-mode dark:text-font-dark-mode select-none '>
+				There is plan to put everything here ( surrely one day 😅 )
+			</h1>
+			<h1 className='flex flex-col lg:flex-row gap-2 text-2xl lg:text-4xl items-center justify-center text-center text-font-light-mode dark:text-font-dark-mode select-none'>
 				Currently, the spreadsheet is on the external app
 				<span
 					itemRef='https://milanote.com/'

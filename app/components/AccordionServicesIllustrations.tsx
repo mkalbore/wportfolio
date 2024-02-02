@@ -116,6 +116,7 @@ export default function AccordionServicesIllustrations({
 										width={isZoomed && zoomedIndex === index ? 1100 : 350}
 										height={isZoomed && zoomedIndex === index ? 800 : 180}
 										onClick={() => handleImageClick(index)}
+										placeholder="blur"
 										className={`rounded-lg shrink-0 hover:scale-95 hover:opacity-80 transition-all ease-out duration-300 ${
 											isZoomed && zoomedIndex === index
 												? "cursor-zoom-out "

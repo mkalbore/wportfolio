@@ -60,6 +60,7 @@ export default function NewCarousel() {
 								alt={slides[currentIndex].title}
 								width={600}
 								height={400}
+								placeholder="blur"
 								className='rounded-xl shadow-lg border border-[#ffffff, 10] shrink-0 w-[350px] h-[219px] md:w-[400px] md:h-[243px] lg:w-[660px] lg:h-[412px] hover:shadow-[#000000] hover:scale-105 hover:rotate-360 hover:animate-pulse hover:drop-shadow-2xl transition-all ease-out duration-300'
 								// className='rounded-xl lg:w-[660px] lg:h-fit'
 								sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'

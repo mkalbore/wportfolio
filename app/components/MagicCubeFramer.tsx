@@ -48,6 +48,7 @@ export default function MagicCubeFramer() {
 					<Image
 						src={visuals_cube}
 						alt={""}
+						placeholder="blur"
 						className=' w-3/4 drop-shadow-2xl'
 					/>
 				</motion.div>
@@ -55,6 +56,7 @@ export default function MagicCubeFramer() {
 				<Image
 					src={visuals_background}
 					alt={""}
+					placeholder="blur"
 					className='z-10 rounded-3xl '
 				/>
 			</div>

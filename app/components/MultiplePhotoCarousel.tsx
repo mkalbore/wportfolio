@@ -107,7 +107,7 @@ export default function MultiplePhotoCarousel({
 									alt={alt}
 									width={isZoomed && zoomedIndex === index ? 1100 : 250}
 									height={isZoomed && zoomedIndex === index ? 800 : 180}
-									placeholder='empty'
+									placeholder='blur'
 									className={`shrink-0 ${
 										isZoomed && zoomedIndex === index
 											? "cursor-zoom-out"

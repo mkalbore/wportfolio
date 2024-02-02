@@ -9,19 +9,19 @@ import Link from "next/link";
 import { Inter } from "next/font/google";
 
 // My Components
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Contact from "../components/Contact";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import Contact from "../../components/Contact";
 
-import milanote from "../../public/milanote.png";
-import CheatSheetSidebar from "../components/CheatSheetSidebar";
+import milanote from "../../../public/milanote.png";
+import CheatSheetSidebar from "../../components/CheatSheetSidebar";
+import { links } from "@/lib/cheatSheetLinks";
 import logo from "@/public/logo.png";
 
 const inter = Inter({ subsets: ["latin"] });
 // Wyciete
 // flex min-h-screen flex-col items-center space-y-10
-
-export default function Home() {
+export default function Page({ params }: { params: { path: string } }) {
 	return (
 		<div className='space-y-4'>
 			<Head>
@@ -68,8 +68,10 @@ export default function Home() {
 				{/* */}
 				{/* CONTENTS */}
 				<div className='flex flex-col lg:flex-row col-span-7 items-center justify-center rounded-2xl gap-2 lg:gap-8 bg-secondary-light dark:bg-secondary-dark border border-secondary-dark dark:border-secondary-light z-10'>
-					<div className='w-full h-full bg-opacity-50 flex flex-col items-center justify-center rounded-2xl p-2 lg:p-8 gap-2 lg:gap-6'>
-						<h3 className='text-xl lg:text-3xl'>Title</h3>
+					<div
+						className='w-full h-full bg-opacity-50 flex flex-col items-center justify-center rounded-2xl p-2 lg:p-8 gap-2 lg:gap-6'
+						id={params.path}>
+						<h3 className='text-xl lg:text-3xl'>{params.path}</h3>
 						<p className='text-base lg:text-lg'>
 							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est,
 							nesciunt laboriosam, architecto et porro neque laborum maxime

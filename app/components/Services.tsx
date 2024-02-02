@@ -380,6 +380,7 @@ export default function Services({}: Props) {
 									width={isZoomed ? 1100 : 350}
 									height={isZoomed ? 800 : 180}
 									onClick={() => handleImageClick()}
+									placeholder="blur"
 									className={`rounded-lg shrink-0 hover:scale-95 hover:opacity-80 transition-all ease-out duration-300 ${
 										isZoomed ? "cursor-zoom-out " : "cursor-zoom-in"
 									}`}></Image>

@@ -21,6 +21,7 @@ export default function Projects({}: Props) {
 					<Image
 						src={oknopast}
 						alt={"oknopast.pl"}
+						placeholder="blur"
 						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px] lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-105 hover:animate-pulse hover:drop-shadow-2xl transition-all ease-out duration-300'
 					/>
 				</Link>
@@ -29,6 +30,7 @@ export default function Projects({}: Props) {
 					<Image
 						src={ftw}
 						alt={""}
+						placeholder="blur"
 						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-105 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					/>
 				</Link>
@@ -37,6 +39,7 @@ export default function Projects({}: Props) {
 					<Image
 						src={trix}
 						alt={""}
+						placeholder="blur"
 						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-105 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					/>
 				</Link>
@@ -45,6 +48,7 @@ export default function Projects({}: Props) {
 					<Image
 						src={boiskomentalne}
 						alt={""}
+						placeholder="blur"
 						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-105 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					/>
 				</Link>
@@ -53,6 +57,7 @@ export default function Projects({}: Props) {
 					<Image
 						src={besethome}
 						alt={""}
+						placeholder="blur"
 						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-105 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					/>
 				</Link>
@@ -61,6 +66,7 @@ export default function Projects({}: Props) {
 					<Image
 						src={parafia}
 						alt={""}
+						placeholder="blur"
 						className='rounded-xl shadow-lg border border-[#ffffff, 10] w-[350px] h-[218.75px] md:w-[400px] md:h-[250px]  lg:w-[600px] lg:h-[375px] hover:shadow-[#ffffff] hover:scale-105 hover:animate-pulse hover:drop-shadow-2xl  transition-all ease-out duration-300'
 					/>
 				</Link>

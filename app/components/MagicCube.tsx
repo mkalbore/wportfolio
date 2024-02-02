@@ -44,6 +44,7 @@ export default function MagicCube() {
 					<Image
 						src={visuals_cube}
 						alt={""}
+						placeholder="blur"
 						className={`absolute z-40 w-3/4 drop-shadow-2xl   ${
 							isUp ? "moveUp" : "moveDown"
 						}`}
@@ -51,11 +52,13 @@ export default function MagicCube() {
 					<Image
 						src={visuals_background}
 						alt={""}
+						placeholder="blur"
 						className='group absolute z-30 rounded-3xl'
 					/>
 					<Image
 						src={visuals_background}
 						alt={""}
+						placeholder="blur"
 						className='relative z-20 rounded-3xl blur-xl'
 					/>
 				</div>

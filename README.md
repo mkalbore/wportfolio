@@ -19,29 +19,23 @@ All "elements" in this project are created by me 😎.
 
 # Installation
 
-1. run :
+1. Clone my repo :
 
 ```bash
 git clone https://github.com/mkalbore/wportfolio.git
 ```
 
-    to clone my repo
-
-2. run
+2. install all dependencies
 
 ```bash
 npm install
 ```
 
-    to install all dependencies
-
-3. run
+3. run server
 
 ```bash
 npm run dev
 ```
-
-    to run server
 
 4. go to http://localhost:3000/ to view project
 

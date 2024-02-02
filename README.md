@@ -20,13 +20,31 @@ All "elements" in this project are created by me 😎.
 
 # Installation
 
-1. run <git clone https://github.com/mkalbore/wportfolio.git> to clone my repo
+1. run :
 
-2. run <npm install> to install all dependencies
+```bash
+git clone https://github.com/mkalbore/wportfolio.git
+```
 
-3. run <npm run dev> to run server
+to clone my repo
 
-4. go to http://localhost:3000/ to view
+2. run
+
+```bash
+npm install
+```
+
+to install all dependencies
+
+3. run
+
+```bash
+npm run dev
+```
+
+to run server
+
+4. go to http://localhost:3000/ to view project
 
 If u have questions ❓, feel free to ask.
 

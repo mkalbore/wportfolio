@@ -21,6 +21,7 @@ import image4 from "../../public/parafialubrzawebsite.png";
 import image5 from "../../public/website4.png";
 import image6 from "../../public/website5.png";
 import image7 from "../../public/gpp_lubrza.png";
+import image8 from "../../public/Trix_Autogaz_Website.png";
 /////////////////////
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -51,6 +52,13 @@ export class ItemClass {
 				link: "https://oknopast.pl/",
 			},
 			{
+				title: "Trix - Autogaz",
+				description:
+					"Polish company specializes in activities related to the installation and service of automotive gas installations. The website, with specific sections, such as an about, contact form, and gallery, allows customers to easily get in touch with the company.✅",
+				photoSrc: image8,
+				link: "https://trix-autogaz.pl/",
+			},
+			{
 				title: "GPP - Lubrza",
 				description: `Website of the municipal public kindergarten in Lubrza. The website was created in an original style, combining delicate pastel colors with "soft" fonts, all animated in a subtle way.✅`,
 				photoSrc: image7,
@@ -66,7 +74,7 @@ export class ItemClass {
 			{
 				title: "Beset Exclusive Club",
 				description:
-					"Concept website. Clean, modern and easy-to-navigate design, website provides all the information you need to immerse access in the vibrant atmosphere of club.❌",
+					"(Concept website - Not finished 😕). Clean, modern and easy-to-navigate design, website provides all the information you need to immerse access in the vibrant atmosphere of club.⚠️",
 				photoSrc: image1,
 				link: "",
 			},
@@ -154,7 +162,7 @@ export default function AccordionServicesWebsites({
 										width={isZoomed && zoomedIndex === index ? 1100 : 350}
 										height={isZoomed && zoomedIndex === index ? 800 : 180}
 										onClick={() => handleImageClick(index)}
-										placeholder="blur"
+										placeholder='blur'
 										className={`rounded-lg shrink-0 hover:scale-95 hover:opacity-80 transition-all ease-out duration-300 ${
 											isZoomed && zoomedIndex === index
 												? "cursor-zoom-out "

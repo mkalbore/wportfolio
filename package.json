@@ -16,6 +16,8 @@
 		"@radix-ui/react-slot": "^1.0.2",
 		"@radix-ui/react-switch": "^1.0.3",
 		"@radix-ui/react-toast": "^1.1.5",
+		"@splinetool/react-spline": "^2.2.6",
+		"@splinetool/runtime": "^1.0.51",
 		"@types/node": "18.15.11",
 		"@types/react": "18.0.37",
 		"@types/react-dom": "18.0.11",

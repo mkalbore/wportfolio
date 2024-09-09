@@ -55,7 +55,7 @@ const ItemsList = ({ path }: { path: string }) => {
 						scroll={false}
 						rel='noopener noreferrer'
 						target='_blank'>
-						<div className='bg-slate-900 bg-cover bg-opacity-50 p-1 px-8 lg:p-4 rounded-2xl transition ease-out duration-600 hover:opacity-70 hover:scale-95 scroll-smooth cursor-pointer'>
+						<div className='text-xl lg:text-3xl bg-slate-900 bg-cover bg-opacity-50 p-1 px-4 lg:px-8 lg:p-4 rounded-2xl transition ease-out duration-600 hover:opacity-70 hover:scale-95 scroll-smooth cursor-pointer'>
 							<p>{item.id}</p>
 							<p className='text-sm max-w-sm'>{item.description}</p>
 						</div>
@@ -96,7 +96,7 @@ export default function Page({ params }: { params: { path: string[] } }) {
 					</div>
 
 					<div className='w-full h-full flex flex-col items-center justify-center rounded-2xl p-2 lg:p-8 gap-2 lg:gap-6 bg-secondary-light dark:bg-secondary-dark shadow-2xl z-20'>
-						<Image src={logo} alt={""} className='w-fit h-fit'></Image>
+						<Image src={logo} alt={""} className='w-fit h-fit max-w-xs'></Image>
 						<Link
 							href={""}
 							scroll={false}

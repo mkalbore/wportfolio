@@ -121,7 +121,9 @@ export default function CheatSheetSidebar({ classNameBonus }: Props) {
 				</AnimatePresence>
 			</div>
 			{/* //Cheat sheets Burgermenu */}
-			<div className='flex lg:hidden w-screen mx-4'>
+			<div
+				id='cheat-sheet-burger-menu'
+				className='absolute flex lg:hidden w-screen mx-4 z-[1000]'>
 				{" "}
 				<div className='inline-block'>
 					<button

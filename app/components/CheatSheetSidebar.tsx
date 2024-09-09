@@ -16,7 +16,6 @@ type Props = { classNameBonus: string };
 
 // Cheatsheet links sa statycznie w lib/cheasheetlinks
 import { links } from "@/lib/cheatSheetLinks";
-import Page from "../cheatsheets/[...path]/page";
 
 export default function CheatSheetSidebar({ classNameBonus }: Props) {
 	//Sorting items in links via alfabetical order
@@ -110,12 +109,12 @@ export default function CheatSheetSidebar({ classNameBonus }: Props) {
 									className='z-10 relative'>
 									{link.name}
 								</motion.span>
-								{pathname === link.path ? (
+								{/* {pathname === link.path ? (
 									<motion.div
 										transition={{ type: "spring" }}
 										layoutId='underline'
 										className='absolute w-full h-full rounded-md left-0 bottom-0 bg-yellow-200'></motion.div>
-								) : null}
+								) : null} */}
 							</MotionLink>
 						</motion.ul>
 					))}

@@ -21,6 +21,7 @@ import image4 from "../../public/parafialubrzawebsite.png";
 import image5 from "../../public/website4.png";
 import image6 from "../../public/website5.png";
 import image7 from "../../public/gpp_lubrza.png";
+import image8 from "../../public/rock-tree-website.png";
 /////////////////////
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -69,6 +70,13 @@ export class ItemClass {
 					"Concept website. Clean, modern and easy-to-navigate design, website provides all the information you need to immerse access in the vibrant atmosphere of club.❌",
 				photoSrc: image1,
 				link: "",
+			},
+			{
+				title: "Rock Tree",
+				description:
+					"A page in the form of a commemorative board where the user can leave their signature. It was tested during Pol&Rock 2024 🎆🙂",
+				photoSrc: image8,
+				link: "https://www.rocktree.pl/",
 			},
 			{
 				title: "Concept Website",
@@ -138,7 +146,7 @@ export default function AccordionServicesWebsites({
 					<AccordionItem
 						value='item-6'
 						className='flex flex-col gap-1 justify-center items-center px-2 bg-primary-light dark:bg-secondary-dark hover:drop-shadow-2xl hover:bg-third-dark/50 hover:dark:bg-secondary-dark/50 transition-all ease-out duration-300 rounded-t-xl'>
-						<AccordionTrigger>{category}</AccordionTrigger>
+						<AccordionTrigger>{category}s / Projects</AccordionTrigger>
 						{itemClassInstance.items.map((item, index) => (
 							<AccordionContent key={1}>
 								<div
@@ -154,7 +162,7 @@ export default function AccordionServicesWebsites({
 										width={isZoomed && zoomedIndex === index ? 1100 : 350}
 										height={isZoomed && zoomedIndex === index ? 800 : 180}
 										onClick={() => handleImageClick(index)}
-										placeholder="blur"
+										placeholder='blur'
 										className={`rounded-lg shrink-0 hover:scale-95 hover:opacity-80 transition-all ease-out duration-300 ${
 											isZoomed && zoomedIndex === index
 												? "cursor-zoom-out "

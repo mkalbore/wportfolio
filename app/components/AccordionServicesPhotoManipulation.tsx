@@ -37,7 +37,8 @@ export class ItemClass {
 	items: {
 		title: string;
 		description: string;
-		photoSrc: string | any;
+		photoSrc?: string | any;
+		videoSrc?: string; // Optional video source
 		link: string;
 	}[];
 
@@ -103,6 +104,12 @@ export class ItemClass {
 				photoSrc: woman_manipulation_3,
 				link: "",
 			},
+			{
+				title: "Video Manipulation example",
+				description: "Video Manipulation example of Man",
+				videoSrc: "/manipulation/video_1.mp4",
+				link: "",
+			},
 
 			// Add more items as needed
 		];
@@ -157,18 +164,40 @@ export default function AccordionServicesPhotoManipulation({
 											? "grid-cols-1 lg:grid-cols-1 p-4"
 											: "grid-cols-1 lg:grid-cols-3"
 									}`}>
-									<Image
-										src={item.photoSrc} // 'default' is used because of how webpack handles imports
-										alt={`Photo for ${item.title}`}
-										width={isZoomed && zoomedIndex === index ? 1100 : 350}
-										height={isZoomed && zoomedIndex === index ? 800 : 180}
-										onClick={() => handleImageClick(index)}
-										placeholder="blur"
-										className={`rounded-lg shrink-0 hover:scale-95 hover:opacity-80 transition-all ease-out duration-300 ${
-											isZoomed && zoomedIndex === index
-												? "cursor-zoom-out "
-												: "cursor-zoom-in"
-										}`}></Image>
+									{item.videoSrc ? (
+										<div>
+											<video
+												width={isZoomed && zoomedIndex === index ? 1100 : 350}
+												height={isZoomed && zoomedIndex === index ? 800 : 180}
+												loop
+												autoPlay
+												muted
+												className='rounded-lg shrink-0 transition-all ease-out duration-300'>
+												<source src={item.videoSrc} type='video/mp4' />
+												Your browser does not support the video tag.
+											</video>
+											<button
+												onClick={() => handleImageClick(index)}
+												className='mt-2 px-4 py-2 hover:drop-shadow-2xl hover:bg-third-dark/50 hover:dark:bg-secondary-dark/50 transition-all ease-out duration-300 rounded-lg border-1 border-third-dark/50'>
+												{isZoomed && zoomedIndex === index
+													? "Zoom Out 🔭"
+													: "Zoom In 🔍"}
+											</button>
+										</div>
+									) : (
+										<Image
+											src={item.photoSrc} // 'default' is used because of how webpack handles imports
+											alt={`Photo for ${item.title}`}
+											width={isZoomed && zoomedIndex === index ? 1100 : 350}
+											height={isZoomed && zoomedIndex === index ? 800 : 180}
+											onClick={() => handleImageClick(index)}
+											placeholder='blur'
+											className={`rounded-lg shrink-0 hover:scale-95 hover:opacity-80 transition-all ease-out duration-300 ${
+												isZoomed && zoomedIndex === index
+													? "cursor-zoom-out "
+													: "cursor-zoom-in"
+											}`}></Image>
+									)}
 
 									{linksareavailable ? (
 										<Link

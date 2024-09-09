@@ -32,6 +32,7 @@ import Certifications from "./components/Certifications";
 import AnimatedScrollingBar from "./components/AnimatedScrollingBar";
 import MagicCubeFramer from "./components/MagicCubeFramer";
 import { ToastWithTitle } from "./components/ToastWithTitle";
+import SplineComponent from "./components/SplineComponent";
 
 // Wyciete
 // flex min-h-screen flex-col items-center space-y-10
@@ -47,7 +48,9 @@ export default function Home() {
 			</nav>
 
 			<section className='snap-center' id='hero'>
+				<SplineComponent />
 				<Hero />
+
 				{/* <TestComnponent /> */}
 				<AnimatedScrollingBar />
 			</section>

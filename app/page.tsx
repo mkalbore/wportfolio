@@ -1,6 +1,6 @@
 ////////////////////////////////////////// H O M E // P A G E //////////////////////////////
 
-import Head from "next/head";
+import type { Metadata } from "next";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -34,15 +34,45 @@ import MagicCubeFramer from "./components/MagicCubeFramer";
 import { ToastWithTitle } from "./components/ToastWithTitle";
 import SplineComponent from "./components/SplineComponent";
 
+export const metadata: Metadata = {
+	title: "Quint - Software Developer",
+	description: "Quint - Software Developer webpage",
+	generator: "Next.js",
+	applicationName: "Quint - Software Developer webpage",
+	referrer: "origin-when-cross-origin",
+	keywords: [
+		"Next.js",
+		"React",
+		"JavaScript",
+		"TypeScript",
+		"TailwindCSS",
+		"Framer Motion",
+		"Web Development",
+		"Frontend",
+		"Frontend Development",
+		"Frontend Developer",
+		"Frontend Development Company",
+		"AI",
+		"Artificial Intelligence",
+		"Stable Diffusion",
+	],
+	authors: {
+		name: "Marek Kwinta",
+	},
+	creator: "Quint - Marek Kwinta",
+	publisher: "Quint - Marek Kwinta",
+	formatDetection: {
+		email: true,
+		address: false,
+		telephone: true,
+	},
+};
+
 // Wyciete
 // flex min-h-screen flex-col items-center space-y-10
 export default function Home() {
 	return (
 		<main className='relative space-y-4'>
-			<Head>
-				<title>Quint - Software Developer</title>
-				<meta property='quint' content='Quint' key='title' />
-			</Head>
 			<nav className='sticky top-0 z-50' id='navbar'>
 				<Navbar />
 			</nav>

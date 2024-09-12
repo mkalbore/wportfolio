@@ -1,4 +1,7 @@
 /////////////// P R O J E C T S // P A G E /////////////////
+"use client";
+
+import React, { useState } from "react";
 
 // Next JS Components
 import Image from "next/image";
@@ -17,11 +20,21 @@ import CheatSheetSidebar from "../../components/CheatSheetSidebar";
 import { links } from "@/lib/cheatSheetLinks";
 import logo from "@/public/logo.png";
 
-// Log the links array to verify its contents
-// console.log("Links array:", links);
+interface Item {
+	id: string;
+	url: string;
+	description?: string;
+	screenshot?: string;
+}
 
 // component that takes the path as a prop and fetches the corresponding items.
-const ItemsList = ({ path }: { path: string }) => {
+const ItemsList = ({
+	path,
+	setSelectedItem,
+}: {
+	path: string;
+	setSelectedItem: (item: Item) => void;
+}) => {
 	// Log the path parameter to verify its value
 	console.log(`Received path: ${path}`);
 
@@ -49,17 +62,15 @@ const ItemsList = ({ path }: { path: string }) => {
 		<div>
 			<ul className='flex flex-col space-y-4'>
 				{items.map(item => (
-					<Link
-						href={item.url}
+					<div
 						key={item.id}
-						scroll={false}
-						rel='noopener noreferrer'
-						target='_blank'>
-						<div className='text-xl lg:text-3xl bg-slate-900 bg-cover bg-opacity-50 p-1 px-4 lg:px-8 lg:p-4 rounded-2xl transition ease-out duration-600 hover:opacity-70 hover:scale-95 scroll-smooth cursor-pointer'>
-							<p>{item.id}</p>
-							<p className='text-sm max-w-sm'>{item.description}</p>
-						</div>
-					</Link>
+						onClick={() => setSelectedItem(item)}
+						className='text-xl lg:text-3xl bg-slate-900 bg-cover bg-opacity-50 p-1 px-4 lg:px-8 lg:p-4 rounded-2xl transition ease-out duration-600 hover:opacity-70 hover:scale-95 scroll-smooth cursor-pointer'>
+						<p>{item.id}</p>
+						<p className='text-sm max-w-sm'>
+							{item.description ?? "No description available"}
+						</p>
+					</div>
 				))}
 			</ul>
 		</div>
@@ -70,6 +81,7 @@ export default function Page({ params }: { params: { path: string[] } }) {
 	// Log the params to verify the path being passed
 	console.log(`Page params:`, params);
 
+	const [selectedItem, setSelectedItem] = useState<Item | null>(null);
 	const path = params.path[0]; // Extract the first element of the array
 
 	return (
@@ -92,17 +104,35 @@ export default function Page({ params }: { params: { path: string[] } }) {
 						className='w-full h-full bg-opacity-50 flex flex-col items-center justify-center rounded-2xl p-2 lg:p-8 gap-2 lg:gap-6'
 						id={path}>
 						<h3 className='text-xl lg:text-3xl'>{path} Items</h3>
-						<ItemsList path={path} />
+						<ItemsList path={path} setSelectedItem={setSelectedItem} />
 					</div>
 
-					<div className='w-full h-full flex flex-col items-center justify-center rounded-2xl p-2 lg:p-8 gap-2 lg:gap-6 bg-secondary-light dark:bg-secondary-dark shadow-2xl z-20'>
-						<Image src={logo} alt={""} className='w-fit h-fit max-w-xs'></Image>
-						<Link
-							href={""}
-							scroll={false}
-							className='bg-slate-900 bg-cover bg-opacity-50 p-2 px-8 lg:p-4 rounded-2xl transition ease-out duration-600 hover:opacity-70 hover:scale-95 scroll-smooth cursor-pointer'>
-							Link
-						</Link>
+					<div
+						id='content-section'
+						className='w-full h-full flex flex-col items-center justify-center rounded-2xl p-2 lg:p-8 gap-2 lg:gap-6 bg-secondary-light dark:bg-secondary-dark shadow-2xl z-20 pt-8 lg:pt-2'>
+						{selectedItem ? (
+							<>
+								<h3 className='text-xl lg:text-3xl'>{selectedItem.id}</h3>
+								<Image
+									src={selectedItem.screenshot ?? "logo.png"}
+									width={800}
+									height={600}
+									alt={selectedItem.id}
+									unoptimized={true}
+									className='flex w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl rounded-xl'
+								/>
+								<Link
+									href={selectedItem.url}
+									scroll={false}
+									target='_blank'
+									rel='noopener noreferrer'
+									className='bg-slate-900 bg-cover bg-opacity-50 p-2 px-8 lg:p-4 rounded-2xl transition ease-out duration-600 hover:opacity-70 hover:scale-95 scroll-smooth cursor-pointer'>
+									{selectedItem.id} Link
+								</Link>
+							</>
+						) : (
+							<Image src={logo} alt={""} className='w-fit h-fit max-w-xs' />
+						)}
 					</div>
 				</div>
 			</section>

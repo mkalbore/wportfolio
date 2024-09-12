@@ -2,7 +2,7 @@
 const nextConfig = {
 	experimental: {
 		appDir: true,
-		// images: { domains: ["https://simpleicons.org/"] },
+		images: { domains: ["simpleicons.org", "localhost"] }, // Add your domain here
 		urlImports: ["https://simpleicons.org/"],
 	},
 };

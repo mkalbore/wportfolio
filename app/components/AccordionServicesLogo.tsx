@@ -43,7 +43,7 @@ export class ItemClass {
 			{
 				title: "TRIX Autogaz",
 				description:
-					"Logo, which features a modern and clean design that reflects the company&apos;s commitment to quality and reliability.",
+					"Logo, which features a modern and clean design that reflects the company's commitment to quality and reliability.",
 				photoSrc: image2,
 				link: "",
 			},
@@ -113,7 +113,7 @@ export default function AccordionServicesLogo({
 										width={isZoomed && zoomedIndex === index ? 1100 : 350}
 										height={isZoomed && zoomedIndex === index ? 800 : 180}
 										onClick={() => handleImageClick(index)}
-										placeholder="blur"
+										placeholder='blur'
 										className={`rounded-lg shrink-0 hover:scale-95 hover:opacity-80 transition-all ease-out duration-300 ${
 											isZoomed && zoomedIndex === index
 												? "cursor-zoom-out "

@@ -20,6 +20,7 @@ import CheatSheetSidebar from "../../components/CheatSheetSidebar";
 import { links } from "@/lib/cheatSheetLinks";
 import logo from "@/public/logo.png";
 
+
 interface Item {
 	id: string;
 	url: string;
@@ -65,7 +66,7 @@ const ItemsList = ({
 					<div
 						key={item.id}
 						onClick={() => setSelectedItem(item)}
-						className='text-xl lg:text-3xl bg-slate-900 bg-cover bg-opacity-50 p-1 px-4 lg:px-8 lg:p-4 rounded-2xl transition ease-out duration-600 hover:opacity-70 hover:scale-95 scroll-smooth cursor-pointer'>
+						className='text-xl lg:text-3xl dark:bg-secondary-dark bg-primary-light border border-secondary-dark dark:border-secondary-light bg-cover bg-opacity-50 p-1 px-4 lg:px-8 lg:p-4 rounded-2xl transition ease-out duration-600 hover:opacity-70 hover:scale-95 scroll-smooth cursor-pointer shadow-xl'>
 						<p>{item.id}</p>
 						<p className='text-sm max-w-sm'>
 							{item.description ?? "No description available"}

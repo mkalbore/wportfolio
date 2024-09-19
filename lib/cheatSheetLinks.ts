@@ -97,7 +97,24 @@ export const links = [
 			{
 				id: "Relevance AI",
 				url: "https://relevanceai.com/",
+				description:
+					"Relevance connects to your documentation and provides you an API request or embeddable Widget to build the best in-app help centre.",
 				screenshot: "/screenshots/Relevance-AI-screenshot.png",
+			},
+			{
+				id: "Dora AI",
+				url: "https://www.dora.run/ai",
+				description:
+					"A text-to-website tool that generates landing pages with natural language, using a powerful no-code editor.",
+				screenshot: "",
+			},
+
+			{
+				id: "Heptabase",
+				url: "https://heptabase.com/",
+				description:
+					"Heptabase is a visual note-taking tool that helps you make sense of your learning, research, and projects. It helps you get into the flow of thinking and brings together everything you need to do better research.",
+				screenshot: "/screenshots/Heptabase-screenshot.png",
 			},
 		],
 	},
@@ -152,7 +169,7 @@ export const links = [
 				screenshot: "/screenshots/whatfont-screenshot.png",
 			},
 			{
-				id: "Myfonts",
+				id: "Myfonts💲",
 				url: "https://www.myfonts.com/",
 				description:
 					"Where you can download fonts that you see on the internet and use for your website. Free & Paid.",
@@ -235,6 +252,20 @@ export const links = [
 				url: "https://app.haikei.app/",
 				description: "SVG generator to customize and download SVG shapes.",
 				screenshot: "/screenshots/Haikei-screenshot.png",
+			},
+			{
+				id: "Jitter",
+				url: "https://jitter.video/",
+				description:
+					"Create professional animated content with Jitter. Use it to design on-brand animated UIs, videos, social media posts, websites, apps, logos and more.",
+				screenshot: "/screenshots/Jitter-screenshot.png",
+			},
+			{
+				id: "Lottielab",
+				url: "https://www.lottielab.com/",
+				description:
+					"Create and ship animations to your products faster. Bring your websites and apps to life with the simplest editor for Lottie animations.",
+				screenshot: "/screenshots/Lottielab-screenshot.png",
 			},
 		],
 	},

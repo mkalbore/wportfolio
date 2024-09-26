@@ -6,6 +6,7 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 import certResponsiveWebDesign from "../../public/certifications/RespnsiveWebDesign.png";
+import certFrontEndDev from "../../public/certifications/FrontEndDev.png";
 
 export class ItemClass {
 	items: {
@@ -21,6 +22,12 @@ export class ItemClass {
 				title: "Certifications",
 				description: "Responsive Web Design",
 				photoSrc: certResponsiveWebDesign,
+				link: "",
+			},
+			{
+				title: "Certifications",
+				description: "Front End Development",
+				photoSrc: certFrontEndDev,
 				link: "",
 			},
 
@@ -97,29 +104,29 @@ export default function Certifications({ title, text, slider }: Props) {
 				scale: scaleProgress,
 				opacity: opacityProgress,
 			}}>
-			{" "}
+			<h1
+				className={`flex flex-col gap-10 justify-center items-center font-normal text-${getTitleFontSize()}`}>
+				Certifications
+			</h1>{" "}
 			{itemClassInstance.items.map((item, index) => (
 				<div
 					key={index}
-					className={`flex flex-col gap-10 justify-center items-center border border-secondary-dark dark:border-secondary-light rounded-3xl p-14 my-20 max-w-5xl mx-auto ${
+					className={`flex flex-col gap-10 justify-center items-center border border-secondary-dark dark:border-secondary-light rounded-3xl p-14 my-10 max-w-5xl mx-auto ${
 						isZoomed && zoomedIndex === index
 							? "grid-cols-1 lg:grid-cols-1"
 							: "grid-cols-1 lg:grid-cols-3"
 					}`}>
-					<h1 className={`font-normal text-${getTitleFontSize()}`}>
-						{item.title}
-					</h1>
 					<p className={`text-base md:text-xl xl:text-2xl font-normal`}>
 						{item.description}
 					</p>
 					<Image
-						src={certResponsiveWebDesign}
+						src={item.photoSrc}
 						alt={""}
 						key={index}
 						width={isZoomed && zoomedIndex === index ? 1100 : 350}
 						height={isZoomed && zoomedIndex === index ? 800 : 180}
 						onClick={() => handleImageClick(index)}
-						placeholder="blur"
+						placeholder='blur'
 						className={`rounded-lg shrink-0 hover:scale-95 hover:opacity-80 transition-all ease-out duration-300 ${
 							isZoomed && zoomedIndex === index
 								? "cursor-zoom-out "

@@ -56,7 +56,10 @@ const GameLogic = () => {
 			.map(() => getRandomLetter())
 	);
 	const [selectedLetters, setSelectedLetters] = useState([]);
-	const [points, setPoints] = useState(0);
+	const [points, setPoints] = useState(() => {
+		const savedPoints = localStorage.getItem("points");
+		return savedPoints ? parseInt(savedPoints, 10) : 0; // Use saved points if available, else 0
+	});
 	const [validWords, setValidWords] = useState([]);
 	const [modalMessage, setModalMessage] = useState(""); // State for modal message
 	const [showModal, setShowModal] = useState(false); // State to control modal visibility
@@ -72,7 +75,16 @@ const GameLogic = () => {
 				setValidWords(wordsArray);
 			})
 			.catch(err => console.error("Error loading words:", err));
+		// Load saved points from localStorage when component mounts
+		const savedPoints = localStorage.getItem("points");
+		if (savedPoints) {
+			setPoints(parseInt(savedPoints, 10)); // Load the points from localStorage
+		}
 	}, []);
+	// Save points to localStorage whenever points state changes
+	useEffect(() => {
+		localStorage.setItem("points", points);
+	}, [points]);
 
 	// Handle letter click to build a word
 	const handleLetterClick = (letter, index) => {
@@ -131,7 +143,7 @@ const GameLogic = () => {
 	};
 
 	return (
-		<div className='min-h-screen flex flex-col justify-center p-4 antialiased'>
+		<div className='min-h-screen flex flex-col justify-center p-4 antialiased transition-all duration-300 ease-in-out'>
 			<h1 className='text-4xl lg:text-6xl text-center pb-10'>Word App</h1>
 			{/* Points Display */}
 			<div className='bg-blue-50 flex flex-col items-center justify-center p-4 rounded-md shadow-md'>
@@ -145,7 +157,7 @@ const GameLogic = () => {
 						selectedLetters.map((letter, index) => (
 							<div
 								key={index}
-								className='flex justify-center bg-green-300 p-4 min-w-11 rounded-md text-lg font-bold text-secondary-dark'>
+								className='flex justify-center bg-green-300 p-4 min-w-11 rounded-md text-lg font-bold text-secondary-dark shadow-md'>
 								{letter}
 							</div>
 						))
@@ -162,7 +174,7 @@ const GameLogic = () => {
 						<button
 							key={index}
 							onClick={() => handleLetterClick(letter, index)} // Pass both the letter and its index
-							className='flex justify-center bg-gray-300 p-4 min-w-11 rounded-md text-lg font-bold hover:bg-gray-400'>
+							className='flex justify-center bg-gray-300 p-4 min-w-[50px] rounded-md text-lg font-bold lg:hover:bg-gray-400 active:scale-95 shadow-md'>
 							{letter}
 						</button>
 					))}
@@ -173,18 +185,20 @@ const GameLogic = () => {
 					<button
 						onClick={addMoreLetters}
 						disabled={randomLetters.length >= 24}
-						className={`bg-blue-500  text-font-dark-mode font-medium text-base lg:text-lg py-2 px-4 rounded hover:bg-blue-600 ${
+						className={`bg-blue-500  text-font-dark-mode font-medium text-base lg:text-lg py-2 px-4 rounded hover:bg-blue-600  ${
 							randomLetters.length >= 24 ||
 							selectedLetters.length + randomLetters.length >= 24
 								? "opacity-50 cursor-not-allowed"
-								: ""
+								: "opacity-100 active:scale-95 shadow-lg shadow-blue-600/50"
 						}`}>
 						Add More Letters
 					</button>
 					<button
 						onClick={submitWord}
 						className={`bg-green-500  text-font-dark-mode font-medium text-base lg:text-lg py-2 px-4 rounded hover:bg-green-600  ${
-							selectedLetters.length < 2 ? "opacity-50 cursor-not-allowed" : ""
+							selectedLetters.length < 2
+								? "opacity-50 cursor-not-allowed"
+								: "opacity-100 shadow-lg shadow-green-600/50 active:scale-95"
 						}`}>
 						Submit Word
 					</button>

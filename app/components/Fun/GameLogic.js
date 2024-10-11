@@ -171,13 +171,6 @@ const GameLogic = () => {
 				{/* Actions: Submit Word and Add More Letters */}
 				<div className='flex space-x-4 '>
 					<button
-						onClick={submitWord}
-						className={`bg-green-500  text-font-dark-mode font-medium text-base lg:text-lg py-2 px-4 rounded hover:bg-green-600  ${
-							selectedLetters.length < 2 ? "opacity-50 cursor-not-allowed" : ""
-						}`}>
-						Submit Word
-					</button>
-					<button
 						onClick={addMoreLetters}
 						disabled={randomLetters.length >= 24}
 						className={`bg-blue-500  text-font-dark-mode font-medium text-base lg:text-lg py-2 px-4 rounded hover:bg-blue-600 ${
@@ -187,6 +180,13 @@ const GameLogic = () => {
 								: ""
 						}`}>
 						Add More Letters
+					</button>
+					<button
+						onClick={submitWord}
+						className={`bg-green-500  text-font-dark-mode font-medium text-base lg:text-lg py-2 px-4 rounded hover:bg-green-600  ${
+							selectedLetters.length < 2 ? "opacity-50 cursor-not-allowed" : ""
+						}`}>
+						Submit Word
 					</button>
 				</div>
 			</div>

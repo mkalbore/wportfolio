@@ -106,9 +106,8 @@ export const links = [
 				url: "https://www.dora.run/ai",
 				description:
 					"A text-to-website tool that generates landing pages with natural language, using a powerful no-code editor.",
-				screenshot: "",
+				screenshot: "/screenshots/Dora-AI-screenshot.png",
 			},
-
 			{
 				id: "Heptabase",
 				url: "https://heptabase.com/",
@@ -169,11 +168,11 @@ export const links = [
 				screenshot: "/screenshots/whatfont-screenshot.png",
 			},
 			{
-				id: "Myfonts💲",
+				id: "Myfonts 💲",
 				url: "https://www.myfonts.com/",
 				description:
 					"Where you can download fonts that you see on the internet and use for your website. Free & Paid.",
-				screenshot: "/screenshots/Myfonts-screenshot.png",
+				screenshot: "/screenshots/Myfonts-💲-screenshot.png",
 			},
 			{
 				id: "GoogleFonts",
@@ -202,6 +201,40 @@ export const links = [
 					"Grammar and spell checker for multiple languages, including English.",
 				screenshot:
 					"/screenshots/Checking-gramma---LanguageTool-screenshot.png",
+			},
+			{
+				id: "Aspekta",
+				url: "https://github.com/ivodolenc/aspekta",
+				description:
+					"A modern sans-serif collection inspired by a clean, simple and neutral style. The family provides a wide range of weights and stylistic alternatives that can be mixed to create strong branding.",
+				screenshot: "/screenshots/Aspekta-screenshot.png",
+			},
+			{
+				id: "Typeverything",
+				url: "https://typeverything.com/",
+				description:
+					" type-foundry specialising in the development of display fonts. ",
+				screenshot: "/screenshots/Typeverything-screenshot.png",
+			},
+			{
+				id: "Font Bundles",
+				url: "https://fontbundles.net/",
+				description:
+					"Curated collection of over 1.6 million high-quality font and design resources.",
+				screenshot: "/screenshots/Font-Bundles-screenshot.png",
+			},
+			{
+				id: "Dafont",
+				url: "https://www.dafont.com/",
+				description: "Most popular free fonts website in the world.",
+				screenshot: "/screenshots/Dafont-screenshot.png",
+			},
+			{
+				id: "UNCUT.wtf",
+				url: "https://uncut.wtf/",
+				description:
+					"Free typeface catalogue, focusing on somewhat contemporary type.",
+				screenshot: "/screenshots/UNCUT.wtf-screenshot.png",
 			},
 		],
 	},
@@ -267,6 +300,33 @@ export const links = [
 					"Create and ship animations to your products faster. Bring your websites and apps to life with the simplest editor for Lottie animations.",
 				screenshot: "/screenshots/Lottielab-screenshot.png",
 			},
+			{
+				id: "Google Icons",
+				url: "https://fonts.google.com/icons",
+				description:
+					"Material Symbols are our newest icons consolidating over 2500 glyphs in a single font file with a wide range of design variants.",
+				screenshot: "/screenshots/Google-Icons-screenshot.png",
+			},
+			{
+				id: "Phosphor Icons",
+				url: "https://phosphoricons.com/",
+				description:
+					"Flexible icon family for interfaces, diagrams, presentations — whatever, really.",
+				screenshot: "/screenshots/Phosphor-Icons-screenshot.png",
+			},
+			{
+				id: "Remix Icon",
+				url: "https://remixicon.com/",
+				description:
+					"Open-source neutral-style system symbols elaborately crafted for designers and developers. All of the icons are free for both personal and commercial use.",
+				screenshot: "/screenshots/Remix-Icon-screenshot.png",
+			},
+			{
+				id: "Solar Icons",
+				url: "https://www.figma.com/design/WLNnAY4InOsUDozoScD9zk/Solar-Icons-Set-(Community)",
+				description: "Collection of over 7000+ icons in 6 diffrent styles. ",
+				screenshot: "/screenshots/Solar-Icons-screenshot.png",
+			},
 		],
 	},
 	{
@@ -312,10 +372,10 @@ export const links = [
 				screenshot: "/screenshots/Lumen5-screenshot.png",
 			},
 			{
-				id: "💲 Adobe Stock",
+				id: "Adobe Stock 💲 💲 ",
 				url: "https://stock.adobe.com/",
 				description: "Paid stock images, videos, and vectors.",
-				screenshot: "/screenshots/💲-Adobe-Stock-screenshot.png",
+				screenshot: "/screenshots/Adobe-Stock-💲-💲--screenshot.png",
 			},
 			{
 				id: "Shutterstock",
@@ -463,6 +523,53 @@ export const links = [
 				description: "Discover the best new products, every day.",
 				screenshot: "/screenshots/Bonus---Product-Hunt-screenshot.png",
 			},
+			{
+				id: "bento Grids",
+				url: "https://bentogrids.com/",
+				description:
+					"Showcasing the curated collection of bento designs for your inspiration",
+				screenshot: "/screenshots/bento-Grids-screenshot.png",
+			},
+			{
+				id: "Curated Design",
+				url: "https://www.curated.design/",
+				description: "Web design inspiration catalog",
+				screenshot: "/screenshots/Curated-Design-screenshot.png",
+			},
+			{
+				id: "Minimal Gallery",
+				url: "https://minimal.gallery/",
+				description:
+					"Collection of websites designs. For the love of beautiful & functional websites. ",
+				screenshot: "/screenshots/Minimal-Gallery-screenshot.png",
+			},
+			{
+				id: "Stack Sorted.",
+				url: "https://stacksorted.com/",
+				description:
+					"Collection of the web's best designs sorted by elements. Choose an element and view projects/websites with creative designs for it.",
+				screenshot: "/screenshots/Stack-Sorted.-screenshot.png",
+			},
+			{
+				id: "Codrops",
+				url: "https://tympanus.net/codrops/",
+				description:
+					"Curated collection of 500+ free animations, interaction concepts, UI designs, web templates & more.",
+				screenshot: "/screenshots/Codrops-screenshot.png",
+			},
+			{
+				id: "PageFlows",
+				url: "https://pageflows.com/",
+				description: "Design inspiration and best practices for UX.",
+				screenshot: "/screenshots/PageFlows-screenshot.png",
+			},
+			{
+				id: "Free Design Resources",
+				url: "https://freedesignresources.net/",
+				description:
+					"High quality design resources for free. Crafted with love from amazing artists and professional designers around the world, ranging from fonts, mockups, graphics, templates & more.",
+				screenshot: "/screenshots/Free-Design-Resources-screenshot.png",
+			},
 		],
 	},
 	{
@@ -502,10 +609,18 @@ export const links = [
 				screenshot: "/screenshots/Google-rich-Test-screenshot.png",
 			},
 			{
-				id: "❗ http only - Responsinator",
+				id: "http only - Responsinator ❗ ❗ ",
 				url: " http://www.responsinator.com/",
 				description: "Test your website on different devices.",
-				screenshot: "/screenshots/❗-http-only---Responsinator-screenshot.png",
+				screenshot:
+					"/screenshots/http-only---Responsinator-❗-❗--screenshot.png",
+			},
+			{
+				id: "Insomnia",
+				url: "https://insomnia.rest/",
+				description:
+					"Design, debug, test, and mock APIs locally, on Git, or cloud",
+				screenshot: "/screenshots/Insomnia-screenshot.png",
 			},
 		],
 	},
@@ -586,6 +701,13 @@ export const links = [
 				description: "Free blogging platform for developers and engineers.",
 				screenshot: "/screenshots/Hashnode-screenshot.png",
 			},
+			{
+				id: "MaterialDesign",
+				url: "https://m3.material.io/",
+				description:
+					"Design system built and supported by Google designers and developers. Includes in-depth UX guidance and UI component implementations for Android, Flutter, and the Web.",
+				screenshot: "/screenshots/MaterialDesign-screenshot.png",
+			},
 		],
 	},
 	{
@@ -604,24 +726,6 @@ export const links = [
 				description: "All-in-one workspace for teams and personal projects.",
 				screenshot: "/screenshots/Notion-screenshot.png",
 			},
-		],
-	},
-	{
-		path: "unsorted",
-		name: "Unsorted",
-		items: [
-			{
-				id: "PageFlows",
-				url: "https://pageflows.com/",
-				description: "Design inspiration and best practices for UX.",
-				screenshot: "/screenshots/PageFlows-screenshot.png",
-			},
-			{
-				id: "MaterialDesign",
-				url: "https://material.io/design",
-				description: "Google’s material design guidelines.",
-				screenshot: "/screenshots/MaterialDesign-screenshot.png",
-			},
 			{
 				id: "Rive",
 				url: "https://rive.app/",
@@ -637,34 +741,37 @@ export const links = [
 			{
 				id: "Womp",
 				url: "https://womp.com/index",
-				description: "Collaborative 3D design tool.",
+				description:
+					"Collaborative 3D design tool. Free and beginner-friendly 3D modeling software to design easy 3D art in real time.",
 				screenshot: "/screenshots/Womp-screenshot.png",
 			},
 			{
 				id: "Vectary",
 				url: "https://www.vectary.com/",
-				description: "3D design tool built by and for 3D designers.",
+				description:
+					"Online platform for creating and managing interactive 3D and AR designs that inspire, educate and solve problems",
 				screenshot: "/screenshots/Vectary-screenshot.png",
 			},
 			{
 				id: "WebFlow",
 				url: "https://webflow.com/",
-				description: "Modern platform to build for the web.",
-				screenshot: "/screenshots/WebFlow-screenshot.png",
-			},
-			{
-				id: "Insomnia",
-				url: "https://insomnia.rest/",
 				description:
-					"Design, debug, test, and mock APIs locally, on Git, or cloud",
-				screenshot: "/screenshots/Insomnia-screenshot.png",
+					"Website builder that allows for designing, website building, and launching websites or even e-commerce stores without needing to write code.",
+				screenshot: "/screenshots/WebFlow-screenshot.png",
 			},
 			{
 				id: "Visbug",
 				url: "https://github.com/GoogleChromeLabs/ProjectVisBug",
-				description: "Open-source browser design tool built by Google.",
+				description:
+					"Open-source browser design tool built by Google. Extension for browsers such as chrome, firefox, safari, edge.",
 				screenshot: "/screenshots/Visbug-screenshot.png",
 			},
+		],
+	},
+	{
+		path: "unsorted",
+		name: "Unsorted",
+		items: [
 			{
 				id: "Public APIs",
 				url: "https://publicapis.dev/",
@@ -673,10 +780,17 @@ export const links = [
 				screenshot: "/screenshots/Public-APIs-screenshot.png",
 			},
 			{
-				id: "💲 RapidAPI",
+				id: "RapidAPI 💲",
 				url: "https://rapidapi.com/hub",
 				description: "Discover and connect to thousands of APIs in one place.",
-				screenshot: "/screenshots/💲-RapidAPI-screenshot.png",
+				screenshot: "/screenshots/RapidAPI-💲-screenshot.png",
+			},
+			{
+				id: "Gumroad",
+				url: "https://gumroad.com/",
+				description:
+					"Sell digital goods on Gumroad. (Acually there is lots of designs, fonts, etc. for free and paid.)",
+				screenshot: "/screenshots/Gumroad-screenshot.png",
 			},
 		],
 	},

@@ -81,7 +81,7 @@ export default function CheatSheetSidebar({ classNameBonus }: Props) {
 			{" "}
 			<div
 				id='cheatsheetsidebar'
-				className='dark:bg-primary-dark bg-primary-light border border-secondary-dark dark:border-secondary-light w-full h-[90vh] hidden lg:flex lg:justify-evenly  flex-col text-base items-start px-4 py-4 ml-4 top-10 sticky rounded-2xl z-40'>
+				className='relative dark:bg-primary-dark bg-primary-light border border-secondary-dark dark:border-secondary-light w-full h-[90vh] hidden lg:flex lg:justify-evenly  flex-col text-base items-start px-4 py-4 ml-4 rounded-2xl z-40'>
 				<AnimatePresence>
 					{linksWithMotionValues.map(({ link, x, y, textX, textY }) => (
 						<motion.ul
@@ -123,7 +123,7 @@ export default function CheatSheetSidebar({ classNameBonus }: Props) {
 			{/* //Cheat sheets Burgermenu */}
 			<div
 				id='cheat-sheet-burger-menu'
-				className='absolute flex lg:hidden w-screen mx-4 z-[1000]'>
+				className='absolute top-0 left-0 flex justify-start lg:hidden w-screen ml-10 mt-28 mr-4 z-[1000]'>
 				{" "}
 				<div className='inline-block'>
 					<button

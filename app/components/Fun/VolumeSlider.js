@@ -7,7 +7,7 @@ const VolumeSlider = ({ volume, setVolume }) => {
 	};
 
 	return (
-		<div className='flex flex-row text-nowrap items-center text-center'>
+		<div className='flex flex-row text-nowrap items-center text-center content-center align-middle'>
 			<p className='mr-2 text-lg font-bold'>Volume:</p>
 			<input
 				type='range'
@@ -17,7 +17,9 @@ const VolumeSlider = ({ volume, setVolume }) => {
 				onChange={handleVolumeChange}
 				className='w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer'
 			/>
-			<p className='flex text-center ml-2 text-lg font-bold'>🔈 {volume}%</p>
+			<p className='flex text-center items-center align-middle content-center ml-2 text-lg font-bold'>
+				🔈{volume}%
+			</p>
 		</div>
 	);
 };

@@ -43,11 +43,16 @@ export default function Home() {
 				<div className='flex flex-col lg:flex-row col-span-7 items-center justify-center rounded-2xl gap-2 lg:gap-8 bg-secondary-light dark:bg-secondary-dark border border-secondary-dark dark:border-secondary-light z-10'>
 					<div className='w-full h-full bg-opacity-50 flex flex-col items-center justify-center rounded-2xl p-2 lg:p-8 gap-2 lg:gap-6'>
 						<div className='col-span-7 flex flex-col items-center justify-center py-10'>
-							<h1 className='flex py-4 text-2xl lg:text-4xl items-center justify-center text-center text-font-light-mode dark:text-font-dark-mode select-none '>
+							<h1 className='flex lg:hidden py-4 text-2xl lg:text-4xl items-center justify-center text-center text-font-light-mode dark:text-font-dark-mode select-none '>
+								⬆️ Check the list on the top
+							</h1>
+							<h1 className='hidden lg:flex py-4 text-2xl lg:text-4xl items-center justify-center text-center text-font-light-mode dark:text-font-dark-mode select-none '>
 								⬅️ Check the list on the right
 							</h1>
 							<h1 className='flex py-4 text-2xl lg:text-4xl items-center justify-center text-center text-font-light-mode dark:text-font-dark-mode select-none '>
-								There is plan to put everything here ( surely one day 😅 )
+								I&apos;m systematically updating the list with new
+								&quot;Gems💎&quot;
+								<br></br>( last update 11.10.2024 )
 							</h1>
 						</div>
 					</div>
@@ -67,7 +72,7 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			<section className='snap-center' id='project'></section>
+
 			<section className='snap-center' id='contact'>
 				<Contact />
 			</section>

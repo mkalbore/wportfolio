@@ -57,12 +57,23 @@ const GameLogic = () => {
 	);
 	const [selectedLetters, setSelectedLetters] = useState([]);
 	const [points, setPoints] = useState(() => {
-		const savedPoints = localStorage.getItem("points");
-		return savedPoints ? parseInt(savedPoints, 10) : 0; // Use saved points if available, else 0
+		if (typeof window !== "undefined") {
+			// Ensure this code only runs in the browser
+			const savedPoints = localStorage.getItem("points");
+			return savedPoints ? parseInt(savedPoints, 10) : 0;
+		}
+		return 0; // Default to 0 during SSR
 	});
+
 	const [validWords, setValidWords] = useState([]);
 	const [modalMessage, setModalMessage] = useState(""); // State for modal message
 	const [showModal, setShowModal] = useState(false); // State to control modal visibility
+	useEffect(() => {
+		if (typeof window !== "undefined") {
+			// Ensure localStorage operations happen in the browser
+			localStorage.setItem("points", points);
+		}
+	}, [points]);
 
 	// Fetch the valid words from the english.txt file on component mount
 	useEffect(() => {

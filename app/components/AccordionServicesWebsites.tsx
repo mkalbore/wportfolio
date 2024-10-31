@@ -23,6 +23,7 @@ import image6 from "../../public/website5.png";
 import image7 from "../../public/gpp_lubrza.png";
 import image8 from "../../public/Trix_Autogaz_Website.png";
 import image9 from "../../public/rock-tree-website.png";
+import image10 from "../../public/bszopa.jpg";
 /////////////////////
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -32,6 +33,7 @@ export class ItemClass {
 	items: {
 		title: string;
 		description: string;
+		forDevs: string;
 		photoSrc: string | any;
 		link: string;
 	}[];
@@ -41,34 +43,44 @@ export class ItemClass {
 			{
 				title: "FTW - Pasternak",
 				description:
-					"German company that produces and markets windows, doors, shutters, pergolas, and more. The website includes a responsive design, product catalog, photo galleries, and a contact form to help customers easily get in touch with the company.✅",
+					"German company that produces and markets windows, doors, shutters, pergolas, and more. The website includes a responsive design, product catalog, photo galleries, and a contact form to help customers easily get in touch with the company.✅ ",
+				forDevs:
+					"👷‍♂️FOR DEVS: Wordpress, MySql, Contact Form, JS, CSS, PHP, SEO, Analytics",
 				photoSrc: image2,
 				link: "http://ftwpasternak.de/",
 			},
 			{
 				title: "Oknopast",
 				description:
-					"Manufacturer of front doors, windows, and winter gardens. I developed their website, which features a user-friendly interface, stunning visuals, and informative content that showcases the company's products and services.✅",
+					"Manufacturer of front doors, windows, and winter gardens. I developed their website, which features a user-friendly interface, stunning visuals, and informative content that showcases the company's products and services.✅ ",
+				forDevs:
+					"👷‍♂️FOR DEVS: Wordpress, MySql, Contact Form, GSAP, reCAPTCHA, jQuery, JS, CSS, PHP, SEO, Analytics",
 				photoSrc: image3,
 				link: "https://oknopast.pl/",
 			},
 			{
 				title: "Trix - Autogaz",
 				description:
-					"Polish company specializes in activities related to the installation and service of automotive gas installations. The website, with specific sections, such as an about, contact form, and gallery, allows customers to easily get in touch with the company.✅",
+					"Polish company specializes in activities related to the installation and service of automotive gas installations. The website, with specific sections, such as an about, contact form, and gallery, allows customers to easily get in touch with the company.✅ ",
+				forDevs:
+					"👷‍♂️FOR DEVS: Wordpress, MySql, Contact Form, GSAP, reCAPTCHA, jQuery, JS, CSS, PHP, SEO, Analytics",
 				photoSrc: image8,
 				link: "https://trix-autogaz.pl/",
 			},
 			{
 				title: "GPP - Lubrza",
-				description: `Website of the municipal public kindergarten in Lubrza. The website was created in an original style, combining delicate pastel colors with "soft" fonts, all animated in a subtle way.✅`,
+				description: `Website of the municipal public kindergarten in Lubrza. The website was created in an original style, combining delicate pastel colors with "soft" fonts, all animated in a subtle way.✅ `,
+				forDevs:
+					"👷‍♂️FOR DEVS: React, Next.JS, Vercel, TS, TailwindCSS, Webpack, Notion(CMS)",
 				photoSrc: image7,
 				link: "https://www.gpplubrza.eu/",
 			},
 			{
 				title: "Parafia Lubrza",
 				description:
-					"(Concept phase - Not finished 😕) Website, which is serves as an online hub for the parish's community. The website features a clean and easy-to-navigate design, and includes information about the parish's history, events, and religious services.⚠️",
+					"(Concept phase - Not finished 😕) Website, which is serves as an online hub for the parish's community. The website features a clean and easy-to-navigate design, and includes information about the parish's history, events, and religious services.⚠️ ",
+				forDevs:
+					"👷‍♂️FOR DEVS: React, Next.JS, Vercel, TS, Groq, TailwindCSS, Webpack, Sanity(CMS)",
 				photoSrc: image4,
 				link: "",
 			},
@@ -76,20 +88,33 @@ export class ItemClass {
 				title: "Beset Exclusive Club",
 				description:
 					"(Concept website - Not finished 😕). Clean, modern and easy-to-navigate design, website provides all the information you need to immerse access in the vibrant atmosphere of club.⚠️",
+				forDevs: "👷‍♂️",
 				photoSrc: image1,
 				link: "",
 			},
 			{
 				title: "Rock Tree",
 				description:
-					"A page in the form of a commemorative board where the user can leave their signature. It was tested during Pol&Rock 2024 🎆🙂",
+					"A page in the form of a commemorative board where the user can leave their signature. It was tested during Pol&Rock 2024 🎆🙂 ",
+				forDevs:
+					"👷‍♂️FOR DEVS: React, Next.JS, Vercel, TS, TailwindCSS, Webpack,",
 				photoSrc: image9,
 				link: "https://www.rocktree.pl/",
+			},
+			{
+				title: "Bursztynowa Szopa",
+				description:
+					"Unfinished Project. A website for a small business specializing in handicraft creation.❌ ",
+				forDevs:
+					"👷‍♂️FOR DEVS: React, Next.JS, Vercel, TS, TailwindCSS, Webpack, Payload(CMS), MongoDB",
+				photoSrc: image10,
+				link: "",
 			},
 			{
 				title: "Concept Website",
 				description:
 					"Concept website. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.❌",
+				forDevs: "👷‍♂️",
 				photoSrc: image5,
 				link: "",
 			},
@@ -97,6 +122,7 @@ export class ItemClass {
 				title: "Concept Website",
 				description:
 					"Concept website. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam earum asperiores sit eius! Corrupti, rerum nisi blanditiis voluptate numquam officiis eligendi quae omnis ut consectetur porro laborum sequi iure dicta!.❌",
+				forDevs: "👷‍♂️",
 				photoSrc: image6,
 				link: "",
 			},
@@ -171,10 +197,15 @@ export default function AccordionServicesWebsites({
 										height={isZoomed && zoomedIndex === index ? 800 : 180}
 										onClick={() => handleImageClick(index)}
 										placeholder='blur'
-										className={`rounded-lg shrink-0 hover:scale-95 hover:opacity-80 transition-all ease-out duration-300 ${
+										className={`rounded-lg shrink-0 cursor-pointer transition-all ease-out duration-300 ${
 											isZoomed && zoomedIndex === index
-												? "cursor-zoom-out "
+												? "cursor-zoom-out"
 												: "cursor-zoom-in"
+										} ${
+											// CSS classes for cropping from the top
+											isZoomed && zoomedIndex === index
+												? ""
+												: "max-h-[200px] overflow-hidden object-cover object-top"
 										}`}></Image>
 
 									{linksareavailable ? (
@@ -197,8 +228,11 @@ export default function AccordionServicesWebsites({
 											{/* <ToastWithTitle /> */}
 										</h2>
 									)}
-
-									<p className='text-left'>{item.description} </p>
+									<div>
+										<p className='text-left'>{item.description} </p>
+										<br></br>
+										<p className='text-left'> {item.forDevs}</p>
+									</div>
 								</div>
 							</AccordionContent>
 						))}

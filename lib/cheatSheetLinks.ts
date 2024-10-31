@@ -708,6 +708,40 @@ export const links = [
 					"Design system built and supported by Google designers and developers. Includes in-depth UX guidance and UI component implementations for Android, Flutter, and the Web.",
 				screenshot: "/screenshots/MaterialDesign-screenshot.png",
 			},
+			{
+				id: "FrontendMentor",
+				url: "https://www.frontendmentor.io/",
+				description:
+					"Improve your front-end skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs.",
+				screenshot: "",
+			},
+			{
+				id: "Frontend Practice",
+				url: "https://frontendpractice.com/",
+				description:
+					"Take your frontend skills to the next level by recreating real websites from real companies.",
+				screenshot: "",
+			},
+			{
+				id: "Style Stage",
+				url: "https://stylestage.dev/",
+				description: "A modern CSS showcase styled by community contributions.",
+				screenshot: "",
+			},
+			{
+				id: "First Timers Only",
+				url: "https://firsttimersonly.com/",
+				description:
+					"First Timers Only is a collection of free resources for new developers.",
+				screenshot: "",
+			},
+			{
+				id: "freeCodeCamp",
+				url: "https://www.freecodecamp.org/",
+				description:
+					"Learn to code for free. Build projects, get help from other developers.",
+				screenshot: "",
+			},
 		],
 	},
 	{

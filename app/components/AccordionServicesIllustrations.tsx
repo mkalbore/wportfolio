@@ -35,7 +35,8 @@ export class ItemClass {
 		this.items = [
 			{
 				title: "Illustration 1",
-				description: "A beautiful illustration showcasing nature and wildlife.",
+				description:
+					"A beautiful illustration showcasing woman playing electric guitar.",
 				photoSrc: image1,
 				link: "",
 			},
@@ -94,7 +95,9 @@ export default function AccordionServicesIllustrations({
 
 	//RETURN
 	return (
-		<div className='justify-center text-center text-lg md:text-4xl px-4' id="illustrations">
+		<div
+			className='justify-center text-center text-lg md:text-4xl px-4'
+			id='illustrations'>
 			<div className='grid grid-cols-1 space-y-1 md:space-y-2 max-w-lg lg:max-w-5xl mx-auto'>
 				<Accordion type='multiple' className='space-y-1 md:space-y-2 pt-2'>
 					<AccordionItem
@@ -116,7 +119,7 @@ export default function AccordionServicesIllustrations({
 										width={isZoomed && zoomedIndex === index ? 1100 : 350}
 										height={isZoomed && zoomedIndex === index ? 800 : 180}
 										onClick={() => handleImageClick(index)}
-										placeholder="blur"
+										placeholder='blur'
 										className={`rounded-lg shrink-0 hover:scale-95 hover:opacity-80 transition-all ease-out duration-300 ${
 											isZoomed && zoomedIndex === index
 												? "cursor-zoom-out "

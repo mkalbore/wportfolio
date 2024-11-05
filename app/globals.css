@@ -62,3 +62,34 @@
 	transition: transform 2s ease-in-out;
 	transform: translateY(50%);
 }
+
+/* Encouragement Page Styles */
+
+@layer utilities {
+	@keyframes gradientMove {
+		0% {
+			box-shadow: 0 0 20px 0 rgba(255, 109, 27, 0.5);
+		}
+		25% {
+			box-shadow: 0 0 20px 0 rgba(255, 238, 85, 0.5);
+		}
+		50% {
+			box-shadow: 0 0 20px 0 rgba(91, 255, 137, 0.5);
+		}
+		75% {
+			box-shadow: 0 0 20px 0 rgba(77, 138, 255, 0.5);
+		}
+		100% {
+			box-shadow: 0 0 20px 0 rgba(107, 95, 255, 0.5);
+		}
+	}
+
+	.animate-shadow-gradient {
+		animation: gradientMove 4s linear infinite;
+	}
+
+	.hover:animate-shadow-gradient-fast {
+		transition: animation-duration 0.5s;
+		animation-duration: 2s;
+	}
+}
